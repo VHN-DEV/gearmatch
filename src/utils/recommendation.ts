@@ -267,7 +267,7 @@ function generateSpecRequirements(category: string, selectedNeedIds: string[]): 
   recommended: SpecRequirement;
 } {
   const hasGaming = selectedNeedIds.includes("gaming");
-  const hasDesign = selectedNeedIds.includes("graphic_design") || selectedNeedIds.includes("video_editing");
+  const hasDesign = selectedNeedIds.includes("graphic_design") || selectedNeedIds.includes("video_editing") || selectedNeedIds.includes("digital_art");
   const hasProgramming = selectedNeedIds.includes("programming");
   const hasAI = selectedNeedIds.includes("aiml");
   const hasHeavyLoad = hasGaming || hasDesign || hasProgramming || hasAI;

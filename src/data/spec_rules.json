@@ -80,7 +80,8 @@
     "programming",
     "aiml",
     "data_science",
-    "engineering_cad"
+    "engineering_cad",
+    "digital_art"
   ],
   "penalties_rewards": {
     "ram_heavy_low": -30,

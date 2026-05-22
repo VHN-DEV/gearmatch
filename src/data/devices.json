@@ -843,7 +843,8 @@
       "online_seller",
       "zoom_meeting",
       "stock_trading",
-      "reading_news"
+      "reading_news",
+      "digital_art"
     ],
     "image_url": "/images/devices/ipad-pro-m4.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=ipad+pro+m4+11",
@@ -909,7 +910,8 @@
       "online_seller",
       "zoom_meeting",
       "stock_trading",
-      "reading_news"
+      "reading_news",
+      "digital_art"
     ],
     "image_url": "/images/devices/galaxy-tab-s10-ultra.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=galaxy+tab+s10+ultra",
@@ -971,7 +973,8 @@
       "online_seller",
       "zoom_meeting",
       "stock_trading",
-      "reading_news"
+      "reading_news",
+      "digital_art"
     ],
     "image_url": "/images/devices/ipad-gen-10.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=xiaomi+pad+6s+pro",
@@ -1096,7 +1099,8 @@
       "note_taking",
       "online_seller",
       "zoom_meeting",
-      "reading_news"
+      "reading_news",
+      "digital_art"
     ],
     "image_url": "/images/devices/ipad-air-m2-13.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=ipad+air+m2+13",
@@ -1155,7 +1159,8 @@
       "parental_control",
       "entertainment",
       "reading_news",
-      "zoom_meeting"
+      "zoom_meeting",
+      "smart_home_hub"
     ],
     "image_url": "/images/devices/galaxy-tab-a9-plus.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=galaxy+tab+a9+plus",
@@ -1324,7 +1329,8 @@
       "stock_trading",
       "graphic_design",
       "video_editing",
-      "vlogging"
+      "vlogging",
+      "digital_art"
     ],
     "image_url": "/images/devices/ipad-mini-7.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=ipad+mini+7",
@@ -1442,7 +1448,8 @@
       "online_seller",
       "zoom_meeting",
       "stock_trading",
-      "reading_news"
+      "reading_news",
+      "digital_art"
     ],
     "image_url": "/images/devices/huawei-matepad-pro-12-2.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=huawei+matepad+pro+12.2",
@@ -1495,7 +1502,8 @@
       "note_taking",
       "reading_news",
       "zoom_meeting",
-      "consultant_sales"
+      "consultant_sales",
+      "digital_art"
     ],
     "image_url": "/images/devices/huawei-matepad-11-5s.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=huawei+matepad+11.5s",
@@ -1551,7 +1559,8 @@
       "online_seller",
       "zoom_meeting",
       "stock_trading",
-      "reading_news"
+      "reading_news",
+      "digital_art"
     ],
     "image_url": "/images/devices/ipad-pro-m4-13.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=ipad+pro+m4+13",
@@ -1613,7 +1622,8 @@
       "parental_control",
       "reading_news",
       "zoom_meeting",
-      "consultant_sales"
+      "consultant_sales",
+      "digital_art"
     ],
     "image_url": "/images/devices/galaxy-tab-s9-fe.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=galaxy+tab+s9+fe",
@@ -1669,7 +1679,9 @@
       "parental_control",
       "budget_gaming",
       "reading_news",
-      "zoom_meeting"
+      "zoom_meeting",
+      "digital_art",
+      "smart_home_hub"
     ],
     "image_url": "/images/devices/redmi-pad-pro.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=redmi+pad+pro",
@@ -1836,7 +1848,8 @@
     },
     "needs": [
       "graphic_design",
-      "note_taking"
+      "note_taking",
+      "digital_art"
     ],
     "image_url": "/images/devices/ipad-gen-10.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=wacom+one+13+touch",
@@ -1939,7 +1952,8 @@
       "entertainment",
       "parental_control",
       "reading_news",
-      "zoom_meeting"
+      "zoom_meeting",
+      "smart_home_hub"
     ],
     "image_url": "/images/devices/honor-pad-9.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=honor+pad+9",
@@ -2107,7 +2121,8 @@
       "note_taking",
       "zoom_meeting",
       "online_seller",
-      "consultant_sales"
+      "consultant_sales",
+      "digital_art"
     ],
     "image_url": "/images/devices/ipad-air-5-m1.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=ipad+air+5+m1",
@@ -2167,7 +2182,8 @@
       "study",
       "entertainment",
       "note_taking",
-      "zoom_meeting"
+      "zoom_meeting",
+      "digital_art"
     ],
     "image_url": "/images/devices/ipad-gen-10.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=xiaomi+pad+6+pro",
@@ -2225,7 +2241,8 @@
       "entertainment",
       "note_taking",
       "online_seller",
-      "zoom_meeting"
+      "zoom_meeting",
+      "digital_art"
     ],
     "image_url": "/images/devices/galaxy-tab-s9-ultra.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=galaxy+tab+s9+ultra",
@@ -2282,7 +2299,8 @@
       "entertainment",
       "note_taking",
       "online_seller",
-      "zoom_meeting"
+      "zoom_meeting",
+      "digital_art"
     ],
     "image_url": "/images/devices/galaxy-tab-s9-plus.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=galaxy+tab+s9+",
@@ -2491,7 +2509,8 @@
       "parental_control",
       "entertainment",
       "reading_news",
-      "zoom_meeting"
+      "zoom_meeting",
+      "smart_home_hub"
     ],
     "image_url": "/images/devices/redmi-pad-se.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=redmi+pad+se",
@@ -2545,7 +2564,8 @@
       "study",
       "parental_control",
       "entertainment",
-      "reading_news"
+      "reading_news",
+      "smart_home_hub"
     ],
     "image_url": "/images/devices/nokia-t21.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=nokia+t21",
@@ -2595,7 +2615,8 @@
       "study",
       "parental_control",
       "reading_news",
-      "zoom_meeting"
+      "zoom_meeting",
+      "smart_home_hub"
     ],
     "image_url": "/images/devices/huawei-matepad-se-11.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=huawei+matepad+se+11",
@@ -2648,7 +2669,8 @@
       "entertainment",
       "note_taking",
       "zoom_meeting",
-      "online_seller"
+      "online_seller",
+      "digital_art"
     ],
     "image_url": "/images/devices/ipad-air-m2-11.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=ipad+air+m2+11",
@@ -2704,7 +2726,8 @@
     },
     "needs": [
       "graphic_design",
-      "note_taking"
+      "note_taking",
+      "digital_art"
     ],
     "image_url": "/images/devices/ipad-gen-10.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=wacom+one+12",
@@ -2761,7 +2784,8 @@
       "consultant_sales",
       "video_editing",
       "vlogging",
-      "graphic_design"
+      "graphic_design",
+      "digital_art"
     ],
     "image_url": "/images/devices/ipad-gen-10.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=xiaomi+pad+7",
@@ -2821,7 +2845,8 @@
       "note_taking",
       "online_seller",
       "zoom_meeting",
-      "consultant_sales"
+      "consultant_sales",
+      "digital_art"
     ],
     "image_url": "/images/devices/xiaomi-pad-7-pro.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=xiaomi+pad+7+pro",
@@ -2938,7 +2963,8 @@
       "consultant_sales",
       "graphic_design",
       "video_editing",
-      "vlogging"
+      "vlogging",
+      "digital_art"
     ],
     "image_url": "/images/devices/ipad-mini-7.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=ipad+mini+7",
@@ -3002,7 +3028,8 @@
       "note_taking",
       "online_seller",
       "zoom_meeting",
-      "consultant_sales"
+      "consultant_sales",
+      "digital_art"
     ],
     "image_url": "/images/devices/galaxy-tab-s9-fe.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=galaxy+tab+s9",
@@ -3108,7 +3135,8 @@
       "study",
       "parental_control",
       "entertainment",
-      "reading_news"
+      "reading_news",
+      "smart_home_hub"
     ],
     "image_url": "/images/devices/honor-pad-9.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=honor+pad+x9",
@@ -3162,7 +3190,8 @@
       "note_taking",
       "online_seller",
       "zoom_meeting",
-      "consultant_sales"
+      "consultant_sales",
+      "digital_art"
     ],
     "image_url": "/images/devices/galaxy-tab-s9-fe.jpg",
     "affiliate_link": "https://shopee.vn/search?keyword=galaxy+tab+s9+fe+plus",

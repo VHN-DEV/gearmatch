@@ -208,5 +208,19 @@
     "icon": "Briefcase",
     "description": "Thiết kế sang trọng, gọn nhẹ để đi gặp đối tác, khách hàng (bảo hiểm, bất động sản), màn hình hiển thị biểu đồ rõ ràng, pin bền cả ngày và hỗ trợ bút ký số.",
     "categories": ["mobile", "tablet", "laptop"]
+  },
+  {
+    "id": "digital_art",
+    "name": "Vẽ Minh Họa Chuyên Nghiệp (Digital Art)",
+    "icon": "PenTool",
+    "description": "Yêu cầu màn hình chuẩn màu (sRGB/DCI-P3 100%), hỗ trợ bút cảm ứng nhận diện lực nhấn & độ nghiêng cao (Wacom, Apple Pencil Pro, S-Pen), hiệu năng mượt mà để vẽ nhiều layer trên Procreate, Photoshop, Sketchbook.",
+    "categories": ["tablet", "laptop", "pc"]
+  },
+  {
+    "id": "smart_home_hub",
+    "name": "Màn Hình Điều Khiển Nhà Thông Minh",
+    "icon": "Home",
+    "description": "Yêu cầu kết nối Wi-Fi ổn định, bền bỉ khi cắm sạc liên tục, giá rẻ tối ưu để treo tường làm trung tâm điều khiển Smart Home.",
+    "categories": ["tablet"]
   }
 ]
