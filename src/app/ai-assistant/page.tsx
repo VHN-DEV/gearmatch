@@ -115,23 +115,41 @@ export default function AiAssistantPage() {
 
     // 3. Detect Needs
     const needs: string[] = [];
-    if (text.includes("game") || text.includes("gaming") || text.includes("chơi mượt") || text.includes("esport") || text.includes("aaa")) {
+    if (text.includes("game nặng") || text.includes("gaming nặng") || text.includes("aaa") || text.includes("chiến game nặng")) {
       needs.push("gaming");
+    }
+    if (text.includes("game") || text.includes("gaming") || text.includes("esport") || text.includes("liên quân") || text.includes("pubg") || text.includes("lol") || text.includes("valorant") || text.includes("esports")) {
+      needs.push("budget_gaming");
     }
     if (text.includes("code") || text.includes("lập trình") || text.includes("it") || text.includes("docker") || text.includes("visual studio")) {
       needs.push("programming");
     }
+    if (text.includes("khoa học dữ liệu") || text.includes("data science") || text.includes("python") || text.includes("sql") || text.includes("xử lý dữ liệu") || text.includes("bảng tính lớn")) {
+      needs.push("data_science");
+    }
     if (text.includes("dựng phim") || text.includes("edit video") || text.includes("premiere") || text.includes("capcut") || text.includes("dựng video")) {
       needs.push("video_editing");
     }
-    if (text.includes("đồ họa") || text.includes("vẽ") || text.includes("design") || text.includes("photoshop") || text.includes("illustrator") || text.includes("figma")) {
+    if (text.includes("vlog") || text.includes("tiktok") || text.includes("video ngắn") || text.includes("quay vlog")) {
+      needs.push("vlogging");
+    }
+    if (text.includes("đồ họa") || text.includes("thiết kế") || text.includes("design") || text.includes("photoshop") || text.includes("illustrator") || text.includes("figma")) {
       needs.push("graphic_design");
+    }
+    if (text.includes("kỹ thuật") || text.includes("cad") || text.includes("cam") || text.includes("solidworks") || text.includes("autocad") || text.includes("revit") || text.includes("3d")) {
+      needs.push("engineering_cad");
     }
     if (text.includes("văn phòng") || text.includes("word") || text.includes("excel") || text.includes("office")) {
       needs.push("office_work");
     }
+    if (text.includes("doanh nhân") || text.includes("sang trọng") || text.includes("mỏng nhẹ cao cấp") || text.includes("vip")) {
+      needs.push("thin_light_executive");
+    }
     if (text.includes("học") || text.includes("học tập") || text.includes("online") || text.includes("zoom")) {
       needs.push("study");
+    }
+    if (text.includes("ghi chú") || text.includes("học vẽ") || text.includes("viết vẽ") || text.includes("stylus") || text.includes("pencil") || text.includes("bút")) {
+      needs.push("note_taking");
     }
     if (text.includes("ai") || text.includes("trí tuệ nhân tạo") || text.includes("machine learning") || text.includes("deep learning") || text.includes("llm")) {
       needs.push("aiml");
@@ -139,8 +157,14 @@ export default function AiAssistantPage() {
     if (text.includes("stream") || text.includes("livestream") || text.includes("podcast")) {
       needs.push("livestream");
     }
+    if (text.includes("làm nhạc") || text.includes("thu âm") || text.includes("fl studio") || text.includes("ableton") || text.includes("audio")) {
+      needs.push("music_production");
+    }
     if (text.includes("ảnh") || text.includes("chụp hình") || text.includes("camera") || text.includes("chụp ảnh")) {
       needs.push("photography");
+    }
+    if (text.includes("người già") || text.includes("trẻ nhỏ") || text.includes("ông bà") || text.includes("phụ huynh") || text.includes("bố mẹ")) {
+      needs.push("parental_control");
     }
     if (text.includes("di chuyển") || text.includes("mỏng nhẹ") || text.includes("gọn") || text.includes("du lịch") || text.includes("mang đi")) {
       needs.push("travel");
@@ -150,6 +174,15 @@ export default function AiAssistantPage() {
     }
     if (text.includes("phim") || text.includes("xem phim") || text.includes("giải trí") || text.includes("loa") || text.includes("youtube")) {
       needs.push("entertainment");
+    }
+    if (text.includes("nas") || text.includes("máy chủ") || text.includes("home server") || text.includes("lưu trữ dữ liệu")) {
+      needs.push("nas_server");
+    }
+    if (text.includes("ép xung") || text.includes("overclock") || text.includes("tản nước") || text.includes("rgb") || text.includes("độ đèn")) {
+      needs.push("extreme_overclocking");
+    }
+    if (text.includes("phòng khách") || text.includes("itx") || text.includes("mini pc") || text.includes("pc mini") || text.includes("htpc")) {
+      needs.push("htpc_livingroom");
     }
 
     return { category, budget, needs };
@@ -186,18 +219,29 @@ export default function AiAssistantPage() {
       const matchedNeedNames = parsed.needs.map(
         (nId) =>
           ({
-            gaming: "Chơi game",
+            gaming: "Chơi game nặng (AAA)",
+            budget_gaming: "Gaming phổ thông",
             programming: "Lập trình",
+            data_science: "Khoa học dữ liệu",
             video_editing: "Dựng video",
+            vlogging: "Quay Vlog & TikTok",
             graphic_design: "Thiết kế đồ họa",
+            engineering_cad: "Kỹ thuật & Đồ họa 3D",
             office_work: "Văn phòng",
+            thin_light_executive: "Doanh nhân & Sang trọng",
             study: "Học tập",
+            note_taking: "Ghi chú & Học vẽ",
             aiml: "AI/Machine Learning",
             livestream: "Livestream",
-            photography: "Chụp ảnh",
-            travel: "Di chuyển",
-            battery_life: "Pin lâu",
-            entertainment: "Giải trí"
+            music_production: "Sản xuất âm nhạc",
+            photography: "Chụp ảnh & Quay phim",
+            parental_control: "Cho người già & Trẻ nhỏ",
+            travel: "Di chuyển nhiều",
+            battery_life: "Pin trâu",
+            entertainment: "Giải trí",
+            nas_server: "Làm NAS & Home Server",
+            extreme_overclocking: "Ép xung & Đèn LED",
+            htpc_livingroom: "PC phòng khách"
           }[nId] || nId)
       );
 

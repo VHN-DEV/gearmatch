@@ -1,9 +1,16 @@
 [
   {
     "id": "gaming",
-    "name": "Chơi Game (Gaming)",
+    "name": "Chơi Game Nặng (AAA Gaming)",
     "icon": "Gamepad2",
-    "description": "Yêu cầu hiệu năng cao, màn hình tần số quét lớn và tản nhiệt tốt để chơi mượt các tựa game esport hoặc AAA.",
+    "description": "Yêu cầu hiệu năng cao, màn hình tần số quét lớn và tản nhiệt tốt để chơi mượt các tựa game nặng hoặc AAA.",
+    "categories": ["mobile", "tablet", "laptop", "pc"]
+  },
+  {
+    "id": "budget_gaming",
+    "name": "Gaming Phổ Thông (Esports)",
+    "icon": "Gamepad2",
+    "description": "Yêu cầu tối ưu hiệu năng trên giá thành để chơi mượt các tựa game esports (Liên Quân, PUBG Mobile, LoL, Valorant).",
     "categories": ["mobile", "tablet", "laptop", "pc"]
   },
   {
@@ -14,11 +21,25 @@
     "categories": ["laptop", "pc"]
   },
   {
+    "id": "data_science",
+    "name": "Khoa Học Dữ Liệu (Data Science)",
+    "icon": "Cpu",
+    "description": "Yêu cầu RAM cực lớn (32GB+), CPU nhiều nhân để xử lý tệp dữ liệu lớn, Python, SQL và chạy mô hình thống kê.",
+    "categories": ["laptop", "pc"]
+  },
+  {
     "id": "video_editing",
     "name": "Dựng Video (Video Editing)",
     "icon": "Video",
     "description": "Yêu cầu GPU chuyên dụng mạnh mẽ, màn hình chuẩn màu sắc và ổ cứng SSD tốc độ cao để render video 4K mượt mà.",
     "categories": ["laptop", "pc"]
+  },
+  {
+    "id": "vlogging",
+    "name": "Quay Vlog & TikTok",
+    "icon": "Camera",
+    "description": "Camera độ nét cao, micro thu âm chống ồn tốt và hỗ trợ chống rung cơ học lý tưởng để quay video ngắn sáng tạo.",
+    "categories": ["mobile", "tablet"]
   },
   {
     "id": "graphic_design",
@@ -28,6 +49,13 @@
     "categories": ["tablet", "laptop", "pc"]
   },
   {
+    "id": "engineering_cad",
+    "name": "Kỹ Thuật & 3D (CAD/CAM)",
+    "icon": "Cpu",
+    "description": "Cần card đồ họa mạnh mẽ, tương thích driver ISV (như AutoCAD, SolidWorks, Revit, SketchUp) để dựng hình 3D.",
+    "categories": ["laptop", "pc"]
+  },
+  {
     "id": "office_work",
     "name": "Văn Phòng (Office Work)",
     "icon": "Briefcase",
@@ -35,11 +63,25 @@
     "categories": ["laptop", "pc"]
   },
   {
+    "id": "thin_light_executive",
+    "name": "Doanh Nhân & Sang Trọng",
+    "icon": "Briefcase",
+    "description": "Thiết kế vỏ kim loại cao cấp siêu mỏng nhẹ, bảo mật vân tay/khuôn mặt, màn hình tuyệt đẹp tôn lên tính chuyên nghiệp.",
+    "categories": ["laptop"]
+  },
+  {
     "id": "study",
     "name": "Học Tập (Study)",
     "icon": "BookOpen",
     "description": "Thiết bị nhỏ gọn, giá cả hợp lý, đáp ứng tốt nhu cầu tìm kiếm tài liệu, học online qua Zoom/Teams và làm bài tập nhẹ nhàng.",
     "categories": ["mobile", "tablet", "laptop"]
+  },
+  {
+    "id": "note_taking",
+    "name": "Ghi Chú & Học Vẽ (Digital Note)",
+    "icon": "Palette",
+    "description": "Hỗ trợ bút cảm ứng (Stylus), màn hình độ nhạy cao để vẽ phác thảo, ghi chú tài liệu giảng đường.",
+    "categories": ["tablet"]
   },
   {
     "id": "aiml",
@@ -56,10 +98,24 @@
     "categories": ["laptop", "pc"]
   },
   {
+    "id": "music_production",
+    "name": "Sản Xuất Âm Nhạc (Audio)",
+    "icon": "Mic",
+    "description": "CPU xung đơn nhân mạnh mẽ, RAM lớn và hoạt động yên tĩnh để làm nhạc, thu âm trong FL Studio, Ableton Live.",
+    "categories": ["laptop", "pc"]
+  },
+  {
     "id": "photography",
     "name": "Chụp Ảnh & Quay Phim",
     "icon": "Camera",
     "description": "Dành cho điện thoại/tablet có hệ thống camera flagship, hỗ trợ chống rung quang học, zoom xa và thuật toán xử lý ảnh xuất sắc.",
+    "categories": ["mobile", "tablet"]
+  },
+  {
+    "id": "parental_control",
+    "name": "Cho Người Già & Trẻ Nhỏ",
+    "icon": "Tv",
+    "description": "Giao diện trực quan dễ nhìn, âm lượng loa to rõ, màn hình lọc ánh sáng xanh bảo vệ mắt và độ bền chống va đập tốt.",
     "categories": ["mobile", "tablet"]
   },
   {
@@ -82,5 +138,26 @@
     "icon": "Tv",
     "description": "Màn hình đẹp (OLED/AMOLED, HDR), hệ thống loa kép âm thanh vòm chất lượng cao để xem phim Netflix, Youtube.",
     "categories": ["mobile", "tablet", "laptop"]
+  },
+  {
+    "id": "nas_server",
+    "name": "Làm NAS & Home Server",
+    "icon": "Cpu",
+    "description": "Cấu hình hoạt động ổn định 24/7, tiết kiệm điện năng tối đa, hỗ trợ lắp nhiều khay ổ cứng HDD/SSD dự phòng.",
+    "categories": ["pc"]
+  },
+  {
+    "id": "extreme_overclocking",
+    "name": "Ép Xung & Độ Đèn RGB",
+    "icon": "Cpu",
+    "description": "Dành cho tín đồ chơi phần cứng custom, sử dụng tản nhiệt nước AIO lớn, mainboard cao cấp hỗ trợ ép xung và LED RGB đồng bộ.",
+    "categories": ["pc"]
+  },
+  {
+    "id": "htpc_livingroom",
+    "name": "PC Mini Phòng Khách (HTPC)",
+    "icon": "Tv",
+    "description": "Thiết kế vỏ case ITX siêu nhỏ gọn, sang trọng, hoạt động hoàn toàn êm ái kết nối trực tiếp với TV xem phim 4K HDR.",
+    "categories": ["pc"]
   }
 ]
