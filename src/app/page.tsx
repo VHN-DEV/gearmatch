@@ -76,8 +76,8 @@ export default function Home() {
   // Filter needs based on selected category & search query
   const filteredNeeds = needsData.filter((need) => {
     const matchesCategory = category ? need.categories.includes(category) : true;
-    const matchesSearch = need.name.toLowerCase().includes(searchNeedQuery.toLowerCase()) || 
-                          need.description.toLowerCase().includes(searchNeedQuery.toLowerCase());
+    const matchesSearch = need.name.toLowerCase().includes(searchNeedQuery.toLowerCase()) ||
+      need.description.toLowerCase().includes(searchNeedQuery.toLowerCase());
     return matchesCategory && matchesSearch;
   });
 
@@ -114,7 +114,7 @@ export default function Home() {
       <div className="text-center mb-10 md:mb-16">
         <div className="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full glass-panel text-[11px] font-semibold text-brand-primary tracking-wide uppercase mb-4 animate-float">
           <Sparkles className="h-3 w-3" />
-          <span>Hệ thống tư vấn phần cứng 2026</span>
+          <span>Hệ thống tư vấn phần cứng</span>
         </div>
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-4">
           Tìm Thiết Bị <span className="text-shimmer">Hoàn Hảo</span> Cho Bạn
@@ -164,11 +164,10 @@ export default function Home() {
                     <button
                       key={cat.id}
                       onClick={() => handleCategorySelect(cat.id)}
-                      className={`text-left p-6 rounded-2xl transition-all duration-300 border flex items-start space-x-4 ${
-                        isSelected
+                      className={`text-left p-6 rounded-2xl transition-all duration-300 border flex items-start space-x-4 ${isSelected
                           ? "bg-brand-card border-brand-primary shadow-[0_0_20px_rgba(79,140,255,0.15)]"
                           : "bg-brand-card/50 border-white/5 hover:border-white/10 hover:bg-brand-card"
-                      }`}
+                        }`}
                     >
                       <div className={`p-3 rounded-xl bg-gradient-to-tr ${cat.gradient} text-white`}>
                         <Icon className="h-6 w-6" />
@@ -222,15 +221,13 @@ export default function Home() {
                     <button
                       key={need.id}
                       onClick={() => handleNeedToggle(need.id)}
-                      className={`text-left p-4 rounded-xl border transition-all duration-300 flex items-start space-x-3 group ${
-                        isSelected
+                      className={`text-left p-4 rounded-xl border transition-all duration-300 flex items-start space-x-3 group ${isSelected
                           ? "bg-brand-primary/10 border-brand-primary"
                           : "bg-white/5 border-white/5 hover:border-white/10 hover:bg-white/10"
-                      }`}
+                        }`}
                     >
-                      <div className={`p-2 rounded-lg transition-colors ${
-                        isSelected ? "bg-brand-primary text-white" : "bg-white/5 text-brand-muted group-hover:text-white"
-                      }`}>
+                      <div className={`p-2 rounded-lg transition-colors ${isSelected ? "bg-brand-primary text-white" : "bg-white/5 text-brand-muted group-hover:text-white"
+                        }`}>
                         <NeedIcon className="h-4 w-4" />
                       </div>
                       <div className="flex-1 min-w-0">
@@ -254,11 +251,10 @@ export default function Home() {
                 <button
                   onClick={() => setStep(3)}
                   disabled={selectedNeeds.length === 0}
-                  className={`flex items-center space-x-2 px-5 py-2.5 rounded-xl text-xs font-bold transition-all duration-300 shadow-md ${
-                    selectedNeeds.length > 0
+                  className={`flex items-center space-x-2 px-5 py-2.5 rounded-xl text-xs font-bold transition-all duration-300 shadow-md ${selectedNeeds.length > 0
                       ? "bg-gradient-to-r from-brand-primary to-brand-secondary text-white hover:scale-105"
                       : "bg-white/5 text-white/30 cursor-not-allowed"
-                  }`}
+                    }`}
                 >
                   <span>Tiếp tục</span>
                   <ArrowRight className="h-4 w-4" />
@@ -286,11 +282,10 @@ export default function Home() {
                     <button
                       key={b.id}
                       onClick={() => handleBudgetSelect(b.id)}
-                      className={`text-left p-5 rounded-2xl border transition-all duration-300 ${
-                        isSelected
+                      className={`text-left p-5 rounded-2xl border transition-all duration-300 ${isSelected
                           ? "bg-brand-card border-brand-primary shadow-[0_0_20px_rgba(79,140,255,0.15)]"
                           : "bg-brand-card/50 border-white/5 hover:border-white/10 hover:bg-brand-card"
-                      }`}
+                        }`}
                     >
                       <div className="flex justify-between items-center mb-2">
                         <span className="font-extrabold text-white text-base">{b.name}</span>
@@ -316,11 +311,10 @@ export default function Home() {
                 <button
                   onClick={handleFinish}
                   disabled={!budget}
-                  className={`flex items-center space-x-2 px-6 py-3 rounded-xl text-xs font-bold transition-all duration-300 shadow-lg ${
-                    budget
+                  className={`flex items-center space-x-2 px-6 py-3 rounded-xl text-xs font-bold transition-all duration-300 shadow-lg ${budget
                       ? "bg-gradient-to-r from-brand-primary to-brand-secondary text-white hover:scale-105"
                       : "bg-white/5 text-white/30 cursor-not-allowed"
-                  }`}
+                    }`}
                 >
                   <span>Tìm Kiếm Đề Xuất</span>
                   <Sparkles className="h-4 w-4" />
