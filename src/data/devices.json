@@ -5930,5 +5930,499 @@
       "Chip Unisoc T616 hiệu năng thấp, chỉ đủ tác vụ cơ bản",
       "Không hỗ trợ bút cảm ứng"
     ]
+  },
+  {
+    "id": "samsung-galaxy-s25-ultra",
+    "name": "Samsung Galaxy S25 Ultra",
+    "brand": "Samsung",
+    "category": "mobile",
+    "price": 33990000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "Snapdragon 8 Elite",
+      "gpu": "Adreno 830",
+      "ram": "12GB LPDDR5X",
+      "storage": "256GB UFS 4.0",
+      "display": "6.9\" Dynamic AMOLED 2X, 120Hz LTPO, HDR10+",
+      "battery": "5000mAh, Sạc nhanh 45W",
+      "size_weight": "Kích thước lớn (~6.9\"), nặng 218g",
+      "stylus": "Tích hợp sẵn bút S-Pen trong thân máy",
+      "cooling": "Tản nhiệt buồng hơi Vapor Chamber + Tấm graphite"
+    },
+    "needs": [
+      "photography",
+      "gaming",
+      "vlogging",
+      "consultant_sales",
+      "stock_trading",
+      "zoom_meeting",
+      "online_seller",
+      "entertainment"
+    ],
+    "image_url": "/images/devices/galaxy-s25-ultra.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=galaxy%20s25%20ultra",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=galaxy%20s25%20ultra"
+      }
+    ],
+    "pros": [
+      "Chip Snapdragon 8 Elite mạnh nhất hiện tại",
+      "Camera 200MP zoom quang học 5x xuất sắc",
+      "S-Pen tích hợp tiện lợi cho ký số và ghi chú"
+    ],
+    "cons": [
+      "Giá thành rất cao",
+      "Kích thước lớn khó cầm một tay"
+    ]
+  },
+  {
+    "id": "iphone-16",
+    "name": "Apple iPhone 16",
+    "brand": "Apple",
+    "category": "mobile",
+    "price": 22990000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "Apple A18",
+      "gpu": "Apple GPU 5-core",
+      "ram": "8GB",
+      "storage": "128GB",
+      "display": "6.1\" Super Retina XDR OLED, 60Hz, HDR10",
+      "battery": "3561mAh (Khoảng 22h nghe nhạc)",
+      "size_weight": "Nhỏ gọn (~6.1\"), nặng 170g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động qua vỏ nhôm"
+    },
+    "needs": [
+      "photography",
+      "vlogging",
+      "entertainment",
+      "zoom_meeting",
+      "online_seller",
+      "reading_news"
+    ],
+    "image_url": "/images/devices/iphone-16.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=iphone%2016",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=iphone%2016"
+      }
+    ],
+    "pros": [
+      "Chip A18 hỗ trợ Apple Intelligence AI on-device",
+      "Camera Fusion 48MP nút chụp vật lý Camera Control tiện lợi",
+      "Thiết kế nhỏ gọn, nhẹ nhất dòng iPhone 16"
+    ],
+    "cons": [
+      "Màn hình 60Hz lỗi thời so với đối thủ",
+      "Dung lượng pin hơi nhỏ"
+    ]
+  },
+  {
+    "id": "iphone-16-pro",
+    "name": "Apple iPhone 16 Pro",
+    "brand": "Apple",
+    "category": "mobile",
+    "price": 28990000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "Apple A18 Pro",
+      "gpu": "Apple GPU 6-core",
+      "ram": "8GB",
+      "storage": "128GB",
+      "display": "6.3\" Super Retina XDR OLED, 120Hz ProMotion LTPO",
+      "battery": "3582mAh (Khoảng 27h nghe nhạc)",
+      "size_weight": "Nhỏ gọn (~6.3\"), nặng 199g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động vỏ Titan cấp độ hàng không"
+    },
+    "needs": [
+      "photography",
+      "vlogging",
+      "gaming",
+      "entertainment",
+      "zoom_meeting",
+      "online_seller",
+      "stock_trading"
+    ],
+    "image_url": "/images/devices/iphone-16-pro.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=iphone%2016%20pro",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=iphone%2016%20pro"
+      }
+    ],
+    "pros": [
+      "Camera Tetraprism 5x zoom quang học xuất sắc",
+      "Quay video 4K 120fps ProRes Log chuyên nghiệp",
+      "Chip A18 Pro mạnh nhất trên smartphone hiện tại"
+    ],
+    "cons": [
+      "Giá cao",
+      "Tần số quét chỉ xuống 1Hz khi tĩnh"
+    ]
+  },
+  {
+    "id": "xiaomi-15",
+    "name": "Xiaomi 15 (Global)",
+    "brand": "Xiaomi",
+    "category": "mobile",
+    "price": 19990000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Snapdragon 8 Elite",
+      "gpu": "Adreno 830",
+      "ram": "12GB LPDDR5X",
+      "storage": "256GB UFS 4.0",
+      "display": "6.36\" OLED, 120Hz LTPO, HDR10+, 3200 nits",
+      "battery": "5240mAh, Sạc nhanh 90W HyperCharge",
+      "size_weight": "Nhỏ gọn (~6.36\"), nặng 190g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt buồng hơi VC lớn + Kim loại lỏng CPU"
+    },
+    "needs": [
+      "photography",
+      "gaming",
+      "vlogging",
+      "entertainment",
+      "zoom_meeting",
+      "online_seller"
+    ],
+    "image_url": "/images/devices/xiaomi-15.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=xiaomi%2015",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=xiaomi%2015"
+      }
+    ],
+    "pros": [
+      "Sạc 90W cực nhanh, đầy pin trong ~30 phút",
+      "Camera Leica Summilux chụp ảnh nghệ thuật đẳng cấp",
+      "Thiết kế nhỏ gọn flagship hiếm có"
+    ],
+    "cons": [
+      "Chưa phổ biến ở VN, bảo hành qua đại lý xách tay",
+      "Không có sạc không dây tốc độ cao bằng bản CN"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a35",
+    "name": "Samsung Galaxy A35 5G",
+    "brand": "Samsung",
+    "category": "mobile",
+    "price": 7490000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Exynos 1380",
+      "gpu": "Xclipse 530",
+      "ram": "8GB LPDDR4X",
+      "storage": "128GB UFS 2.2",
+      "display": "6.6\" Super AMOLED, 120Hz, HDR10+",
+      "battery": "5000mAh, Sạc nhanh 25W",
+      "size_weight": "Kích thước vừa (~6.6\"), nặng 210g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động"
+    },
+    "needs": [
+      "study",
+      "entertainment",
+      "photography",
+      "zoom_meeting",
+      "online_seller",
+      "reading_news",
+      "parental_control"
+    ],
+    "image_url": "/images/devices/galaxy-a35.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=galaxy%20a35%205g",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=galaxy%20a35%205g"
+      }
+    ],
+    "pros": [
+      "Màn hình Super AMOLED 120Hz đẹp trong tầm giá",
+      "Kháng nước IP67, camera 50MP OIS chống rung",
+      "4 năm cập nhật hệ điều hành từ Samsung"
+    ],
+    "cons": [
+      "Chip Exynos 1380 tản nhiệt kém khi chơi game lâu",
+      "Sạc 25W khá chậm so với đối thủ Trung Quốc"
+    ]
+  },
+  {
+    "id": "oppo-reno-12-pro",
+    "name": "Oppo Reno 12 Pro 5G",
+    "brand": "Oppo",
+    "category": "mobile",
+    "price": 10990000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "MediaTek Dimensity 7300 Energy",
+      "gpu": "Mali-G615 MC4",
+      "ram": "12GB LPDDR4X",
+      "storage": "256GB UFS 3.1",
+      "display": "6.7\" AMOLED, 120Hz, HDR10+, 1600 nits",
+      "battery": "5000mAh, Sạc siêu nhanh 80W SUPERVOOC",
+      "size_weight": "Kích thước lớn (~6.7\"), nặng 180g siêu nhẹ",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động"
+    },
+    "needs": [
+      "photography",
+      "vlogging",
+      "entertainment",
+      "zoom_meeting",
+      "online_seller",
+      "consultant_sales"
+    ],
+    "image_url": "/images/devices/oppo-reno-12-pro.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=oppo%20reno%2012%20pro",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=oppo%20reno%2012%20pro"
+      }
+    ],
+    "pros": [
+      "Sạc 80W SUPERVOOC đầy pin 5000mAh trong ~28 phút",
+      "Camera selfie AI 50MP đẹp nhất phân khúc",
+      "Thân máy siêu mỏng 7.4mm và siêu nhẹ 180g"
+    ],
+    "cons": [
+      "Chip Dimensity 7300 không đủ cho game nặng",
+      "Màn hình không hỗ trợ Always-On Display đầy đủ"
+    ]
+  },
+  {
+    "id": "macbook-air-m4",
+    "name": "Apple MacBook Air M4 (2025)",
+    "brand": "Apple",
+    "category": "laptop",
+    "price": 27990000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "Apple M4 (10-core CPU)",
+      "gpu": "Apple M4 GPU 10-core",
+      "ram": "16GB Unified",
+      "storage": "256GB SSD",
+      "display": "13.6\" Liquid Retina IPS, 2560 x 1664, 500 nits",
+      "battery": "66.5Wh (~18h video playback)",
+      "size_weight": "Mỏng nhẹ (~13.6\"), nặng 1.24kg, mỏng 11.3mm",
+      "stylus": "Không hỗ trợ (Màn hình thường)",
+      "cooling": "Tản nhiệt thụ động (Hoàn toàn im lặng)"
+    },
+    "needs": [
+      "programming",
+      "office_work",
+      "thin_light_executive",
+      "study",
+      "travel",
+      "video_editing",
+      "graphic_design",
+      "zoom_meeting",
+      "battery_life",
+      "music_production"
+    ],
+    "image_url": "/images/devices/macbook-air-m4.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=macbook%20air%20m4",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=macbook%20air%20m4"
+      }
+    ],
+    "pros": [
+      "Chip M4 mới nhất hiệu năng/watt tốt nhất thị trường",
+      "Hoàn toàn không quạt - tuyệt đối im lặng khi làm việc",
+      "Pin 18 giờ và màn hình đẹp chuẩn màu P3"
+    ],
+    "cons": [
+      "Giá RAM nâng cấp rất đắt so với thị trường",
+      "Chỉ có 2 cổng USB-C"
+    ]
+  },
+  {
+    "id": "asus-vivobook-15-oled",
+    "name": "Asus VivoBook 15 OLED (2024)",
+    "brand": "Asus",
+    "category": "laptop",
+    "price": 14990000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "AMD Ryzen 7 7730U",
+      "gpu": "AMD Radeon 780M (iGPU)",
+      "ram": "16GB DDR4",
+      "storage": "512GB SSD",
+      "display": "15.6\" OLED, 120Hz, Full HD, PANTONE Validated",
+      "battery": "70Wh (~10h)",
+      "size_weight": "Mỏng nhẹ (~15.6\"), nặng 1.7kg",
+      "stylus": "Không hỗ trợ (Màn hình thường)",
+      "cooling": "Quạt tản nhiệt đơn thông minh êm ái"
+    },
+    "needs": [
+      "office_work",
+      "study",
+      "entertainment",
+      "zoom_meeting",
+      "graphic_design",
+      "programming"
+    ],
+    "image_url": "/images/devices/asus-vivobook-15-oled.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=asus%20vivobook%2015%20oled",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=asus%20vivobook%2015%20oled"
+      }
+    ],
+    "pros": [
+      "Màn hình OLED 120Hz chuẩn màu đẹp nhất trong tầm giá 15 triệu",
+      "Hiệu năng CPU Ryzen 7 mạnh mẽ đa nhiệm tốt",
+      "Giá rẻ nhất có màn hình OLED hiện nay"
+    ],
+    "cons": [
+      "GPU tích hợp không đủ cho game nặng",
+      "Loa đơn âm thanh trung bình"
+    ]
+  },
+  {
+    "id": "dell-xps-15-9560",
+    "name": "Dell XPS 15 9560 (2025)",
+    "brand": "Dell",
+    "category": "laptop",
+    "price": 42990000,
+    "price_range": "40 triệu+",
+    "specs": {
+      "cpu": "Intel Core Ultra 7 258H",
+      "gpu": "NVIDIA GeForce RTX 4070 8GB",
+      "ram": "16GB LPDDR5X",
+      "storage": "512GB NVMe SSD",
+      "display": "15.6\" OLED Touch, 120Hz, 3.5K (3456 x 2160), HDR500",
+      "battery": "86Wh (~10h video)",
+      "size_weight": "Hiệu năng cao (~15.6\"), nặng 1.86kg",
+      "stylus": "Hỗ trợ bút cảm ứng xoay gập 360 độ",
+      "cooling": "Quạt tản nhiệt đơn / kép thông minh, hoạt động êm"
+    },
+    "needs": [
+      "video_editing",
+      "graphic_design",
+      "programming",
+      "thin_light_executive",
+      "aiml",
+      "entertainment",
+      "zoom_meeting"
+    ],
+    "image_url": "/images/devices/dell-xps-15.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=dell%20xps%2015%209560",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=dell%20xps%2015%209560"
+      }
+    ],
+    "pros": [
+      "Màn hình OLED 3.5K cảm ứng cực đỉnh, thiết kế sang trọng",
+      "RTX 4070 đủ sức render và chơi game AAA",
+      "Thân máy CNC nhôm-carbon cao cấp"
+    ],
+    "cons": [
+      "Giá thành rất cao",
+      "Tản nhiệt không tốt khi full load liên tục"
+    ]
+  },
+  {
+    "id": "lenovo-ideapad-slim-5i",
+    "name": "Lenovo IdeaPad Slim 5i Gen 9",
+    "brand": "Lenovo",
+    "category": "laptop",
+    "price": 16990000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Intel Core Ultra 5 125H",
+      "gpu": "Intel Arc iGPU + Intel AI Boost NPU",
+      "ram": "16GB LPDDR5X",
+      "storage": "512GB SSD NVMe",
+      "display": "14.0\" IPS, 90Hz, 2.8K (2880 x 1800 pixels)",
+      "battery": "75Wh (~12h)",
+      "size_weight": "Mỏng nhẹ (~14.0\"), nặng 1.46kg",
+      "stylus": "Không hỗ trợ (Màn hình thường)",
+      "cooling": "Quạt tản nhiệt đơn / kép thông minh, hoạt động êm"
+    },
+    "needs": [
+      "office_work",
+      "study",
+      "programming",
+      "zoom_meeting",
+      "travel",
+      "battery_life"
+    ],
+    "image_url": "/images/devices/ideapad-slim-5i.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=ideapad%20slim%205i%20gen%209",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=ideapad%20slim%205i%20gen%209"
+      }
+    ],
+    "pros": [
+      "Màn hình 2.8K sắc nét tuyệt vời cho phân khúc giá",
+      "NPU AI Boost tăng tốc Copilot+ AI tác vụ",
+      "Pin 12 giờ, thân nhôm 1.46kg mỏng nhẹ"
+    ],
+    "cons": [
+      "GPU tích hợp yếu, không chơi được game nặng",
+      "Cổng kết nối hạn chế"
+    ]
+  },
+  {
+    "id": "hp-pavilion-plus-14",
+    "name": "HP Pavilion Plus 14 (2024)",
+    "brand": "HP",
+    "category": "laptop",
+    "price": 18990000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Intel Core Ultra 7 155H",
+      "gpu": "NVIDIA GeForce RTX 3050 6GB",
+      "ram": "16GB LPDDR5X",
+      "storage": "512GB SSD NVMe",
+      "display": "14.0\" IPS, 120Hz, 2.8K (2880 x 1800 pixels), sRGB 100%",
+      "battery": "70Wh (~9h)",
+      "size_weight": "Mỏng nhẹ (~14.0\"), nặng 1.41kg",
+      "stylus": "Không hỗ trợ (Màn hình thường)",
+      "cooling": "Quạt tản nhiệt đôi HP Dual Fan"
+    },
+    "needs": [
+      "graphic_design",
+      "video_editing",
+      "programming",
+      "office_work",
+      "gaming",
+      "zoom_meeting",
+      "travel"
+    ],
+    "image_url": "/images/devices/hp-pavilion-plus-14.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=hp%20pavilion%20plus%2014",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=hp%20pavilion%20plus%2014"
+      }
+    ],
+    "pros": [
+      "RTX 3050 đủ render Premiere Pro, Lightroom mượt mà",
+      "Màn hình 2.8K 120Hz chuẩn màu sRGB 100% đẹp",
+      "Thân nhôm mỏng nhẹ 1.41kg cho class RTX"
+    ],
+    "cons": [
+      "RTX 3050 TGP thấp, gaming hạn chế",
+      "Pin không bền khi bật GPU rời"
+    ]
   }
 ]
