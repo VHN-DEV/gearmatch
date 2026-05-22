@@ -184,6 +184,27 @@ export default function AiAssistantPage() {
     if (text.includes("phòng khách") || text.includes("itx") || text.includes("mini pc") || text.includes("pc mini") || text.includes("htpc")) {
       needs.push("htpc_livingroom");
     }
+    if (text.includes("bán hàng") || text.includes("chốt đơn") || text.includes("livestream sản phẩm") || text.includes("kinh doanh online")) {
+      needs.push("online_seller");
+    }
+    if (text.includes("đọc báo") || text.includes("lướt facebook") || text.includes("mạng xã hội") || text.includes("đọc tin tức")) {
+      needs.push("reading_news");
+    }
+    if (text.includes("chứng khoán") || text.includes("biểu đồ") || text.includes("chơi coin") || text.includes("forex") || text.includes("giao dịch")) {
+      needs.push("stock_trading");
+    }
+    if (text.includes("họp") || text.includes("teams") || text.includes("họp trực tuyến") || text.includes("meet")) {
+      needs.push("zoom_meeting");
+    }
+    if (text.includes("tài xế") || text.includes("shipper") || text.includes("định vị") || text.includes("xe máy") || text.includes("chạy grab")) {
+      needs.push("ride_hailing_shipper");
+    }
+    if (text.includes("đọc sách") || text.includes("e-book") || text.includes("kindle") || text.includes("truyện tranh")) {
+      needs.push("heavy_reading");
+    }
+    if (text.includes("bảo hiểm") || text.includes("bất động sản") || text.includes("gặp khách") || text.includes("tư vấn") || text.includes("ký hợp đồng") || text.includes("sales") || text.includes("insurance") || text.includes("đối tác")) {
+      needs.push("consultant_sales");
+    }
 
     return { category, budget, needs };
   };
@@ -241,7 +262,14 @@ export default function AiAssistantPage() {
             entertainment: "Giải trí",
             nas_server: "Làm NAS & Home Server",
             extreme_overclocking: "Ép xung & Đèn LED",
-            htpc_livingroom: "PC phòng khách"
+            htpc_livingroom: "PC phòng khách",
+            online_seller: "Bán hàng online & Chốt đơn",
+            reading_news: "Đọc báo & Lướt mạng xã hội",
+            stock_trading: "Xem biểu đồ & Chứng khoán",
+            zoom_meeting: "Họp trực tuyến & Học online",
+            ride_hailing_shipper: "Tài xế & Giao hàng (GPS)",
+            heavy_reading: "Đọc sách chuyên sâu (E-Book)",
+            consultant_sales: "Tư vấn khách hàng & Ký hợp đồng"
           }[nId] || nId)
       );
 

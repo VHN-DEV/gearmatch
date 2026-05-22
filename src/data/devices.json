@@ -14,7 +14,7 @@
       "display": "6.9\" Super Retina XDR OLED, 120Hz LTPO, HDR10",
       "battery": "4685mAh, Sạc nhanh 30W (Sử dụng 12h+)"
     },
-    "needs": ["gaming", "photography", "travel", "battery_life", "entertainment", "vlogging"],
+    "needs": ["gaming", "photography", "travel", "battery_life", "entertainment", "vlogging", "online_seller", "zoom_meeting", "stock_trading", "reading_news"],
     "image_url": "https://images.unsplash.com/photo-1727371752044-6725206eb3c3?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=iphone+16+pro+max",
     "pros": ["Camera 48MP Zoom 5x cực đỉnh", "Hiệu năng CPU đơn nhân mạnh nhất thế giới", "Màn hình viền siêu mỏng", "Thời lượng pin xuất sắc"],
@@ -35,7 +35,7 @@
       "display": "6.8\" Dynamic AMOLED 2X, 120Hz, Gorilla Armor chống chói",
       "battery": "5000mAh, Sạc nhanh 45W"
     },
-    "needs": ["gaming", "photography", "study", "travel", "entertainment", "vlogging"],
+    "needs": ["gaming", "photography", "study", "travel", "entertainment", "vlogging", "online_seller", "zoom_meeting", "stock_trading", "reading_news"],
     "image_url": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=galaxy+s24+ultra",
     "pros": ["Tích hợp bút S-Pen tiện lợi", "Màn hình chống chói vượt trội", "Camera Zoom 100x kèm AI thông minh", "Hỗ trợ cập nhật phần mềm 7 năm"],
@@ -56,7 +56,7 @@
       "display": "6.78\" LTPO AMOLED, 165Hz, HDR10+, 2500 nits",
       "battery": "5500mAh, Sạc nhanh 65W"
     },
-    "needs": ["gaming", "battery_life", "entertainment", "budget_gaming"],
+    "needs": ["gaming", "battery_life", "entertainment", "budget_gaming", "reading_news", "stock_trading"],
     "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=rog+phone+8+pro",
     "pros": ["Màn hình 165Hz siêu mượt", "Có nút vai AirTrigger cảm ứng siêu nhạy", "Hệ thống tản nhiệt buồng hơi tân tiến", "Có jack cắm tai nghe 3.5mm chất lượng"],
@@ -77,7 +77,7 @@
       "display": "6.67\" AMOLED, 144Hz, HDR10+, Dolby Vision",
       "battery": "5000mAh, Sạc siêu nhanh 120W"
     },
-    "needs": ["gaming", "photography", "study", "entertainment", "vlogging", "budget_gaming"],
+    "needs": ["gaming", "photography", "study", "entertainment", "vlogging", "budget_gaming", "online_seller", "zoom_meeting", "stock_trading", "reading_news"],
     "image_url": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=xiaomi+14t+pro",
     "pros": ["Camera Leica chất màu nghệ thuật", "Sạc siêu nhanh 120W đầy pin dưới 25 phút", "Kháng nước chống bụi chuẩn IP68"],
@@ -98,7 +98,7 @@
       "display": "6.67\" AMOLED, 120Hz, 1.5K, Dolby Vision",
       "battery": "5100mAh, Sạc nhanh 67W"
     },
-    "needs": ["study", "travel", "entertainment", "parental_control", "budget_gaming"],
+    "needs": ["study", "travel", "entertainment", "parental_control", "budget_gaming", "reading_news", "zoom_meeting"],
     "image_url": "https://images.unsplash.com/photo-1565630916779-e303be97b6f5?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=redmi+note+13+pro",
     "pros": ["Màn hình 1.5K sắc nét", "Camera chính 200MP chống rung OIS", "Thiết kế đẹp mắt, viền mỏng", "Thời lượng pin khỏe"],
@@ -119,7 +119,7 @@
       "display": "6.7\" Super Retina XDR OLED, 60Hz, HDR10",
       "battery": "4674mAh, Sạc nhanh 25W (Sử dụng 14h+)"
     },
-    "needs": ["photography", "travel", "battery_life", "entertainment", "vlogging"],
+    "needs": ["photography", "travel", "battery_life", "entertainment", "vlogging", "online_seller", "zoom_meeting", "stock_trading", "reading_news"],
     "image_url": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=iphone+16+plus",
     "pros": ["Pin trâu nhất lịch sử các dòng iPhone", "Nút Action Button & Camera Control mới", "Hiệu năng chip A18 mượt mà, hỗ trợ Apple Intelligence"],
@@ -140,7 +140,7 @@
       "display": "6.6\" Super AMOLED, 120Hz, HDR10+, 1000 nits",
       "battery": "5000mAh, Sạc nhanh 25W"
     },
-    "needs": ["study", "travel", "entertainment", "parental_control", "budget_gaming"],
+    "needs": ["study", "travel", "entertainment", "parental_control", "budget_gaming", "reading_news", "zoom_meeting", "ride_hailing_shipper"],
     "image_url": "https://images.unsplash.com/photo-1610945415295-d9baf066e55d?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=galaxy+a55",
     "pros": ["Khung viền kim loại cao cấp, mặt lưng kính cường lực", "Kháng nước bụi chuẩn IP67 bảo vệ tốt", "Hệ thống loa kép to, rõ, âm trầm tốt"],
@@ -161,7 +161,7 @@
       "display": "6.8\" AMOLED Flat, 120Hz, Camera ẩn dưới màn hình",
       "battery": "6500mAh, Sạc siêu nhanh 80W"
     },
-    "needs": ["gaming", "battery_life", "entertainment", "budget_gaming"],
+    "needs": ["gaming", "battery_life", "entertainment", "budget_gaming", "stock_trading"],
     "image_url": "https://images.unsplash.com/photo-1546054454-aa26e2b734c7?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=redmagic+9+pro",
     "pros": ["Pin khổng lồ 6500mAh dùng cực lâu", "Thiết kế phẳng hoàn toàn từ trước ra sau (không lồi camera)", "Quạt tản nhiệt cơ học tích hợp đèn RGB độc đáo"],
@@ -182,7 +182,7 @@
       "display": "Màn chính 7.6\" Foldable Dynamic AMOLED 2X, Màn phụ 6.3\", 120Hz",
       "battery": "4400mAh, Sạc nhanh 25W"
     },
-    "needs": ["travel", "entertainment", "thin_light_executive", "study"],
+    "needs": ["travel", "entertainment", "thin_light_executive", "study", "stock_trading", "online_seller", "reading_news", "zoom_meeting"],
     "image_url": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=galaxy+z+fold+6",
     "pros": ["Màn hình gập đa nhiệm cực đỉnh như máy tính bảng thu nhỏ", "Thiết kế mỏng nhẹ và vuông vức thời thượng hơn bản cũ", "Hệ thống AI dịch thuật trực tiếp cực kỳ hữu ích"],
@@ -203,7 +203,7 @@
       "display": "6.8\" LTPO OLED, 120Hz, 3000 nits, HDR10+",
       "battery": "5060mAh, Sạc nhanh 37W"
     },
-    "needs": ["photography", "travel", "vlogging", "entertainment"],
+    "needs": ["photography", "travel", "vlogging", "entertainment", "reading_news", "zoom_meeting"],
     "image_url": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=pixel+9+pro+xl",
     "pros": ["Camera đỉnh cao, xử lý ảnh HDR và chụp đêm xuất sắc", "Hệ điều hành Android thuần mượt mà, cập nhật 7 năm", "Tính năng AI Gemini tích hợp sâu vào hệ thống"],
@@ -224,7 +224,7 @@
       "display": "6.1\" Super Retina XDR OLED, 60Hz",
       "battery": "3240mAh, Sạc nhanh 20W"
     },
-    "needs": ["study", "travel", "vlogging", "budget_gaming", "entertainment"],
+    "needs": ["study", "travel", "vlogging", "budget_gaming", "entertainment", "ride_hailing_shipper", "reading_news", "zoom_meeting"],
     "image_url": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=iphone+13",
     "pros": ["Giá thành hợp lý cho một chiếc iPhone hiệu năng còn rất tốt", "Camera quay phim Cinematic chống rung cảm biến cực đẹp", "Kích thước nhỏ gọn, dễ cầm nắm sử dụng"],
@@ -245,7 +245,7 @@
       "display": "6.7\" Dynamic AMOLED 2X, QHD+, 120Hz, 2600 nits",
       "battery": "4900mAh, Sạc nhanh 45W"
     },
-    "needs": ["gaming", "photography", "travel", "battery_life", "entertainment", "vlogging"],
+    "needs": ["gaming", "photography", "travel", "battery_life", "entertainment", "vlogging", "online_seller", "stock_trading", "zoom_meeting", "reading_news"],
     "image_url": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=galaxy+s24+plus",
     "pros": ["Màn hình QHD+ siêu sắc nét và vô cùng sáng", "RAM 12GB đa nhiệm cực tốt hơn bản cơ bản", "Hệ thống tính năng Galaxy AI đầy đủ"],
@@ -266,7 +266,7 @@
       "display": "6.82\" LTPO AMOLED, 120Hz, HDR10+, 4500 nits",
       "battery": "5000mAh, Sạc siêu nhanh 100W"
     },
-    "needs": ["photography", "travel", "vlogging", "gaming", "entertainment"],
+    "needs": ["photography", "travel", "vlogging", "gaming", "entertainment", "online_seller"],
     "image_url": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=oppo+find+x7+ultra",
     "pros": ["Hệ thống Dual-Periscope Zoom quang học 2 mức 3x & 6x chụp chân dung đỉnh cao", "Màn hình cong độ sáng kỷ lục 4500 nits", "Sạc siêu nhanh 100W đi kèm sạc không dây 50W"],
@@ -287,7 +287,7 @@
       "display": "6.67\" WQHD+ AMOLED, 120Hz, Flow AMOLED",
       "battery": "5000mAh, Sạc siêu nhanh 120W"
     },
-    "needs": ["gaming", "battery_life", "budget_gaming", "entertainment"],
+    "needs": ["gaming", "battery_life", "budget_gaming", "entertainment", "stock_trading"],
     "image_url": "https://images.unsplash.com/photo-1565630916779-e303be97b6f5?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=poco+f6+pro",
     "pros": ["Cấu hình Snapdragon 8 Gen 2 mạnh mẽ vượt tầm giá", "Màn hình 2K WQHD+ siêu nét", "Sạc nhanh 120W cực đỉnh đầy pin trong 20 phút"],
@@ -308,7 +308,7 @@
       "display": "11\" Tandem OLED (Ultra Retina XDR), 120Hz ProMotion, 1600 nits",
       "battery": "31.29 Wh (Khoảng 10h sử dụng liên tục)"
     },
-    "needs": ["graphic_design", "video_editing", "study", "travel", "entertainment", "note_taking"],
+    "needs": ["graphic_design", "video_editing", "study", "travel", "entertainment", "note_taking", "online_seller", "zoom_meeting", "stock_trading", "reading_news"],
     "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=ipad+pro+m4+11",
     "pros": ["Màn hình Tandem OLED hiển thị đẹp nhất thế giới", "Siêu mỏng nhẹ (chỉ 444g)", "Chip M4 hiệu năng ngang ngửa Macbook Pro", "Hỗ trợ bút Apple Pencil Pro mới"],
@@ -329,7 +329,7 @@
       "display": "14.6\" Dynamic AMOLED 2X, 120Hz, Chống chói Gorilla Armor",
       "battery": "11200mAh, Sạc nhanh 45W"
     },
-    "needs": ["graphic_design", "study", "travel", "battery_life", "entertainment", "note_taking"],
+    "needs": ["graphic_design", "study", "travel", "battery_life", "entertainment", "note_taking", "online_seller", "zoom_meeting", "stock_trading", "reading_news"],
     "image_url": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=galaxy+tab+s10+ultra",
     "pros": ["Màn hình khổng lồ 14.6 inch cực kỳ đã mắt", "Tặng kèm bút S-Pen sẵn trong hộp", "Tính năng Samsung DeX thay thế laptop tốt", "Độ mỏng ấn tượng chỉ 5.4mm"],
@@ -350,7 +350,7 @@
       "display": "12.4\" IPS LCD, 144Hz, 3K (3048x2032), 900 nits",
       "battery": "10000mAh, Sạc siêu nhanh 120W"
     },
-    "needs": ["gaming", "graphic_design", "study", "entertainment", "note_taking", "budget_gaming"],
+    "needs": ["gaming", "graphic_design", "study", "entertainment", "note_taking", "budget_gaming", "online_seller", "zoom_meeting", "stock_trading", "reading_news"],
     "image_url": "https://images.unsplash.com/photo-1527690787265-17a41eb93a8d?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=xiaomi+pad+6s+pro",
     "pros": ["Màn hình 3K tần số quét 144Hz siêu mượt", "Sạc 120W cực nhanh trên phân khúc tablet", "Cấu hình Snapdragon 8 Gen 2 chơi game tốt", "Hệ thống 6 loa âm thanh sống động"],
@@ -371,7 +371,7 @@
       "display": "10.9\" Liquid Retina IPS LCD, 60Hz, 500 nits",
       "battery": "7606mAh (Sử dụng khoảng 9-10h)"
     },
-    "needs": ["study", "travel", "entertainment", "parental_control", "note_taking"],
+    "needs": ["study", "travel", "entertainment", "parental_control", "note_taking", "reading_news", "zoom_meeting", "online_seller", "consultant_sales"],
     "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=ipad+gen+10",
     "pros": ["Thiết kế hiện đại, nhiều màu sắc thời trang", "Hệ điều hành iPadOS mượt mà lâu dài", "Hỗ trợ cổng USB-C tiện lợi", "Loa stereo nằm ngang xem phim hay"],
@@ -392,7 +392,7 @@
       "display": "13\" Liquid Retina IPS LCD, 60Hz, 600 nits, True Tone",
       "battery": "36.59 Wh (Sử dụng thực tế 10h)"
     },
-    "needs": ["graphic_design", "study", "travel", "entertainment", "note_taking"],
+    "needs": ["graphic_design", "study", "travel", "entertainment", "note_taking", "online_seller", "zoom_meeting", "reading_news"],
     "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=ipad+air+m2+13",
     "pros": ["Màn hình lớn 13 inch tương đương iPad Pro nhưng giá hợp lý hơn", "Cấu hình cực mạnh với chip M2 xử lý đồ họa mượt", "Hỗ trợ bút Apple Pencil Pro mới"],
@@ -413,7 +413,7 @@
       "display": "11\" TFT LCD, 90Hz, 1920x1200 pixels",
       "battery": "7040mAh, Sạc nhanh 15W"
     },
-    "needs": ["study", "parental_control", "entertainment"],
+    "needs": ["study", "parental_control", "entertainment", "reading_news", "zoom_meeting"],
     "image_url": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=galaxy+tab+a9+plus",
     "pros": ["Hỗ trợ kết nối SIM 5G tiện lợi để lướt web ngoài đường", "Màn hình 90Hz mượt mà hơn các đối thủ cùng phân khúc", "Hệ thống 4 loa âm thanh vòm Dolby Atmos"],
@@ -434,7 +434,7 @@
       "display": "11\" IPS LCD, 144Hz, WQHD+ (2880x1800), HDR10+",
       "battery": "8840mAh, Sạc nhanh 33W"
     },
-    "needs": ["study", "entertainment", "note_taking", "budget_gaming"],
+    "needs": ["study", "entertainment", "note_taking", "budget_gaming", "reading_news", "zoom_meeting"],
     "image_url": "https://images.unsplash.com/photo-1527690787265-17a41eb93a8d?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=xiaomi+pad+6",
     "pros": ["Màn hình 144Hz siêu mượt kèm độ phân giải 2.8K rất nét", "Vỏ nhôm nguyên khối chắc chắn, sang trọng", "Chip Snapdragon 870 hiệu năng ổn định, không bị nóng"],
@@ -455,7 +455,7 @@
       "display": "13\" PixelSense Flow, 120Hz, Cảm ứng 10 điểm, Gorilla Glass 5",
       "battery": "47 Wh (Sử dụng hỗn hợp 10-12h)"
     },
-    "needs": ["office_work", "study", "programming", "travel", "thin_light_executive"],
+    "needs": ["office_work", "study", "programming", "travel", "thin_light_executive", "stock_trading", "zoom_meeting"],
     "image_url": "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=surface+pro+11",
     "pros": ["Hệ điều hành Windows chạy trên chip ARM cực kỳ mát và tiết kiệm pin", "NPU AI mạnh mẽ xử lý Copilot cục bộ siêu nhanh", "Thiết kế 2-trong-1 linh hoạt bậc nhất"],
@@ -476,7 +476,7 @@
       "display": "8.3\" Liquid Retina IPS LCD, 60Hz, True Tone",
       "battery": "5124mAh (Sử dụng liên tục 9h)"
     },
-    "needs": ["study", "travel", "entertainment", "note_taking"],
+    "needs": ["study", "travel", "entertainment", "note_taking", "reading_news", "zoom_meeting", "stock_trading"],
     "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=ipad+mini+7",
     "pros": ["Kích thước nhỏ gọn nhẹ như cuốn sổ tay, cực dễ bỏ túi", "Cấu hình chip A17 Pro cực mạnh mẽ, hỗ trợ Apple Intelligence", "Bộ nhớ khởi điểm 128GB gấp đôi thế hệ trước"],
@@ -497,7 +497,7 @@
       "display": "8.8\" PureSight Gaming LCD, 144Hz, 2.5K (2560x1600)",
       "battery": "6550mAh, Sạc nhanh 45W"
     },
-    "needs": ["gaming", "budget_gaming", "entertainment"],
+    "needs": ["gaming", "budget_gaming", "entertainment", "stock_trading"],
     "image_url": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=lenovo+legion+tab+y700",
     "pros": ["Tablet chơi game cỡ nhỏ tốt nhất hiện nay", "Màn hình 144Hz siêu mượt cùng 2 cổng kết nối USB-C", "Có tính năng bỏ qua pin cấp điện trực tiếp (Bypass Charge) giúp máy cực mát"],
@@ -518,7 +518,7 @@
       "display": "12.2\" Dual Tandem OLED PaperMatte, 144Hz, 2000 nits, Nhám chống chói",
       "battery": "10100mAh, Sạc siêu nhanh 100W"
     },
-    "needs": ["graphic_design", "study", "travel", "battery_life", "entertainment", "note_taking"],
+    "needs": ["graphic_design", "study", "travel", "battery_life", "entertainment", "note_taking", "online_seller", "zoom_meeting", "stock_trading", "reading_news"],
     "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=huawei+matepad+pro+12.2",
     "pros": ["Màn hình Tandem OLED PaperMatte nhám chống chói hiển thị như giấy vẽ chân thực", "Hỗ trợ bút vẽ NearLink thế hệ mới độ trễ cực thấp", "Sạc siêu nhanh 100W đầy pin trong 45 phút"],
@@ -539,7 +539,7 @@
       "display": "11.5\" PaperMatte IPS LCD nhám chống chói, 144Hz, 2.8K",
       "battery": "8800mAh, Sạc nhanh 22.5W"
     },
-    "needs": ["study", "travel", "entertainment", "note_taking"],
+    "needs": ["study", "travel", "entertainment", "note_taking", "reading_news", "zoom_meeting", "consultant_sales"],
     "image_url": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=huawei+matepad+11.5s",
     "pros": ["Màn hình nhám chống chói bảo vệ mắt rất tốt khi đọc sách viết ghi chú", "Tần số quét 144Hz cực kỳ mượt mà", "Đi kèm sẵn bàn phím rời và bút vẽ trong nhiều chương trình khuyến mãi"],
@@ -560,7 +560,7 @@
       "display": "13\" Tandem OLED (Ultra Retina XDR), 120Hz ProMotion, 1600 nits",
       "battery": "38.99 Wh (Khoảng 10h sử dụng liên tục)"
     },
-    "needs": ["graphic_design", "video_editing", "study", "travel", "entertainment", "note_taking"],
+    "needs": ["graphic_design", "video_editing", "study", "travel", "entertainment", "note_taking", "online_seller", "zoom_meeting", "stock_trading", "reading_news"],
     "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=ipad+pro+m4+13",
     "pros": ["Màn hình Tandem OLED 13 inch siêu rộng, siêu nét", "Hiệu năng CPU/GPU cực đỉnh cho làm việc chuyên nghiệp", "Thân máy mỏng kỷ lục thế giới chỉ 5.1mm"],
@@ -581,7 +581,7 @@
       "display": "10.9\" IPS LCD, 90Hz, WUXGA+ (2304x1440)",
       "battery": "8000mAh, Sạc nhanh 45W"
     },
-    "needs": ["study", "travel", "entertainment", "note_taking", "parental_control"],
+    "needs": ["study", "travel", "entertainment", "note_taking", "parental_control", "reading_news", "zoom_meeting", "consultant_sales"],
     "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=galaxy+tab+s9+fe",
     "pros": ["Kháng nước kháng bụi chuẩn IP68 hiếm hoi trên máy tính bảng", "Tặng kèm bút S-Pen không cần sạc pin rất nhạy", "Hỗ trợ đa nhiệm giao diện DeX Mode mượt mà"],
@@ -602,7 +602,7 @@
       "display": "12.1\" IPS LCD, 120Hz, 2.5K (2560x1600), 600 nits",
       "battery": "10000mAh, Sạc nhanh 33W"
     },
-    "needs": ["study", "entertainment", "parental_control", "budget_gaming"],
+    "needs": ["study", "entertainment", "parental_control", "budget_gaming", "reading_news", "zoom_meeting"],
     "image_url": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=redmi+pad+pro",
     "pros": ["Màn hình 12.1 inch cực lớn sắc nét 2.5K trong tầm giá rẻ", "Dung lượng pin khổng lồ 10000mAh dùng 2 ngày thoải mái", "Hệ thống 4 loa Dolby Atmos rất to và ấm"],
@@ -623,7 +623,7 @@
       "display": "12.7\" LTPS LCD, 144Hz, 2.9K (2944x1840)",
       "battery": "10200mAh, Sạc nhanh 20W"
     },
-    "needs": ["study", "entertainment", "budget_gaming", "note_taking"],
+    "needs": ["study", "entertainment", "budget_gaming", "note_taking", "reading_news", "zoom_meeting"],
     "image_url": "https://images.unsplash.com/photo-1527690787265-17a41eb93a8d?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=xiaoxin+pad+pro+12.7",
     "pros": ["Màn hình lớn 12.7 inch tần số quét 144Hz siêu mượt và nét", "Cấu hình chip Snapdragon 870 cực kỳ ổn định và mát mẻ", "Khung nhôm nguyên khối chắc chắn tinh tế"],
@@ -644,7 +644,7 @@
       "display": "12.1\" IPS LCD, 144Hz, 3K (3000x2120), 900 nits",
       "battery": "9510mAh, Sạc siêu nhanh 67W SuperVOOC"
     },
-    "needs": ["gaming", "graphic_design", "study", "travel", "entertainment", "note_taking"],
+    "needs": ["gaming", "graphic_design", "study", "travel", "entertainment", "note_taking", "online_seller", "zoom_meeting", "stock_trading", "reading_news"],
     "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=oneplus+pad+2",
     "pros": ["Trang bị chip Snapdragon 8 Gen 3 mạnh nhất thế giới Android hiện tại", "Tỷ lệ màn hình độc đáo 7:5 tối ưu đọc tài liệu và lướt web", "Sạc nhanh 67W sạc đầy pin 9510mAh chỉ trong hơn 1 tiếng"],
@@ -686,7 +686,7 @@
       "display": "10.2\" Paperwhite E-Ink Screen, 300 ppi, Đèn nền điều chỉnh nhiệt độ màu",
       "battery": "Dùng lượng pin kéo dài nhiều tuần (Sử dụng trung bình 3-4 tuần)"
     },
-    "needs": ["study", "travel", "battery_life", "note_taking"],
+    "needs": ["study", "travel", "battery_life", "note_taking", "heavy_reading", "reading_news"],
     "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=kindle+scribe",
     "pros": ["Màn hình E-Ink hoàn toàn không gây mỏi mắt, hiển thị hoàn hảo dưới trời nắng", "Cảm giác viết vẽ bằng bút đi kèm nhám nhẹ như viết lên giấy thật", "Thời lượng pin cực khủng đo bằng tuần"],
@@ -707,7 +707,7 @@
       "display": "12.1\" IPS LCD, 120Hz, 2.5K (2560x1600)",
       "battery": "8300mAh, Sạc nhanh 35W"
     },
-    "needs": ["study", "entertainment", "parental_control"],
+    "needs": ["study", "entertainment", "parental_control", "reading_news", "zoom_meeting"],
     "image_url": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=honor+pad+9",
     "pros": ["Hệ thống âm thanh đỉnh cao với 8 loa ngoài cực lớn sinh động", "Bộ nhớ lớn 256GB lưu trữ nhiều tài liệu và phim ảnh", "Màn hình 120Hz độ phân giải 2.5K hiển thị mịn màng"],
@@ -728,11 +728,284 @@
       "display": "8.0\" PLS LCD, 120Hz, Gorilla Glass 5",
       "battery": "5050mAh (Pin tháo rời dễ dàng, có chế độ không dùng pin)"
     },
-    "needs": ["travel", "study", "parental_control"],
+    "needs": ["travel", "study", "parental_control", "ride_hailing_shipper"],
     "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=galaxy+tab+active+5",
     "pros": ["Đạt chuẩn quân đội MIL-STD-810H chống rơi từ độ cao 1.8m", "Kháng nước bụi IP68 cho cả máy và bút S-Pen", "Pin có thể tháo rời thay thế lập tức hoặc chạy nguồn cắm trực tiếp (No Battery Mode)"],
     "cons": ["Viền màn hình cực kỳ dày để bảo vệ chống rơi", "Kích thước màn hình nhỏ 8.0 inch"]
+  },
+  {
+    "id": "ipad-gen-9",
+    "name": "Apple iPad Gen 9 10.2\" (2021)",
+    "brand": "Apple",
+    "category": "tablet",
+    "price": 6890000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Apple A13 Bionic",
+      "gpu": "Apple 4-core GPU",
+      "ram": "3GB",
+      "storage": "64GB",
+      "display": "10.2\" Retina IPS LCD, 60Hz, 500 nits",
+      "battery": "8557mAh (Dùng tốt 10h)"
+    },
+    "needs": ["study", "parental_control", "entertainment", "reading_news", "zoom_meeting"],
+    "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=ipad+gen+9",
+    "pros": ["Giá rẻ nhất dòng iPad hiện tại", "Độ bền bỉ cao, nút Home truyền thống dễ sử dụng cho người lớn tuổi", "Có cổng tai nghe 3.5mm tiện lợi"],
+    "cons": ["Thiết kế viền dày cổ điển", "Cổng sạc Lightning cũ", "Bộ nhớ trong chỉ 64GB"]
+  },
+  {
+    "id": "ipad-air-5-m1",
+    "name": "Apple iPad Air 5 M1 (2022)",
+    "brand": "Apple",
+    "category": "tablet",
+    "price": 13290000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Apple M1 (8 nhân)",
+      "gpu": "Apple 8-core GPU",
+      "ram": "8GB",
+      "storage": "64GB",
+      "display": "10.9\" Liquid Retina, 60Hz, True Tone",
+      "battery": "7600mAh"
+    },
+    "needs": ["study", "travel", "graphic_design", "entertainment", "note_taking", "zoom_meeting", "online_seller", "consultant_sales"],
+    "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=ipad+air+5+m1",
+    "pros": ["Chip M1 hiệu năng vô cùng mạnh mẽ cân tốt đồ họa Pro", "Camera trước hỗ trợ tính năng Center Stage thông minh", "Nhiều màu sắc sang trọng"],
+    "cons": ["Dung lượng 64GB khá nhỏ cho việc tải tài liệu", "Màn hình 60Hz cơ bản"]
+  },
+  {
+    "id": "xiaomi-pad-6-pro",
+    "name": "Xiaomi Pad 6 Pro",
+    "brand": "Xiaomi",
+    "category": "tablet",
+    "price": 8590000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Snapdragon 8+ Gen 1 (4nm)",
+      "gpu": "Adreno 730",
+      "ram": "8GB LPDDR5",
+      "storage": "128GB UFS 3.1",
+      "display": "11\" IPS LCD, 144Hz, 2.8K, HDR10+",
+      "battery": "8600mAh, Sạc nhanh 67W"
+    },
+    "needs": ["gaming", "budget_gaming", "study", "entertainment", "note_taking", "zoom_meeting"],
+    "image_url": "https://images.unsplash.com/photo-1527690787265-17a41eb93a8d?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=xiaomi+pad+6+pro",
+    "pros": ["Chip Snapdragon 8+ Gen 1 chiến mọi game nặng cực kỳ mượt mà", "Màn hình 144Hz độ phân giải 2.8K siêu mượt và sắc nét", "Sạc nhanh 67W tiện lợi"],
+    "cons": ["Bản xách tay cần tự cài CH Play", "Không hỗ trợ mở rộng thẻ nhớ ngoài"]
+  },
+  {
+    "id": "galaxy-tab-s9-ultra",
+    "name": "Samsung Galaxy Tab S9 Ultra",
+    "brand": "Samsung",
+    "category": "tablet",
+    "price": 20990000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "Snapdragon 8 Gen 2 for Galaxy",
+      "gpu": "Adreno 740",
+      "ram": "12GB",
+      "storage": "256GB UFS 4.0",
+      "display": "14.6\" Dynamic AMOLED 2X, 120Hz, HDR10+",
+      "battery": "11200mAh, Sạc nhanh 45W"
+    },
+    "needs": ["graphic_design", "study", "travel", "battery_life", "entertainment", "note_taking", "online_seller", "zoom_meeting"],
+    "image_url": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=galaxy+tab+s9+ultra",
+    "pros": ["Màn hình Dynamic AMOLED 2X 14.6 inch cực kỳ khổng lồ, hiển thị rực rỡ", "Kháng bụi nước chuẩn IP68 cao cấp", "Tặng kèm S-Pen và hỗ trợ DeX Mode tối đa"],
+    "cons": ["Kích thước quá cồng kềnh khó dùng một tay", "Giá thành tương đối cao"]
+  },
+  {
+    "id": "galaxy-tab-s9-plus",
+    "name": "Samsung Galaxy Tab S9+",
+    "brand": "Samsung",
+    "category": "tablet",
+    "price": 17490000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Snapdragon 8 Gen 2 for Galaxy",
+      "gpu": "Adreno 740",
+      "ram": "12GB",
+      "storage": "256GB",
+      "display": "12.4\" Dynamic AMOLED 2X, 120Hz, HDR10+",
+      "battery": "10090mAh, Sạc nhanh 45W"
+    },
+    "needs": ["graphic_design", "study", "travel", "entertainment", "note_taking", "online_seller", "zoom_meeting"],
+    "image_url": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=galaxy+tab+s9+",
+    "pros": ["Kích thước 12.4 inch vừa vặn nhất cho công việc di động", "Tấm nền AMOLED siêu đẹp, tần số quét 120Hz", "Chống nước bụi chuẩn IP68 bền bỉ"],
+    "cons": ["Không tặng kèm củ sạc nhanh trong hộp", "Giá vẫn ở mức cao"]
+  },
+  {
+    "id": "huawei-matepad-11-5",
+    "name": "Huawei MatePad 11.5\" (2023)",
+    "brand": "Huawei",
+    "category": "tablet",
+    "price": 5890000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Snapdragon 7 Gen 1 (4nm)",
+      "gpu": "Adreno 644",
+      "ram": "6GB LPDDR4X",
+      "storage": "128GB",
+      "display": "11.5\" IPS LCD, 120Hz, 2.2K"
+      ,"battery": "7700mAh, Sạc nhanh 22.5W"
+    },
+    "needs": ["study", "entertainment", "reading_news", "zoom_meeting"],
+    "image_url": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=huawei+matepad+11.5",
+    "pros": ["Thiết kế kim loại nguyên khối cứng cáp tầm giá rẻ", "Màn hình 120Hz mượt mà", "Âm thanh 4 loa to rõ"],
+    "cons": ["Không hỗ trợ Google gốc", "Không có khe cắm thẻ nhớ ngoài"]
+  },
+  {
+    "id": "kindle-paperwhite-5",
+    "name": "Kindle Paperwhite 5 (Signature Edition)",
+    "brand": "Amazon",
+    "category": "tablet",
+    "price": 4490000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "NXP i.MX7 Dual",
+      "gpu": "Tích hợp",
+      "ram": "1GB",
+      "storage": "32GB",
+      "display": "6.8\" E-Ink Carta 1200, 300 ppi, Đèn nền tông ấm",
+      "battery": "Dung lượng pin chờ kéo dài tới 10 tuần"
+    },
+    "needs": ["heavy_reading", "travel", "reading_news", "battery_life"],
+    "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=kindle+paperwhite+5",
+    "pros": ["Màn hình mực điện tử e-ink chống chói hoàn hảo bảo vệ mắt tối đa", "Kháng nước tốt chuẩn IPX8 thoải mái đọc ở hồ bơi", "Hỗ trợ sạc không dây tiện lợi"],
+    "cons": ["Chỉ để đọc sách, không có bất kỳ tính năng giải trí hay ứng dụng nào khác", "Màn hình đen trắng phản hồi chậm"]
+  },
+  {
+    "id": "lenovo-tab-p12",
+    "name": "Lenovo Tab P12 12.7\"",
+    "brand": "Lenovo",
+    "category": "tablet",
+    "price": 7490000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "MediaTek Dimensity 7050",
+      "gpu": "Mali-G68 MC4",
+      "ram": "8GB",
+      "storage": "128GB",
+      "display": "12.7\" LTPS LCD, 60Hz, 3K (2944x1840)",
+      "battery": "10200mAh, Sạc nhanh 30W"
+    },
+    "needs": ["study", "entertainment", "reading_news", "zoom_meeting"],
+    "image_url": "https://images.unsplash.com/photo-1527690787265-17a41eb93a8d?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=lenovo+tab+p12",
+    "pros": ["Màn hình cực lớn 12.7 inch độ phân giải 3K xem phim giải trí rộng rãi", "Loa JBL âm thanh vòm Dolby Atmos rất to", "Pin trâu 10.200mAh"],
+    "cons": ["Màn hình chỉ có tần số quét 60Hz", "Hiệu năng chơi game nặng ở mức trung bình"]
+  },
+  {
+    "id": "redmi-pad-se",
+    "name": "Xiaomi Redmi Pad SE",
+    "brand": "Xiaomi",
+    "category": "tablet",
+    "price": 3590000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Snapdragon 680 (6nm)",
+      "gpu": "Adreno 610",
+      "ram": "6GB LPDDR4X",
+      "storage": "128GB",
+      "display": "11\" IPS LCD, 90Hz, Full HD+",
+      "battery": "8000mAh, Sạc 10W"
+    },
+    "needs": ["study", "parental_control", "entertainment", "reading_news", "zoom_meeting"],
+    "image_url": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=redmi+pad+se",
+    "pros": ["Mức giá siêu tốt cho học sinh sinh viên hoặc trẻ nhỏ giải trí học tập", "Màn hình 90Hz mượt mà cùng hệ thống 4 loa Dolby Atmos", "Thiết kế nhôm nguyên khối bền đẹp"],
+    "cons": ["Hiệu năng chip Snapdragon 680 khá yếu, chỉ chạy được ứng dụng cơ bản", "Sạc đi kèm chỉ 10W rất lâu đầy pin 8000mAh"]
+  },
+  {
+    "id": "nokia-t21",
+    "name": "Nokia T21",
+    "brand": "Nokia",
+    "category": "tablet",
+    "price": 3890000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Unisoc Tiger T612",
+      "gpu": "Mali-G57",
+      "ram": "4GB",
+      "storage": "128GB",
+      "display": "10.36\" IPS LCD, 60Hz, 2K (2000x1200)",
+      "battery": "8200mAh, Sạc nhanh 18W"
+    },
+    "needs": ["study", "parental_control", "entertainment", "reading_news"],
+    "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=nokia+t21",
+    "pros": ["Màn hình 2K rõ nét phục vụ học online rất tốt", "Hỗ trợ bút cảm ứng Active Stylus tiện vẽ cơ bản", "Có khe cắm SIM 4G và nghe gọi như điện thoại"],
+    "cons": ["Giao diện đơn giản nhưng hiệu năng chip Unisoc ở mức thấp", "Thương hiệu Nokia không còn cập nhật phần mềm nhanh"]
+  },
+  {
+    "id": "huawei-matepad-se-11",
+    "name": "Huawei MatePad SE 11\"",
+    "brand": "Huawei",
+    "category": "tablet",
+    "price": 3790000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Kirin 710A",
+      "gpu": "Mali-G51 MP4",
+      "ram": "6GB",
+      "storage": "128GB",
+      "display": "11\" IPS LCD, 60Hz, Full HD+",
+      "battery": "7700mAh, Sạc nhanh 22.5W"
+    },
+    "needs": ["study", "parental_control", "reading_news", "zoom_meeting"],
+    "image_url": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=huawei+matepad+se+11",
+    "pros": ["Thân máy kim loại nhẹ và rất mỏng", "Chứng nhận bảo vệ mắt khỏi ánh sáng xanh", "Mức giá cực kỳ rẻ cho trẻ nhỏ học online"],
+    "cons": ["Không có dịch vụ Google", "Cấu hình Kirin 710A cũ chỉ làm được các tác vụ lướt web nhẹ"]
+  },
+  {
+    "id": "ipad-air-m2-11",
+    "name": "iPad Air M2 11\" (2024)",
+    "brand": "Apple",
+    "category": "tablet",
+    "price": 15890000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Apple M2 (8 nhân)",
+      "gpu": "Apple 9-core GPU",
+      "ram": "8GB",
+      "storage": "128GB",
+      "display": "11\" Liquid Retina IPS, 60Hz, True Tone",
+      "battery": "28.93 Wh (Dùng tốt 10h)"
+    },
+    "needs": ["study", "travel", "graphic_design", "entertainment", "note_taking", "zoom_meeting", "online_seller"],
+    "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=ipad+air+m2+11",
+    "pros": ["Chip M2 siêu mạnh hỗ trợ bút Apple Pencil Pro vẽ chuyên nghiệp", "Hỗ trợ nhiều tác vụ đồ họa, edit video tốt", "Bộ nhớ trong khởi điểm đã là 128GB"],
+    "cons": ["Màn hình vẫn giữ tần số quét 60Hz", "Không hỗ trợ Face ID"]
+  },
+  {
+    "id": "wacom-one-12",
+    "name": "Wacom One 12 (Bảng vẽ mini cho họa sĩ)",
+    "brand": "Wacom",
+    "category": "tablet",
+    "price": 5990000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Cần kết nối máy tính (Windows/macOS/Android)",
+      "gpu": "Không",
+      "ram": "Không",
+      "storage": "Không",
+      "display": "11.6\" IPS LCD Cảm ứng vẽ, 60Hz, 99% sRGB",
+      "battery": "Không dùng pin (Cấp nguồn USB-C)"
+    },
+    "needs": ["graphic_design", "note_taking"],
+    "image_url": "https://images.unsplash.com/photo-1527690787265-17a41eb93a8d?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=wacom+one+12",
+    "pros": ["Giá rẻ dễ tiếp cận cho sinh viên ngành mỹ thuật thiết kế", "Bút vẽ Wacom One cực nhạy, không cần pin hay sạc", "Kích thước gọn nhẹ mang đi lại thuận tiện"],
+    "cons": ["Không thể hoạt động độc lập (cần cắm dây với máy tính/điện thoại)", "Màn hình 11.6 inch hơi nhỏ cho các bản vẽ phức tạp"]
   },
   {
     "id": "macbook-air-m3",
@@ -749,7 +1022,7 @@
       "display": "13.6\" Liquid Retina IPS, 2560x1664, True Tone, 500 nits",
       "battery": "52.6 Wh (Sử dụng thực tế 15h+)"
     },
-    "needs": ["programming", "graphic_design", "office_work", "study", "travel", "battery_life", "entertainment", "thin_light_executive", "music_production"],
+    "needs": ["programming", "graphic_design", "office_work", "study", "travel", "battery_life", "entertainment", "thin_light_executive", "music_production", "online_seller", "stock_trading", "zoom_meeting"],
     "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=macbook+air+m3+16gb",
     "pros": ["Dung lượng pin thực tế cực kỳ trâu bò", "Thiết kế nhôm nguyên khối sang trọng, mỏng nhẹ (1.24kg)", "Không có quạt tản nhiệt nên hoạt động hoàn toàn yên tĩnh", "Hiệu năng văn phòng và lập trình web rất mượt"],
@@ -770,7 +1043,7 @@
       "display": "14\" 3K ROG Nebula OLED, 120Hz, 100% DCI-P3, G-Sync",
       "battery": "73 Wh (Sử dụng văn phòng 6-8h)"
     },
-    "needs": ["gaming", "programming", "video_editing", "graphic_design", "aiml", "livestream", "travel", "music_production", "engineering_cad"],
+    "needs": ["gaming", "programming", "video_editing", "graphic_design", "aiml", "livestream", "travel", "music_production", "engineering_cad", "stock_trading", "zoom_meeting"],
     "image_url": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=rog+zephyrus+g14+2024",
     "pros": ["Màn hình OLED 3K siêu đẹp, chuẩn màu tối đa", "Thiết kế mỏng nhẹ (1.5kg) nhưng tản nhiệt kim loại lỏng rất tốt", "RAM 32GB mặc định lập trình và làm đồ họa mượt", "Bàn phím gõ êm, trackpad siêu to khổng lồ"],
@@ -791,7 +1064,7 @@
       "display": "13.4\" FHD+ IPS, 120Hz, 500 nits, 100% sRGB",
       "battery": "55 Wh (Sử dụng hỗn hợp 9h+)"
     },
-    "needs": ["programming", "office_work", "study", "travel", "battery_life", "thin_light_executive"],
+    "needs": ["programming", "office_work", "study", "travel", "battery_life", "thin_light_executive", "stock_trading", "zoom_meeting"],
     "image_url": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=dell+xps+13+9340",
     "pros": ["Thiết kế tương lai cực sang trọng với bàn phím tràn viền", "Hàng phím chức năng cảm ứng độc đáo", "Màn hình 120Hz mượt mà, độ sáng cao", "Tích hợp sẵn nhân xử lý AI NPU Intel Boost"],
@@ -833,7 +1106,7 @@
       "display": "15.6\" FHD (1920x1080) IPS LCD Anti-glare",
       "battery": "36 Wh (Sử dụng văn phòng 4-5h)"
     },
-    "needs": ["office_work", "study", "entertainment"],
+    "needs": ["office_work", "study", "entertainment", "reading_news", "zoom_meeting"],
     "image_url": "https://images.unsplash.com/photo-1496181130204-7552cc1454e4?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=acer+aspire+lite+15",
     "pros": ["Giá thành rẻ vô địch, phù hợp học sinh sinh viên", "Màn hình IPS độ phân giải Full HD góc nhìn rộng", "Được trang bị sẵn SSD 512GB tốc độ cao khởi động máy cực nhanh", "Trọng lượng 1.6kg khá nhẹ so với kích thước 15.6 inch"],
@@ -875,7 +1148,7 @@
       "display": "14\" 2.8K (2880x1800) OLED, 120Hz, 400 nits, 100% DCI-P3",
       "battery": "57 Wh (Sử dụng văn phòng 10-12h)"
     },
-    "needs": ["office_work", "study", "travel", "programming", "thin_light_executive"],
+    "needs": ["office_work", "study", "travel", "programming", "thin_light_executive", "stock_trading", "zoom_meeting"],
     "image_url": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=thinkpad+x1+carbon+gen+12",
     "pros": ["Bàn phím gõ êm huyền thoại, độ bền chuẩn quân đội Mỹ", "Trọng lượng siêu nhẹ chỉ 1.09kg nhờ khung sợi carbon cao cấp", "Thời lượng pin dài ổn định, đầy đủ cổng kết nối"],
@@ -938,7 +1211,7 @@
       "display": "14\" 2.8K (2880x1800) OLED, 90Hz, 100% DCI-P3, 500 nits",
       "battery": "65 Wh (Sử dụng văn phòng 7-8h)"
     },
-    "needs": ["office_work", "study", "travel", "entertainment"],
+    "needs": ["office_work", "study", "travel", "entertainment", "reading_news", "zoom_meeting"],
     "image_url": "https://images.unsplash.com/photo-1496181130204-7552cc1454e4?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=acer+swift+go+14+oled",
     "pros": ["Màn hình OLED 2.8K hiển thị rực rỡ, chuẩn màu sắc", "Hiệu năng chip Intel Arc mạnh gấp đôi chip đồ họa UHD thế hệ cũ", "Thiết kế vỏ nhôm mỏng nhẹ chỉ 1.32kg"],
@@ -980,7 +1253,7 @@
       "display": "17\" WQXGA (2560x1600) IPS, 60Hz, 350 nits, 99% DCI-P3",
       "battery": "77 Wh (Sử dụng thực tế 12-14h)"
     },
-    "needs": ["travel", "thin_light_executive", "office_work", "battery_life"],
+    "needs": ["travel", "thin_light_executive", "office_work", "battery_life", "stock_trading", "zoom_meeting"],
     "image_url": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=lg+gram+17+2024",
     "pros": ["Màn hình 17 inch khổng lồ nhưng máy chỉ nhẹ 1.35kg", "Thời lượng pin xuất sắc thoải mái làm việc cả ngày", "Khung máy hợp kim Magnesium siêu bền bỉ chuẩn quân đội"],
@@ -1001,7 +1274,7 @@
       "display": "14\" WUXGA (1920x1200) IPS Anti-glare, 400 nits, 100% sRGB",
       "battery": "51 Wh (Sử dụng văn phòng 8h)"
     },
-    "needs": ["office_work", "study", "travel", "thin_light_executive", "battery_life"],
+    "needs": ["office_work", "study", "travel", "thin_light_executive", "battery_life", "stock_trading", "zoom_meeting"],
     "image_url": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=hp+elitebook+840+g10",
     "pros": ["Vỏ hợp kim nhôm siêu chịu lực và bàn phím chống tràn nước tốt", "Hệ thống bảo mật doanh nghiệp cao cấp HP Wolf Security", "Có khả năng nâng cấp RAM tối đa lên 64GB"],
@@ -1022,7 +1295,7 @@
       "display": "14\" 3K (2880x1800) OLED Lumina, 120Hz, 600 nits",
       "battery": "75 Wh (Sử dụng thực tế 10-12h)"
     },
-    "needs": ["office_work", "study", "travel", "thin_light_executive", "battery_life", "programming", "entertainment"],
+    "needs": ["office_work", "study", "travel", "thin_light_executive", "battery_life", "programming", "entertainment", "online_seller", "stock_trading", "zoom_meeting"],
     "image_url": "https://images.unsplash.com/photo-1496181130204-7552cc1454e4?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=zenbook+14+oled+ux3405",
     "pros": ["Màn hình OLED 3K 120Hz hiển thị tuyệt vời sắc nét", "Pin 75Wh rất lớn so với kích cỡ siêu mỏng nhẹ 1.2kg", "Bàn phím số NumberPad 2.0 tích hợp trên Touchpad rất tiện"],
@@ -1106,7 +1379,7 @@
       "display": "Cần mua rời (Khuyên dùng màn 1080p hoặc 2K IPS 144Hz)",
       "battery": "Bộ nguồn Deepcool 650W Bronze"
     },
-    "needs": ["gaming", "programming", "study", "entertainment", "budget_gaming"],
+    "needs": ["gaming", "programming", "study", "entertainment", "budget_gaming", "stock_trading"],
     "image_url": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=pc+rx+7700+xt",
     "pros": ["Tối ưu hiệu năng trên giá thành (P/P) chơi game cực cao", "12GB VRAM thoải mái chiến các game thế hệ mới ở độ phân giải 2K", "Máy chạy khá mát mẻ và tiết kiệm điện", "Hỗ trợ chuẩn PCIe 5.0 mới nhất"],
@@ -1127,7 +1400,7 @@
       "display": "Cần mua rời (Khuyên dùng màn 24 inch FHD IPS giá rẻ)",
       "battery": "Bộ nguồn Xigmatek X-Power III 450W"
     },
-    "needs": ["office_work", "study", "entertainment", "nas_server", "htpc_livingroom"],
+    "needs": ["office_work", "study", "entertainment", "nas_server", "htpc_livingroom", "zoom_meeting", "reading_news"],
     "image_url": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=pc+i5+12400+van+phong",
     "pros": ["Hoạt động siêu mượt với mọi tác vụ văn phòng, mở hàng chục tab Chrome", "Giá thành rẻ dễ tiếp cận", "Linh kiện phổ biến dễ sửa chữa và nâng cấp về sau", "Kích thước case gọn gàng tiết kiệm diện tích"],

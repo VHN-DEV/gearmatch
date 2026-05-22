@@ -159,5 +159,54 @@
     "icon": "Tv",
     "description": "Thiết kế vỏ case ITX siêu nhỏ gọn, sang trọng, hoạt động hoàn toàn êm ái kết nối trực tiếp với TV xem phim 4K HDR.",
     "categories": ["pc"]
+  },
+  {
+    "id": "online_seller",
+    "name": "Bán Hàng Online & Chốt Đơn",
+    "icon": "Store",
+    "description": "Cần camera trước/sau rõ nét để live stream sản phẩm, pin trâu và phản hồi nhanh để trả lời tin nhắn khách hàng liên tục.",
+    "categories": ["mobile", "tablet", "laptop"]
+  },
+  {
+    "id": "reading_news",
+    "name": "Đọc Báo & Lướt Mạng Xã Hội",
+    "icon": "BookOpen",
+    "description": "Màn hình bảo vệ mắt tốt, hiển thị chữ rõ nét, kích thước vừa phải để cầm nắm lâu không bị mỏi tay.",
+    "categories": ["mobile", "tablet"]
+  },
+  {
+    "id": "stock_trading",
+    "name": "Xem Biểu Đồ & Chứng Khoán",
+    "icon": "TrendingUp",
+    "description": "Màn hình hiển thị được nhiều biểu đồ kỹ thuật cùng lúc, kết nối mạng 4G/5G ổn định để chốt lệnh nhanh.",
+    "categories": ["mobile", "tablet", "laptop"]
+  },
+  {
+    "id": "zoom_meeting",
+    "name": "Họp Trực Tuyến & Học Online",
+    "icon": "Video",
+    "description": "Cần camera trước góc rộng, mic thu âm trong trẻo và kết nối Wifi ổn định để họp hành hay học qua Zoom, Teams.",
+    "categories": ["mobile", "tablet", "laptop"]
+  },
+  {
+    "id": "ride_hailing_shipper",
+    "name": "Tài Xế & Giao Hàng (GPS)",
+    "icon": "MapPin",
+    "description": "Đo độ sáng màn hình cực cao khi dùng ngoài trời nắng, định vị GPS nhạy, kháng nước tốt và pin siêu trâu.",
+    "categories": ["mobile"]
+  },
+  {
+    "id": "heavy_reading",
+    "name": "Đọc Sách Chuyên Sâu (E-Book)",
+    "icon": "Book",
+    "description": "Màn hình chống phản chiếu hoặc màn hình e-ink, thời lượng pin siêu dài để đọc truyện, tài liệu hàng giờ.",
+    "categories": ["tablet"]
+  },
+  {
+    "id": "consultant_sales",
+    "name": "Tư Vấn Khách Hàng & Ký Hợp Đồng",
+    "icon": "Briefcase",
+    "description": "Thiết kế sang trọng, gọn nhẹ để đi gặp đối tác, khách hàng (bảo hiểm, bất động sản), màn hình hiển thị biểu đồ rõ ràng, pin bền cả ngày và hỗ trợ bút ký số.",
+    "categories": ["mobile", "tablet", "laptop"]
   }
 ]

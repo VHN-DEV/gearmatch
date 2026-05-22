@@ -147,7 +147,6 @@ export function getRecommendations(
   };
 }
 
-// Generate specs guidelines dynamically
 function generateSpecRequirements(category: string, selectedNeedIds: string[]): {
   minimum: SpecRequirement;
   recommended: SpecRequirement;
@@ -157,57 +156,61 @@ function generateSpecRequirements(category: string, selectedNeedIds: string[]): 
   const hasProgramming = selectedNeedIds.includes("programming");
   const hasAI = selectedNeedIds.includes("aiml");
   const hasHeavyLoad = hasGaming || hasDesign || hasProgramming || hasAI;
+  
+  const hasSales = selectedNeedIds.includes("consultant_sales");
+  const hasMultiTasking = selectedNeedIds.includes("online_seller") || selectedNeedIds.includes("stock_trading") || selectedNeedIds.includes("zoom_meeting") || hasSales;
+  const hasEyeCare = selectedNeedIds.includes("heavy_reading") || selectedNeedIds.includes("reading_news");
 
   if (category === "mobile") {
     return {
       minimum: {
-        cpu: hasHeavyLoad ? "Snapdragon 8 Gen 2 / Apple A16 Bionic" : "Snapdragon 7s Gen 2 / MediaTek Dimensity 7200",
-        ram: hasHeavyLoad ? "8GB LPDDR5" : "8GB LPDDR4X",
+        cpu: (hasHeavyLoad || hasMultiTasking) ? "Snapdragon 8 Gen 2 / Apple A16 Bionic" : "Snapdragon 7s Gen 2 / MediaTek Dimensity 7200",
+        ram: (hasHeavyLoad || hasMultiTasking) ? "8GB LPDDR5" : "6GB LPDDR4X",
         storage: "128GB UFS 3.1",
-        display: hasGaming ? "AMOLED 120Hz" : "OLED / AMOLED 90Hz+",
+        display: hasSales ? "OLED độ sáng cao ngoài trời (1000+ nits)" : (hasGaming ? "AMOLED 120Hz" : "OLED / AMOLED 90Hz+"),
         battery: "4500mAh, Sạc nhanh 25W"
       },
       recommended: {
-        cpu: hasHeavyLoad ? "Snapdragon 8 Gen 3 / Apple A18 Pro" : "Snapdragon 8 Gen 2 / Dimensity 9200+",
-        ram: hasHeavyLoad ? "12GB - 16GB LPDDR5X" : "8GB - 12GB LPDDR5X",
+        cpu: (hasHeavyLoad || hasMultiTasking) ? "Snapdragon 8 Gen 3 / Apple A18 Pro" : "Snapdragon 8 Gen 2 / Dimensity 9200+",
+        ram: (hasHeavyLoad || hasMultiTasking) ? "12GB - 16GB LPDDR5X" : "8GB - 12GB LPDDR5X",
         storage: "256GB - 512GB UFS 4.0",
-        display: "OLED LTPO 120Hz - 165Hz chống chói",
+        display: hasSales ? "OLED LTPO 120Hz chống chói độ sáng cực cao" : "OLED LTPO 120Hz - 165Hz chống chói",
         battery: "5000mAh+, Sạc nhanh 45W - 120W"
       }
     };
   } else if (category === "tablet") {
     return {
       minimum: {
-        cpu: hasHeavyLoad ? "Apple A15 Bionic / Snapdragon 8 Gen 1" : "Apple A14 Bionic / Snapdragon 7 Gen 1",
-        ram: "6GB",
+        cpu: (hasHeavyLoad || hasMultiTasking) ? "Apple A15 Bionic / Snapdragon 8 Gen 1" : "Apple A14 Bionic / Snapdragon 7 Gen 1",
+        ram: (hasHeavyLoad || hasMultiTasking) ? "8GB" : "4GB",
         storage: "128GB",
-        display: hasDesign ? "IPS LCD 120Hz (Chuẩn màu sRGB)" : "IPS LCD 90Hz",
+        display: hasEyeCare ? "Màn hình nhám PaperMatte / Chống phản chiếu bảo vệ mắt" : (hasSales ? "IPS LCD 90Hz+ (Hỗ trợ bút viết/ký số)" : (hasDesign ? "IPS LCD 120Hz (Chuẩn màu sRGB)" : "IPS LCD 90Hz")),
         battery: "7000mAh, Sạc 18W"
       },
       recommended: {
-        cpu: hasHeavyLoad ? "Apple M2/M4 / Dimensity 9300+" : "Apple M1 / Snapdragon 8 Gen 2",
-        ram: hasHeavyLoad ? "8GB - 12GB" : "8GB",
+        cpu: (hasHeavyLoad || hasMultiTasking) ? "Apple M2/M4 / Dimensity 9300+" : "Apple M1 / Snapdragon 8 Gen 2",
+        ram: (hasHeavyLoad || hasMultiTasking) ? "8GB - 12GB" : "8GB",
         storage: "256GB+ UFS 4.0",
-        display: "Tandem OLED / Dynamic AMOLED 2X, 120Hz+ (Hỗ trợ bút cảm ứng)",
+        display: hasEyeCare ? "Màn hình nhám PaperMatte / Mực điện tử E-Ink bảo vệ mắt tối đa" : (hasSales ? "Tandem OLED / AMOLED 120Hz+ (Hỗ trợ bút cảm ứng nét mảnh & mỏng nhẹ)" : "Tandem OLED / Dynamic AMOLED 2X, 120Hz+ (Hỗ trợ bút cảm ứng)"),
         battery: "10000mAh+, Sạc nhanh 45W - 120W"
       }
     };
   } else if (category === "laptop") {
     return {
       minimum: {
-        cpu: hasHeavyLoad ? "Intel Core i7 12th Gen / AMD Ryzen 7 6000 Series / Apple M1" : "Intel Core i5 12th Gen / AMD Ryzen 5 7000 Series / Apple M1",
-        gpu: hasHeavyLoad ? "NVIDIA RTX 3050 / RTX 4050" : "Intel Iris Xe / Arc Graphics / AMD Radeon Graphics",
-        ram: hasHeavyLoad ? "16GB DDR5" : "16GB DDR4/LPDDR5",
+        cpu: (hasHeavyLoad || hasMultiTasking) ? "Intel Core i7 12th Gen / AMD Ryzen 7 6000 Series / Apple M1" : "Intel Core i5 12th Gen / AMD Ryzen 5 7000 Series / Apple M1",
+        gpu: (hasHeavyLoad) ? "NVIDIA RTX 3050 / RTX 4050" : "Intel Iris Xe / Arc Graphics / AMD Radeon Graphics",
+        ram: (hasHeavyLoad || hasMultiTasking) ? "16GB DDR5" : "8GB - 16GB DDR4/LPDDR5",
         storage: "512GB SSD NVMe PCIe 4.0",
-        display: hasDesign ? "IPS Full HD, 100% sRGB, độ sáng 300 nits" : "IPS Full HD, 250 nits",
+        display: hasSales ? "IPS / OLED chống chói màn cảm ứng" : (hasDesign ? "IPS Full HD, 100% sRGB, độ sáng 300 nits" : "IPS Full HD, 250 nits"),
         battery: "50Wh (Khoảng 5-6h sử dụng)"
       },
       recommended: {
-        cpu: hasHeavyLoad ? "Intel Core i9 14th Gen / AMD Ryzen 9 8000 Series / Apple M3 Pro" : "Intel Core Ultra 7 / AMD Ryzen 7 8000 Series / Apple M3",
-        gpu: hasHeavyLoad ? "NVIDIA RTX 4060 / 4070 8GB VRAM" : "Intel Arc Graphics / Apple 10-core GPU",
-        ram: hasHeavyLoad ? "32GB LPDDR5X / DDR5" : "16GB - 24GB LPDDR5X",
+        cpu: (hasHeavyLoad || hasMultiTasking) ? "Intel Core i9 14th Gen / AMD Ryzen 9 8000 Series / Apple M3 Pro" : "Intel Core Ultra 7 / AMD Ryzen 7 8000 Series / Apple M3",
+        gpu: (hasHeavyLoad) ? "NVIDIA RTX 4060 / 4070 8GB VRAM" : "Intel Arc Graphics / Apple 10-core GPU",
+        ram: (hasHeavyLoad || hasMultiTasking) ? "32GB LPDDR5X / DDR5" : "16GB - 24GB LPDDR5X",
         storage: "1TB SSD NVMe PCIe 4.0",
-        display: "OLED / Mini-LED 2K/3K, 120Hz+, 100% DCI-P3, Delta E < 1.5",
+        display: hasSales ? "OLED / Mini-LED mỏng nhẹ, có cảm ứng & xoay gập 360 độ" : "OLED / Mini-LED 2K/3K, 120Hz+, 100% DCI-P3, Delta E < 1.5",
         battery: "75Wh - 99Wh (Thời gian sử dụng 10h - 15h+)"
       }
     };
@@ -215,17 +218,17 @@ function generateSpecRequirements(category: string, selectedNeedIds: string[]): 
     // PC Build
     return {
       minimum: {
-        cpu: hasHeavyLoad ? "Intel Core i5-13400F / AMD Ryzen 5 7500F" : "Intel Core i3-12100 / AMD Ryzen 3 4100",
-        gpu: hasHeavyLoad ? "NVIDIA RTX 4060 8GB / AMD RX 7600 XT" : "Tích hợp Intel UHD / AMD Radeon Graphics",
-        ram: "16GB DDR4 / DDR5",
+        cpu: (hasHeavyLoad || hasMultiTasking) ? "Intel Core i5-13400F / AMD Ryzen 5 7500F" : "Intel Core i3-12100 / AMD Ryzen 3 4100",
+        gpu: (hasHeavyLoad) ? "NVIDIA RTX 4060 8GB / AMD RX 7600 XT" : "Tích hợp Intel UHD / AMD Radeon Graphics",
+        ram: (hasHeavyLoad || hasMultiTasking) ? "16GB - 32GB DDR4 / DDR5" : "16GB DDR4 / DDR5",
         storage: "512GB SSD NVMe PCIe 4.0",
         display: "Hỗ trợ cổng HDMI 2.0 / DP 1.4 (Màn hình mua rời)",
         battery: "Nguồn 600W - 650W 80 Plus Bronze"
       },
       recommended: {
-        cpu: hasHeavyLoad ? "Intel Core i9-14900K / AMD Ryzen 7 7800X3D" : "Intel Core i5-14400 / AMD Ryzen 5 7600",
-        gpu: hasHeavyLoad ? (hasAI ? "NVIDIA RTX 4090 24GB VRAM" : "NVIDIA RTX 4070 Ti Super 16GB / AMD RX 7800 XT") : "NVIDIA RTX 4060 8GB",
-        ram: hasHeavyLoad ? "32GB - 64GB DDR5 6000MHz" : "16GB - 32GB DDR5",
+        cpu: (hasHeavyLoad || hasMultiTasking) ? "Intel Core i9-14900K / AMD Ryzen 7 7800X3D" : "Intel Core i5-14400 / AMD Ryzen 5 7600",
+        gpu: (hasHeavyLoad) ? (hasAI ? "NVIDIA RTX 4090 24GB VRAM" : "NVIDIA RTX 4070 Ti Super 16GB / AMD RX 7800 XT") : "NVIDIA RTX 4060 8GB",
+        ram: (hasHeavyLoad || hasMultiTasking) ? "32GB - 64GB DDR5 6000MHz" : "16GB - 32GB DDR5",
         storage: "1TB - 2TB SSD Samsung 990 Pro PCIe 4.0",
         display: "Khuyên dùng Màn hình 2K/4K IPS/OLED 144Hz+ chuẩn màu",
         battery: "Nguồn 750W - 1200W 80 Plus Gold / Platinum"

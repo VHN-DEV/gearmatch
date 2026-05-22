@@ -23,7 +23,11 @@ import {
   Camera,
   Plane,
   BatteryCharging,
-  Tv
+  Tv,
+  Store,
+  TrendingUp,
+  MapPin,
+  Book
 } from "lucide-react";
 import needsData from "@/data/needs.json";
 
@@ -40,7 +44,11 @@ const iconMap: Record<string, any> = {
   Camera,
   Plane,
   BatteryCharging,
-  Tv
+  Tv,
+  Store,
+  TrendingUp,
+  MapPin,
+  Book
 };
 
 export default function Home() {
