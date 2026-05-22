@@ -5159,5 +5159,776 @@
       "Tốc độ phản hồi màn hình e-ink chậm, không xem được video",
       "Độ sáng màn hình màu hơi tối hơn máy đọc sách đen trắng thông thường"
     ]
+  },
+  {
+    "id": "apple-ipad-pro-m2-11-2022",
+    "name": "Apple iPad Pro M2 11\" (2022)",
+    "brand": "Apple",
+    "category": "tablet",
+    "price": 19490000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Apple M2",
+      "gpu": "Apple GPU 10-core",
+      "ram": "8GB",
+      "storage": "128GB",
+      "display": "11.0\" Liquid Retina IPS LCD, 120Hz ProMotion, True Tone",
+      "battery": "7538mAh (Khoảng 10h sử dụng)",
+      "size_weight": "Kích thước tiêu chuẩn (~11.0\"), nặng khoảng 466g",
+      "stylus": "Hỗ trợ Apple Pencil 2 & Apple Pencil USB-C",
+      "cooling": "Tản nhiệt thụ động hiệu quả cao"
+    },
+    "needs": [
+      "gaming",
+      "graphic_design",
+      "video_editing",
+      "study",
+      "travel",
+      "entertainment",
+      "note_taking",
+      "online_seller",
+      "zoom_meeting",
+      "stock_trading",
+      "reading_news",
+      "consultant_sales",
+      "digital_art"
+    ],
+    "image_url": "/images/devices/ipad-pro-m2-11.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=ipad%20pro%20m2%2011",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=ipad%20pro%20m2%2011"
+      },
+      {
+        "platform": "Thế Giới Di Động",
+        "url": "https://www.thegioididong.com/may-tinh-bang/ipad-pro-m2-11-inch-wifi"
+      }
+    ],
+    "pros": [
+      "Chip M2 siêu mạnh mẽ xử lý đồ họa và render video mượt mà",
+      "Màn hình 120Hz ProMotion cuộn lướt cực kỳ êm ái",
+      "Hệ thống FaceID và 4 loa ngoài chất lượng tuyệt vời"
+    ],
+    "cons": [
+      "Không được trang bị màn hình Mini-LED như bản 12.9 inch",
+      "Thời lượng pin ở mức trung bình khá"
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-m2-12-9-2022",
+    "name": "Apple iPad Pro M2 12.9\" (2022)",
+    "brand": "Apple",
+    "category": "tablet",
+    "price": 24990000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "Apple M2",
+      "gpu": "Apple GPU 10-core",
+      "ram": "8GB",
+      "storage": "128GB",
+      "display": "12.9\" Liquid Retina XDR Mini-LED, 120Hz ProMotion, HDR10",
+      "battery": "10758mAh (Khoảng 10h sử dụng)",
+      "size_weight": "Kích thước lớn (~12.9\"), nặng khoảng 682g",
+      "stylus": "Hỗ trợ Apple Pencil 2 & Apple Pencil USB-C",
+      "cooling": "Tản nhiệt thụ động qua vỏ nhôm lớn"
+    },
+    "needs": [
+      "graphic_design",
+      "video_editing",
+      "study",
+      "travel",
+      "entertainment",
+      "note_taking",
+      "online_seller",
+      "zoom_meeting",
+      "stock_trading",
+      "reading_news",
+      "digital_art"
+    ],
+    "image_url": "/images/devices/ipad-pro-m2-12-9.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=ipad%20pro%20m2%2012.9",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=ipad%20pro%20m2%2012.9"
+      }
+    ],
+    "pros": [
+      "Màn hình Liquid Retina XDR Mini-LED độ tương phản và độ sáng cực đỉnh",
+      "Hiệu năng chip M2 đáp ứng xuất sắc mọi phần mềm thiết kế chuyên nghiệp",
+      "Hỗ trợ tính năng di chuột Apple Pencil Hover thông minh"
+    ],
+    "cons": [
+      "Trọng lượng khá nặng và kích thước cồng kềnh khó cầm một tay",
+      "Giá thành cao, chi phí thay thế màn hình rất đắt"
+    ]
+  },
+  {
+    "id": "kindle-oasis-3",
+    "name": "Amazon Kindle Oasis 3 (Máy Đọc Sách Cao Cấp)",
+    "brand": "Amazon",
+    "category": "tablet",
+    "price": 5990000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "NXP i.MX7 Dual (1.0 GHz)",
+      "gpu": "Integrated E-Ink Controller",
+      "ram": "512MB",
+      "storage": "8GB/32GB",
+      "display": "7.0\" E-Ink Carta 300 ppi, Chống chói, Đèn nền điều chỉnh nhiệt độ màu",
+      "battery": "1130mAh (Sử dụng liên tục lên đến vài tuần)",
+      "size_weight": "Nhỏ gọn công thái học (~7.0\"), nặng khoảng 188g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động (Không sinh nhiệt)"
+    },
+    "needs": [
+      "heavy_reading",
+      "travel",
+      "battery_life",
+      "reading_news"
+    ],
+    "image_url": "/images/devices/kindle-oasis-3.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=kindle%20oasis%203",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=kindle%20oasis%203"
+      }
+    ],
+    "pros": [
+      "Thiết kế công thái học lệch một bên giúp cầm đọc bằng một tay cực thoải mái",
+      "Có phím chuyển trang vật lý siêu nhạy và kháng nước IPX8",
+      "Thân vỏ nhôm nguyên khối sang trọng và mỏng nhẹ"
+    ],
+    "cons": [
+      "Vẫn sử dụng cổng sạc Micro-USB thế hệ cũ",
+      "Giá thành tương đối cao đối với một máy đọc sách đen trắng"
+    ]
+  },
+  {
+    "id": "lenovo-tab-p11-pro-gen-2",
+    "name": "Lenovo Tab P11 Pro Gen 2",
+    "brand": "Lenovo",
+    "category": "tablet",
+    "price": 9490000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "MediaTek Kompanio 1300T",
+      "gpu": "Mali-G77 MC9",
+      "ram": "8GB LPDDR4X",
+      "storage": "128GB UFS 3.1",
+      "display": "11.2\" OLED, 120Hz, HDR10+, Dolby Vision, 600 nits",
+      "battery": "8200mAh, Sạc 20W",
+      "size_weight": "Kích thước tiêu chuẩn (~11.2\"), nặng khoảng 480g",
+      "stylus": "Hỗ trợ bút Lenovo Precision Pen 3 (Mua rời)",
+      "cooling": "Tản nhiệt thụ động qua thân máy"
+    },
+    "needs": [
+      "gaming",
+      "budget_gaming",
+      "graphic_design",
+      "study",
+      "travel",
+      "entertainment",
+      "note_taking",
+      "online_seller",
+      "zoom_meeting",
+      "stock_trading",
+      "reading_news",
+      "digital_art"
+    ],
+    "image_url": "/images/devices/lenovo-p11-pro-gen-2.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=lenovo%20p11%20pro%20gen%202",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=lenovo%20p11%20pro%20gen%202"
+      }
+    ],
+    "pros": [
+      "Màn hình OLED 120Hz 2.5K hiển thị màu sắc và màu đen cực sâu",
+      "Chip Kompanio 1300T hiệu năng đồ họa rất tốt trong tầm giá",
+      "Hệ thống loa JBL âm thanh đỉnh cao"
+    ],
+    "cons": [
+      "Tốc độ sạc pin 20W cho viên pin 8200mAh hơi lâu",
+      "Chất lượng hoàn thiện nút bấm vật lý ở mức vừa phải"
+    ]
+  },
+  {
+    "id": "teclast-t60",
+    "name": "Teclast T60 12\" (Tablet Giá Rẻ)",
+    "brand": "Teclast",
+    "category": "tablet",
+    "price": 3790000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Unisoc Tiger T616",
+      "gpu": "Mali-G57 MP1",
+      "ram": "8GB LPDDR4",
+      "storage": "256GB",
+      "display": "12.0\" IPS LCD, 2K (1200 x 2000 pixels), 60Hz",
+      "battery": "8000mAh, Sạc nhanh 18W",
+      "size_weight": "Kích thước lớn (~12.0\"), nặng khoảng 570g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động"
+    },
+    "needs": [
+      "study",
+      "parental_control",
+      "entertainment",
+      "reading_news",
+      "zoom_meeting",
+      "smart_home_hub"
+    ],
+    "image_url": "/images/devices/teclast-t60.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=teclast%20t60",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=teclast%20t60"
+      }
+    ],
+    "pros": [
+      "Màn hình siêu lớn 12 inch trong phân khúc giá chưa đến 4 triệu",
+      "Dung lượng RAM 8GB và bộ nhớ trong 256GB cực kỳ rộng rãi",
+      "Thân vỏ kim loại mỏng chỉ 7.8mm tạo cảm giác cứng cáp"
+    ],
+    "cons": [
+      "Chip Unisoc T616 hiệu năng đồ họa thấp, không chơi được game trung bình",
+      "Màn hình LCD độ sáng và màu sắc ở mức cơ bản"
+    ]
+  },
+  {
+    "id": "alldocube-iplay-60-mini-pro",
+    "name": "Alldocube iPlay 60 Mini Pro (WiFi/LTE)",
+    "brand": "Alldocube",
+    "category": "tablet",
+    "price": 3990000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "MediaTek Helio G99",
+      "gpu": "Mali-G57 MC2",
+      "ram": "8GB LPDDR4X",
+      "storage": "128GB",
+      "display": "8.4\" IPS LCD, Full HD+ (1200 x 1920 pixels), 60Hz",
+      "battery": "6050mAh, Sạc nhanh 18W",
+      "size_weight": "Siêu nhỏ gọn (~8.4\"), nặng khoảng 310g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động"
+    },
+    "needs": [
+      "study",
+      "travel",
+      "entertainment",
+      "budget_gaming",
+      "reading_news",
+      "zoom_meeting",
+      "smart_home_hub"
+    ],
+    "image_url": "/images/devices/alldocube-iplay-60-mini-pro.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=iplay%2060%20mini%20pro",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=iplay%2060%20mini%20pro"
+      }
+    ],
+    "pros": [
+      "Thiết kế 8.4 inch nhỏ gọn nhẹ, dễ dàng nhét túi quần hoặc túi xách",
+      "Cấu hình mạnh mẽ với chip Helio G99 và 8GB RAM hoạt động mượt",
+      "Hỗ trợ 2 sim 4G LTE nghe gọi, định vị GPS tốt cho tài xế shipper"
+    ],
+    "cons": [
+      "Loa ngoài đơn âm mono nghe nhạc ở mức trung bình",
+      "Viền màn hình thiết kế hơi dày"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-s9-fe-plus",
+    "name": "Samsung Galaxy Tab S9 FE+ (5G)",
+    "brand": "Samsung",
+    "category": "tablet",
+    "price": 14990000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Exynos 1380",
+      "gpu": "Xclipse 530",
+      "ram": "12GB LPDDR4X",
+      "storage": "256GB UFS 2.1",
+      "display": "12.4\" TFT LCD, 90Hz, 2560 x 1600 pixels",
+      "battery": "10090mAh, Sạc nhanh 45W",
+      "size_weight": "Kích thước lớn (~12.4\"), nặng 627g",
+      "stylus": "Tặng kèm bút S-Pen chính hãng trong hộp",
+      "cooling": "Tản nhiệt thụ động + Graphite"
+    },
+    "needs": [
+      "study",
+      "gaming",
+      "entertainment",
+      "note_taking",
+      "zoom_meeting",
+      "online_seller",
+      "stock_trading",
+      "consultant_sales",
+      "digital_art"
+    ],
+    "image_url": "/images/devices/galaxy-tab-s9-fe-plus.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=galaxy%20tab%20s9%20fe%20plus",
+    "purchase_links": [
+      {
+        "platform": "Shopee Mall",
+        "url": "https://shopee.vn/search?keyword=galaxy%20tab%20s9%20fe%20plus"
+      },
+      {
+        "platform": "Thế Giới Di Động",
+        "url": "https://www.thegioididong.com/may-tinh-bang/samsung-galaxy-tab-s9-fe-plus"
+      }
+    ],
+    "pros": [
+      "Màn hình lớn 12.4 inch cùng kèm bút S-Pen trong tầm giá 15 triệu",
+      "RAM 12GB đa nhiệm mượt mà, kháng nước chuẩn IP68",
+      "Sạc nhanh 45W đầy pin lớn 10090mAh nhanh chóng"
+    ],
+    "cons": [
+      "Chip Exynos 1380 hiệu năng tầm trung, không phù hợp game nặng AAA",
+      "Màn hình TFT LCD góc nhìn và màu sắc kém hơn AMOLED"
+    ]
+  },
+  {
+    "id": "huawei-matepad-se-10-4",
+    "name": "Huawei MatePad SE 10.4\"",
+    "brand": "Huawei",
+    "category": "tablet",
+    "price": 3990000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Snapdragon 680",
+      "gpu": "Adreno 610",
+      "ram": "4GB",
+      "storage": "64GB",
+      "display": "10.4\" IPS LCD, 60Hz, 2000 x 1200 pixels",
+      "battery": "7250mAh, Sạc 10W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.4\"), nặng khoảng 450g",
+      "stylus": "Hỗ trợ bút M-Pencil (Mua rời)",
+      "cooling": "Tản nhiệt thụ động"
+    },
+    "needs": [
+      "study",
+      "parental_control",
+      "entertainment",
+      "reading_news",
+      "zoom_meeting",
+      "smart_home_hub"
+    ],
+    "image_url": "/images/devices/huawei-matepad-se-10-4.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=matepad%20se%2010.4",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=matepad%20se%2010.4"
+      },
+      {
+        "platform": "CellphoneS",
+        "url": "https://cellphones.com.vn/may-tinh-bang-huawei-matepad-se-10-4.html"
+      }
+    ],
+    "pros": [
+      "Thiết kế mỏng nhẹ, màn hình 10.4 inch 2K rõ nét trong tầm giá rẻ",
+      "Loa ngoài kép Harman Kardon âm thanh vòm Hifi",
+      "Thân vỏ kim loại chắc chắn, cổng USB-C"
+    ],
+    "cons": [
+      "Không có Google Play Store, cần cài app thủ công",
+      "Chip Snapdragon 680 hiệu năng giới hạn"
+    ]
+  },
+  {
+    "id": "honor-pad-9-5g",
+    "name": "Honor Pad 9 (5G/WiFi)",
+    "brand": "Honor",
+    "category": "tablet",
+    "price": 7490000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Snapdragon 6 Gen 1",
+      "gpu": "Adreno 710",
+      "ram": "8GB LPDDR4X",
+      "storage": "256GB UFS 2.2",
+      "display": "12.1\" IPS LCD, 120Hz, 2.5K (2560 x 1600 pixels)",
+      "battery": "8300mAh, Sạc nhanh 35W",
+      "size_weight": "Kích thước lớn (~12.1\"), nặng khoảng 580g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động"
+    },
+    "needs": [
+      "gaming",
+      "budget_gaming",
+      "study",
+      "entertainment",
+      "reading_news",
+      "zoom_meeting",
+      "online_seller",
+      "stock_trading"
+    ],
+    "image_url": "/images/devices/honor-pad-9-5g.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=honor%20pad%209",
+    "purchase_links": [
+      {
+        "platform": "Shopee Mall",
+        "url": "https://shopee.vn/search?keyword=honor%20pad%209"
+      },
+      {
+        "platform": "CellphoneS",
+        "url": "https://cellphones.com.vn/may-tinh-bang-honor-pad-9.html"
+      }
+    ],
+    "pros": [
+      "Màn hình siêu lớn 12.1 inch 2.5K 120Hz cho tầm giá 7.5 triệu rất ổn",
+      "8 loa ngoài Magic-Log âm thanh vòm cực ấn tượng",
+      "Pin lớn 8300mAh sạc nhanh 35W dùng cả ngày thoải mái"
+    ],
+    "cons": [
+      "Chip Snapdragon 6 Gen 1 chỉ phù hợp gaming vừa phải",
+      "Không hỗ trợ bút cảm ứng chuyên nghiệp"
+    ]
+  },
+  {
+    "id": "xiaomi-redmi-pad-pro-12-1",
+    "name": "Xiaomi Redmi Pad Pro 12.1\"",
+    "brand": "Xiaomi",
+    "category": "tablet",
+    "price": 7990000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Snapdragon 7s Gen 2",
+      "gpu": "Adreno 710",
+      "ram": "8GB LPDDR4X",
+      "storage": "256GB UFS 2.2",
+      "display": "12.1\" IPS LCD, 144Hz, 2.5K (1600 x 2560 pixels)",
+      "battery": "10000mAh, Sạc nhanh 33W",
+      "size_weight": "Kích thước lớn (~12.1\"), nặng khoảng 571g",
+      "stylus": "Hỗ trợ bút Xiaomi Focus Pen (Mua rời)",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm"
+    },
+    "needs": [
+      "gaming",
+      "budget_gaming",
+      "study",
+      "entertainment",
+      "reading_news",
+      "zoom_meeting",
+      "online_seller",
+      "stock_trading",
+      "note_taking",
+      "digital_art"
+    ],
+    "image_url": "/images/devices/redmi-pad-pro-12.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=redmi%20pad%20pro%2012",
+    "purchase_links": [
+      {
+        "platform": "Shopee Mall",
+        "url": "https://shopee.vn/search?keyword=redmi%20pad%20pro%2012"
+      },
+      {
+        "platform": "Thế Giới Di Động",
+        "url": "https://www.thegioididong.com/may-tinh-bang/xiaomi-redmi-pad-pro"
+      },
+      {
+        "platform": "CellphoneS",
+        "url": "https://cellphones.com.vn/may-tinh-bang-xiaomi-redmi-pad-pro.html"
+      }
+    ],
+    "pros": [
+      "Màn hình 144Hz mượt mà nhất trong phân khúc dưới 10 triệu",
+      "Hỗ trợ bút cảm ứng Focus Pen với cảm nhận lực nhấn 4096 cấp độ",
+      "Pin trâu 10000mAh dùng cả ngày + sạc nhanh 33W"
+    ],
+    "cons": [
+      "Chip Snapdragon 7s Gen 2 chưa đủ mạnh cho tác vụ nặng lâu dài",
+      "Màn hình IPS LCD không hiển thị màu đen sâu như OLED"
+    ]
+  },
+  {
+    "id": "oneplus-pad-pro",
+    "name": "OnePlus Pad Pro (WiFi)",
+    "brand": "OnePlus",
+    "category": "tablet",
+    "price": 14990000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Snapdragon 8 Gen 3",
+      "gpu": "Adreno 750",
+      "ram": "12GB LPDDR5X",
+      "storage": "256GB UFS 4.0",
+      "display": "13.0\" OLED, 144Hz LTPO, 3K (2800 x 2000 pixels), HDR10+",
+      "battery": "9510mAh, Sạc siêu nhanh 67W SUPERVOOC",
+      "size_weight": "Kích thước lớn (~13.0\"), nặng khoảng 584g",
+      "stylus": "Hỗ trợ bút OnePlus Stylo 2 cảm ứng lực nhấn (Mua rời)",
+      "cooling": "Tản nhiệt buồng hơi VC diện tích lớn + Graphite"
+    },
+    "needs": [
+      "gaming",
+      "graphic_design",
+      "video_editing",
+      "study",
+      "entertainment",
+      "note_taking",
+      "zoom_meeting",
+      "stock_trading",
+      "consultant_sales",
+      "digital_art"
+    ],
+    "image_url": "/images/devices/oneplus-pad-pro.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=oneplus%20pad%20pro",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=oneplus%20pad%20pro"
+      }
+    ],
+    "pros": [
+      "Chip Snapdragon 8 Gen 3 flagship mạnh nhất phân khúc cùng giá",
+      "Màn hình OLED 13 inch 3K 144Hz LTPO cực kỳ đẹp và mượt mà",
+      "Sạc siêu nhanh 67W SUPERVOOC nạp 9510mAh siêu tốc"
+    ],
+    "cons": [
+      "Ít phổ biến tại Việt Nam, khó tìm cửa hàng bảo hành uy tín",
+      "Không có Google Play sẵn (cần cài thủ công một số bản ROM)"
+    ]
+  },
+  {
+    "id": "vivo-pad-3-pro",
+    "name": "Vivo Pad 3 Pro (WiFi)",
+    "brand": "Vivo",
+    "category": "tablet",
+    "price": 11990000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Snapdragon 8s Gen 3",
+      "gpu": "Adreno 735",
+      "ram": "12GB LPDDR5X",
+      "storage": "256GB UFS 4.0",
+      "display": "13.0\" OLED, 144Hz LTPO, 3K (2800 x 2000 pixels)",
+      "battery": "11500mAh, Sạc nhanh 66W FlashCharge",
+      "size_weight": "Kích thước lớn (~13.0\"), nặng khoảng 598g, mỏng 6.3mm",
+      "stylus": "Hỗ trợ bút Vivo Pencil 2 (Mua rời)",
+      "cooling": "Tản nhiệt buồng hơi VC + Graphite + Kim loại lỏng CPU"
+    },
+    "needs": [
+      "gaming",
+      "budget_gaming",
+      "graphic_design",
+      "study",
+      "entertainment",
+      "note_taking",
+      "zoom_meeting",
+      "stock_trading",
+      "online_seller",
+      "digital_art"
+    ],
+    "image_url": "/images/devices/vivo-pad-3-pro.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=vivo%20pad%203%20pro",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=vivo%20pad%203%20pro"
+      }
+    ],
+    "pros": [
+      "Pin siêu trâu 11500mAh dùng lâu nhất phân khúc tablet 13 inch",
+      "Chip 8s Gen 3 mạnh kèm tản nhiệt VC chuyên gaming lâu dài",
+      "Màn hình OLED 3K 144Hz siêu đẹp, độ mỏng 6.3mm ấn tượng"
+    ],
+    "cons": [
+      "Thương hiệu ít phổ biến tại VN, bảo hành và phụ kiện khó tìm",
+      "Phần mềm OriginOS có thể không quen với người dùng mới"
+    ]
+  },
+  {
+    "id": "lenovo-tab-p12-pro",
+    "name": "Lenovo Tab P12 Pro (WiFi)",
+    "brand": "Lenovo",
+    "category": "tablet",
+    "price": 16990000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Snapdragon 870",
+      "gpu": "Adreno 650",
+      "ram": "8GB LPDDR5",
+      "storage": "256GB UFS 3.1",
+      "display": "12.6\" AMOLED, 120Hz, 2K (2560 x 1600), HDR10+, Dolby Vision",
+      "battery": "10200mAh, Sạc nhanh 45W",
+      "size_weight": "Kích thước lớn (~12.6\"), nặng 565g",
+      "stylus": "Hỗ trợ bút Lenovo Precision Pen 3 (Mua rời)",
+      "cooling": "Tản nhiệt Graphite + hệ thống kép hiệu quả"
+    },
+    "needs": [
+      "graphic_design",
+      "video_editing",
+      "study",
+      "entertainment",
+      "note_taking",
+      "zoom_meeting",
+      "stock_trading",
+      "online_seller",
+      "digital_art",
+      "music_production"
+    ],
+    "image_url": "/images/devices/lenovo-tab-p12-pro.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=lenovo%20tab%20p12%20pro",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=lenovo%20tab%20p12%20pro"
+      }
+    ],
+    "pros": [
+      "Màn hình AMOLED 12.6 inch 2K HDR10+ Dolby Vision cực đẹp và sắc nét",
+      "4 loa JBL âm thanh Dolby Atmos nghe nhạc, xem phim cực hay",
+      "Kèm bàn phím và bút (tùy gói) - thay thế laptop tốt"
+    ],
+    "cons": [
+      "Chip Snapdragon 870 đã lỗi thời so với các đối thủ mới cùng giá",
+      "Thời gian ra mắt đã lâu, giá cao so với hiệu năng hiện tại"
+    ]
+  },
+  {
+    "id": "iqoo-pad-2-pro",
+    "name": "iQOO Pad 2 Pro (WiFi/5G)",
+    "brand": "iQOO",
+    "category": "tablet",
+    "price": 12490000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Snapdragon 8 Gen 3",
+      "gpu": "Adreno 750",
+      "ram": "12GB LPDDR5X",
+      "storage": "256GB UFS 4.0",
+      "display": "13.0\" LCD, 144Hz LTPO, 3K (2800 x 2100 pixels), 1600 nits",
+      "battery": "12000mAh, Sạc nhanh 66W",
+      "size_weight": "Kích thước lớn (~13.0\"), nặng khoảng 623g",
+      "stylus": "Hỗ trợ bút iQOO Pencil 2 (Mua rời)",
+      "cooling": "Tản nhiệt buồng hơi VC siêu lớn + Kim loại lỏng CPU gaming"
+    },
+    "needs": [
+      "gaming",
+      "budget_gaming",
+      "study",
+      "entertainment",
+      "zoom_meeting",
+      "stock_trading",
+      "digital_art"
+    ],
+    "image_url": "/images/devices/iqoo-pad-2-pro.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=iqoo%20pad%202%20pro",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=iqoo%20pad%202%20pro"
+      }
+    ],
+    "pros": [
+      "Chip Snapdragon 8 Gen 3 + tản nhiệt gaming chuyên dụng cho gaming marathon",
+      "Pin cực trâu 12000mAh với sạc nhanh 66W hiệu quả",
+      "Màn hình 144Hz LTPO 3K độ sáng 1600 nits đọc ngoài nắng tốt"
+    ],
+    "cons": [
+      "Thương hiệu mới tại VN, hệ thống bảo hành và phụ kiện còn hạn chế",
+      "Màn hình LCD không tương phản sâu bằng OLED"
+    ]
+  },
+  {
+    "id": "blackview-tab-18",
+    "name": "Blackview Tab 18 (LTE, Siêu Bền)",
+    "brand": "Blackview",
+    "category": "tablet",
+    "price": 5490000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Unisoc Tiger T616",
+      "gpu": "Mali-G57 MP1",
+      "ram": "12GB LPDDR4",
+      "storage": "256GB",
+      "display": "12.0\" IPS LCD, 60Hz, 2000 x 1200 pixels",
+      "battery": "13000mAh, Sạc 33W",
+      "size_weight": "Kích thước lớn (~12.0\"), nặng khoảng 715g (Vỏ siêu bền)",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động"
+    },
+    "needs": [
+      "parental_control",
+      "study",
+      "entertainment",
+      "reading_news",
+      "smart_home_hub",
+      "ride_hailing_shipper"
+    ],
+    "image_url": "/images/devices/blackview-tab-18.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=blackview%20tab%2018",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=blackview%20tab%2018"
+      }
+    ],
+    "pros": [
+      "Pin siêu khủng 13000mAh dùng cả tuần không cần sạc với tác vụ nhẹ",
+      "RAM 12GB đa nhiệm mượt mà trong tầm giá dưới 6 triệu",
+      "Thiết kế chắc chắn kháng va đập, lý tưởng cho môi trường khắc nghiệt"
+    ],
+    "cons": [
+      "Chip Unisoc T616 chậm, không phù hợp game hay tác vụ nặng",
+      "Trọng lượng nặng 715g mang theo lâu sẽ mỏi tay"
+    ]
+  },
+  {
+    "id": "realme-pad-2",
+    "name": "Realme Pad 2 (WiFi/LTE)",
+    "brand": "Realme",
+    "category": "tablet",
+    "price": 5990000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Unisoc Tiger T616",
+      "gpu": "Mali-G57 MP1",
+      "ram": "6GB LPDDR4",
+      "storage": "128GB",
+      "display": "11.5\" IPS LCD, 90Hz, 2000 x 1200 pixels",
+      "battery": "8360mAh, Sạc 18W",
+      "size_weight": "Kích thước tiêu chuẩn (~11.5\"), nặng khoảng 478g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động"
+    },
+    "needs": [
+      "study",
+      "parental_control",
+      "entertainment",
+      "reading_news",
+      "zoom_meeting",
+      "smart_home_hub"
+    ],
+    "image_url": "/images/devices/realme-pad-2.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=realme%20pad%202",
+    "purchase_links": [
+      {
+        "platform": "Shopee Mall",
+        "url": "https://shopee.vn/search?keyword=realme%20pad%202"
+      },
+      {
+        "platform": "Thế Giới Di Động",
+        "url": "https://www.thegioididong.com/may-tinh-bang/realme-pad-2-lte"
+      }
+    ],
+    "pros": [
+      "Màn hình lớn 11.5 inch 90Hz mượt mà trong tầm giá 6 triệu",
+      "Loa ngoài kép hỗ trợ Dolby Atmos nghe nhạc hay",
+      "Thiết kế vỏ nhôm mỏng nhẹ, cổng USB-C đa năng"
+    ],
+    "cons": [
+      "Chip Unisoc T616 hiệu năng thấp, chỉ đủ tác vụ cơ bản",
+      "Không hỗ trợ bút cảm ứng"
+    ]
   }
 ]
