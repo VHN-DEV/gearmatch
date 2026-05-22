@@ -198,6 +198,17 @@ export default function ComparePage() {
                   ))}
                 </tr>
 
+                {/* Cooling Row */}
+                <tr>
+                  <td className="p-4 font-bold text-white bg-white/[0.02]">Hệ Thống Tản Nhiệt</td>
+                  {compareDevices.map((device) => (
+                    <td key={device.id} className="p-4 border-l border-white/5">{device.specs.cooling || "Tản nhiệt thụ động"}</td>
+                  ))}
+                  {Array.from({ length: Math.max(0, 3 - compareDevices.length) }).map((_, idx) => (
+                    <td key={`empty-cooling-${idx}`} className="p-4 border-l border-white/5" />
+                  ))}
+                </tr>
+
                 {/* RAM Row */}
                 <tr>
                   <td className="p-4 font-bold text-white bg-white/[0.02]">Bộ nhớ RAM</td>
@@ -278,6 +289,28 @@ export default function ComparePage() {
                   ))}
                   {Array.from({ length: Math.max(0, 3 - compareDevices.length) }).map((_, idx) => (
                     <td key={`empty-battery-${idx}`} className="p-4 border-l border-white/5" />
+                  ))}
+                </tr>
+
+                {/* Size & Weight Row */}
+                <tr>
+                  <td className="p-4 font-bold text-white bg-white/[0.02]">Kích Thước & Trọng Lượng</td>
+                  {compareDevices.map((device) => (
+                    <td key={device.id} className="p-4 border-l border-white/5">{device.specs.size_weight || "N/A"}</td>
+                  ))}
+                  {Array.from({ length: Math.max(0, 3 - compareDevices.length) }).map((_, idx) => (
+                    <td key={`empty-sizeweight-${idx}`} className="p-4 border-l border-white/5" />
+                  ))}
+                </tr>
+
+                {/* Stylus Row */}
+                <tr>
+                  <td className="p-4 font-bold text-white bg-white/[0.02]">Bút Cảm Ứng (Stylus)</td>
+                  {compareDevices.map((device) => (
+                    <td key={device.id} className="p-4 border-l border-white/5 font-medium text-white">{device.specs.stylus || "Không hỗ trợ"}</td>
+                  ))}
+                  {Array.from({ length: Math.max(0, 3 - compareDevices.length) }).map((_, idx) => (
+                    <td key={`empty-stylus-${idx}`} className="p-4 border-l border-white/5" />
                   ))}
                 </tr>
 

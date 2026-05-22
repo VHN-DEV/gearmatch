@@ -88,6 +88,9 @@ export interface Device {
     storage: string;
     display: string;
     battery: string;
+    size_weight?: string;
+    stylus?: string;
+    cooling?: string;
   };
   needs: string[];
   image_url: string;

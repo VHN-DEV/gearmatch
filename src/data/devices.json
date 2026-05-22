@@ -12,7 +12,10 @@
       "ram": "8GB LPDDR5X",
       "storage": "256GB NVMe",
       "display": "6.9\" Super Retina XDR OLED, 120Hz LTPO, HDR10",
-      "battery": "4685mAh, Sạc nhanh 30W (Sử dụng 12h+)"
+      "battery": "4685mAh, Sạc nhanh 30W (Sử dụng 12h+)",
+      "size_weight": "Kích thước lớn (~6.7\"-6.9\"), nặng khoảng 220g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt buồng hơi VC 3D lớn + Hỗ trợ quạt sò lạnh gắn ngoài"
     },
     "needs": [
       "gaming",
@@ -75,7 +78,10 @@
       "ram": "12GB LPDDR5X",
       "storage": "256GB UFS 4.0",
       "display": "6.8\" Dynamic AMOLED 2X, 120Hz, Gorilla Armor chống chói",
-      "battery": "5000mAh, Sạc nhanh 45W"
+      "battery": "5000mAh, Sạc nhanh 45W",
+      "size_weight": "Kích thước lớn (~6.7\"-6.9\"), nặng khoảng 220g",
+      "stylus": "Tích hợp sẵn bút S-Pen trong thân máy",
+      "cooling": "Tản nhiệt buồng hơi VC 3D lớn + Hỗ trợ quạt sò lạnh gắn ngoài"
     },
     "needs": [
       "gaming",
@@ -134,7 +140,10 @@
       "ram": "16GB LPDDR5X",
       "storage": "512GB UFS 4.0",
       "display": "6.78\" LTPO AMOLED, 165Hz, HDR10+, 2500 nits",
-      "battery": "5500mAh, Sạc nhanh 65W"
+      "battery": "5500mAh, Sạc nhanh 65W",
+      "size_weight": "Nhỏ gọn (~6.1\"-6.3\"), nặng khoảng 170-190g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt buồng hơi VC 3D lớn + Hỗ trợ quạt sò lạnh gắn ngoài"
     },
     "needs": [
       "gaming",
@@ -189,7 +198,10 @@
       "ram": "12GB LPDDR5X",
       "storage": "512GB UFS 4.0",
       "display": "6.67\" AMOLED, 144Hz, HDR10+, Dolby Vision",
-      "battery": "5000mAh, Sạc siêu nhanh 120W"
+      "battery": "5000mAh, Sạc siêu nhanh 120W",
+      "size_weight": "Nhỏ gọn (~6.1\"-6.3\"), nặng khoảng 170-190g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt buồng hơi VC 3D lớn + Hỗ trợ quạt sò lạnh gắn ngoài"
     },
     "needs": [
       "gaming",
@@ -246,7 +258,10 @@
       "ram": "8GB LPDDR4X",
       "storage": "256GB UFS 2.2",
       "display": "6.67\" AMOLED, 120Hz, 1.5K, Dolby Vision",
-      "battery": "5100mAh, Sạc nhanh 67W"
+      "battery": "5100mAh, Sạc nhanh 67W",
+      "size_weight": "Nhỏ gọn (~6.1\"-6.3\"), nặng khoảng 170-190g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt buồng hơi Vapor Chamber + Tấm graphite"
     },
     "needs": [
       "study",
@@ -302,7 +317,10 @@
       "ram": "8GB LPDDR5X",
       "storage": "128GB NVMe",
       "display": "6.7\" Super Retina XDR OLED, 60Hz, HDR10",
-      "battery": "4674mAh, Sạc nhanh 25W (Sử dụng 14h+)"
+      "battery": "4674mAh, Sạc nhanh 25W (Sử dụng 14h+)",
+      "size_weight": "Kích thước lớn (~6.7\"-6.9\"), nặng khoảng 220g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động"
     },
     "needs": [
       "photography",
@@ -362,7 +380,10 @@
       "ram": "8GB LPDDR5",
       "storage": "128GB UFS 3.1",
       "display": "6.6\" Super AMOLED, 120Hz, HDR10+, 1000 nits",
-      "battery": "5000mAh, Sạc nhanh 25W"
+      "battery": "5000mAh, Sạc nhanh 25W",
+      "size_weight": "Nhỏ gọn (~6.1\"-6.3\"), nặng khoảng 170-190g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động"
     },
     "needs": [
       "study",
@@ -417,7 +438,10 @@
       "ram": "12GB LPDDR5X",
       "storage": "256GB UFS 4.0",
       "display": "6.8\" AMOLED Flat, 120Hz, Camera ẩn dưới màn hình",
-      "battery": "6500mAh, Sạc siêu nhanh 80W"
+      "battery": "6500mAh, Sạc siêu nhanh 80W",
+      "size_weight": "Nhỏ gọn (~6.1\"-6.3\"), nặng khoảng 170-190g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt buồng hơi VC 3D lớn + Hỗ trợ quạt sò lạnh gắn ngoài"
     },
     "needs": [
       "gaming",
@@ -465,7 +489,10 @@
       "ram": "12GB LPDDR5X",
       "storage": "256GB UFS 4.0",
       "display": "Màn chính 7.6\" Foldable Dynamic AMOLED 2X, Màn phụ 6.3\", 120Hz",
-      "battery": "4400mAh, Sạc nhanh 25W"
+      "battery": "4400mAh, Sạc nhanh 25W",
+      "size_weight": "Kích thước lớn (~6.7\"-6.9\"), nặng khoảng 220g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động"
     },
     "needs": [
       "travel",
@@ -520,7 +547,10 @@
       "ram": "16GB LPDDR5X",
       "storage": "256GB UFS 3.1",
       "display": "6.8\" LTPO OLED, 120Hz, 3000 nits, HDR10+",
-      "battery": "5060mAh, Sạc nhanh 37W"
+      "battery": "5060mAh, Sạc nhanh 37W",
+      "size_weight": "Nhỏ gọn (~6.1\"-6.3\"), nặng khoảng 170-190g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt buồng hơi Vapor Chamber + Tấm graphite"
     },
     "needs": [
       "photography",
@@ -569,7 +599,10 @@
       "ram": "4GB LPDDR4X",
       "storage": "128GB NVMe",
       "display": "6.1\" Super Retina XDR OLED, 60Hz",
-      "battery": "3240mAh, Sạc nhanh 20W"
+      "battery": "3240mAh, Sạc nhanh 20W",
+      "size_weight": "Nhỏ gọn (~6.1\"-6.3\"), nặng khoảng 170-190g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động"
     },
     "needs": [
       "study",
@@ -628,7 +661,10 @@
       "ram": "12GB LPDDR5X",
       "storage": "256GB UFS 4.0",
       "display": "6.7\" Dynamic AMOLED 2X, QHD+, 120Hz, 2600 nits",
-      "battery": "4900mAh, Sạc nhanh 45W"
+      "battery": "4900mAh, Sạc nhanh 45W",
+      "size_weight": "Nhỏ gọn (~6.1\"-6.3\"), nặng khoảng 170-190g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt buồng hơi VC 3D lớn + Hỗ trợ quạt sò lạnh gắn ngoài"
     },
     "needs": [
       "gaming",
@@ -685,7 +721,10 @@
       "ram": "16GB LPDDR5X",
       "storage": "256GB UFS 4.0",
       "display": "6.82\" LTPO AMOLED, 120Hz, HDR10+, 4500 nits",
-      "battery": "5000mAh, Sạc siêu nhanh 100W"
+      "battery": "5000mAh, Sạc siêu nhanh 100W",
+      "size_weight": "Kích thước lớn (~6.7\"-6.9\"), nặng khoảng 220g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt buồng hơi VC 3D lớn + Hỗ trợ quạt sò lạnh gắn ngoài"
     },
     "needs": [
       "photography",
@@ -734,7 +773,10 @@
       "ram": "12GB LPDDR5X",
       "storage": "512GB UFS 4.0",
       "display": "6.67\" WQHD+ AMOLED, 120Hz, Flow AMOLED",
-      "battery": "5000mAh, Sạc siêu nhanh 120W"
+      "battery": "5000mAh, Sạc siêu nhanh 120W",
+      "size_weight": "Nhỏ gọn (~6.1\"-6.3\"), nặng khoảng 170-190g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt buồng hơi VC 3D lớn + Hỗ trợ quạt sò lạnh gắn ngoài"
     },
     "needs": [
       "gaming",
@@ -786,7 +828,10 @@
       "ram": "8GB Unified Memory",
       "storage": "256GB SSD tốc độ cao",
       "display": "11\" Tandem OLED (Ultra Retina XDR), 120Hz ProMotion, 1600 nits",
-      "battery": "31.29 Wh (Khoảng 10h sử dụng liên tục)"
+      "battery": "31.29 Wh (Khoảng 10h sử dụng liên tục)",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Hỗ trợ Apple Pencil Pro & Apple Pencil USB-C",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm tản nhiệt nhanh"
     },
     "needs": [
       "graphic_design",
@@ -849,7 +894,10 @@
       "ram": "12GB LPDDR5X",
       "storage": "256GB UFS 4.0",
       "display": "14.6\" Dynamic AMOLED 2X, 120Hz, Chống chói Gorilla Armor",
-      "battery": "11200mAh, Sạc nhanh 45W"
+      "battery": "11200mAh, Sạc nhanh 45W",
+      "size_weight": "Kích thước lớn (~12.4\"-14.6\"), nặng khoảng 580g-730g",
+      "stylus": "Tặng kèm bút S-Pen chính hãng trong hộp",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm tản nhiệt nhanh"
     },
     "needs": [
       "graphic_design",
@@ -908,7 +956,10 @@
       "ram": "8GB LPDDR5X",
       "storage": "256GB UFS 4.0",
       "display": "12.4\" IPS LCD, 144Hz, 3K (3048x2032), 900 nits",
-      "battery": "10000mAh, Sạc siêu nhanh 120W"
+      "battery": "10000mAh, Sạc siêu nhanh 120W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Hỗ trợ bút Xiaomi Focus Pen / Stylus 2nd Gen (Mua rời)",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm tản nhiệt nhanh"
     },
     "needs": [
       "gaming",
@@ -967,7 +1018,10 @@
       "ram": "4GB LPDDR4X",
       "storage": "64GB NVMe",
       "display": "10.9\" Liquid Retina IPS LCD, 60Hz, 500 nits",
-      "battery": "7606mAh (Sử dụng khoảng 9-10h)"
+      "battery": "7606mAh (Sử dụng khoảng 9-10h)",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Hỗ trợ Apple Pencil 1 / USB-C",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
     },
     "needs": [
       "study",
@@ -1029,7 +1083,10 @@
       "ram": "8GB Unified Memory",
       "storage": "128GB SSD",
       "display": "13\" Liquid Retina IPS LCD, 60Hz, 600 nits, True Tone",
-      "battery": "36.59 Wh (Sử dụng thực tế 10h)"
+      "battery": "36.59 Wh (Sử dụng thực tế 10h)",
+      "size_weight": "Kích thước lớn (~12.4\"-14.6\"), nặng khoảng 580g-730g",
+      "stylus": "Hỗ trợ Apple Pencil Pro & Apple Pencil USB-C",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
     },
     "needs": [
       "graphic_design",
@@ -1088,7 +1145,10 @@
       "ram": "4GB LPDDR4X",
       "storage": "64GB UFS 2.2",
       "display": "11\" TFT LCD, 90Hz, 1920x1200 pixels",
-      "battery": "7040mAh, Sạc nhanh 15W"
+      "battery": "7040mAh, Sạc nhanh 15W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Không hỗ trợ (Không tương thích S-Pen)",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
     },
     "needs": [
       "study",
@@ -1140,7 +1200,10 @@
       "ram": "8GB LPDDR5",
       "storage": "128GB UFS 3.1",
       "display": "11\" IPS LCD, 144Hz, WQHD+ (2880x1800), HDR10+",
-      "battery": "8840mAh, Sạc nhanh 33W"
+      "battery": "8840mAh, Sạc nhanh 33W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Hỗ trợ bút Xiaomi Focus Pen / Stylus 2nd Gen (Mua rời)",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm tản nhiệt nhanh"
     },
     "needs": [
       "study",
@@ -1193,7 +1256,10 @@
       "ram": "16GB LPDDR5X",
       "storage": "256GB SSD Gen 4 NVMe (Có thể tháo rời)",
       "display": "13\" PixelSense Flow, 120Hz, Cảm ứng 10 điểm, Gorilla Glass 5",
-      "battery": "47 Wh (Sử dụng hỗn hợp 10-12h)"
+      "battery": "47 Wh (Sử dụng hỗn hợp 10-12h)",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Hỗ trợ bút Surface Slim Pen 2 (Có phản hồi xúc giác)",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm tản nhiệt nhanh"
     },
     "needs": [
       "office_work",
@@ -1243,7 +1309,10 @@
       "ram": "8GB LPDDR5",
       "storage": "128GB NVMe",
       "display": "8.3\" Liquid Retina IPS LCD, 60Hz, True Tone",
-      "battery": "5124mAh (Sử dụng liên tục 9h)"
+      "battery": "5124mAh (Sử dụng liên tục 9h)",
+      "size_weight": "Siêu nhỏ gọn (~8.3\"-8.8\"), nặng khoảng 290g-350g",
+      "stylus": "Hỗ trợ Apple Pencil Pro & Apple Pencil USB-C",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm tản nhiệt nhanh"
     },
     "needs": [
       "study",
@@ -1304,7 +1373,10 @@
       "ram": "12GB LPDDR5X",
       "storage": "256GB UFS 3.1",
       "display": "8.8\" PureSight Gaming LCD, 144Hz, 2.5K (2560x1600)",
-      "battery": "6550mAh, Sạc nhanh 45W"
+      "battery": "6550mAh, Sạc nhanh 45W",
+      "size_weight": "Siêu nhỏ gọn (~8.3\"-8.8\"), nặng khoảng 290g-350g",
+      "stylus": "Không hỗ trợ (Thiết kế thuần gaming)",
+      "cooling": "Buồng hơi VC siêu lớn 8500mm² chuyên dụng gaming"
     },
     "needs": [
       "gaming",
@@ -1355,7 +1427,10 @@
       "ram": "12GB LPDDR5X",
       "storage": "512GB UFS 3.1",
       "display": "12.2\" Dual Tandem OLED PaperMatte, 144Hz, 2000 nits, Nhám chống chói",
-      "battery": "10100mAh, Sạc siêu nhanh 100W"
+      "battery": "10100mAh, Sạc siêu nhanh 100W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Hỗ trợ bút cảm ứng NearLink M-Pencil Gen 3 (Độ trễ cực thấp)",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm tản nhiệt nhanh"
     },
     "needs": [
       "graphic_design",
@@ -1408,7 +1483,10 @@
       "ram": "8GB LPDDR5",
       "storage": "256GB UFS 3.1",
       "display": "11.5\" PaperMatte IPS LCD nhám chống chói, 144Hz, 2.8K",
-      "battery": "8800mAh, Sạc nhanh 22.5W"
+      "battery": "8800mAh, Sạc nhanh 22.5W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Hỗ trợ bút cảm ứng NearLink M-Pencil Gen 3 (Độ trễ cực thấp)",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
     },
     "needs": [
       "study",
@@ -1458,7 +1536,10 @@
       "ram": "8GB Unified Memory",
       "storage": "256GB SSD tốc độ cao",
       "display": "13\" Tandem OLED (Ultra Retina XDR), 120Hz ProMotion, 1600 nits",
-      "battery": "38.99 Wh (Khoảng 10h sử dụng liên tục)"
+      "battery": "38.99 Wh (Khoảng 10h sử dụng liên tục)",
+      "size_weight": "Kích thước lớn (~12.4\"-14.6\"), nặng khoảng 580g-730g",
+      "stylus": "Hỗ trợ Apple Pencil Pro & Apple Pencil USB-C",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm tản nhiệt nhanh"
     },
     "needs": [
       "graphic_design",
@@ -1519,7 +1600,10 @@
       "ram": "6GB LPDDR4X",
       "storage": "128GB UFS 2.2",
       "display": "10.9\" IPS LCD, 90Hz, WUXGA+ (2304x1440)",
-      "battery": "8000mAh, Sạc nhanh 45W"
+      "battery": "8000mAh, Sạc nhanh 45W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Tặng kèm bút S-Pen chính hãng trong hộp",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm tản nhiệt nhanh"
     },
     "needs": [
       "study",
@@ -1574,7 +1658,10 @@
       "ram": "8GB LPDDR4X",
       "storage": "128GB UFS 2.2",
       "display": "12.1\" IPS LCD, 120Hz, 2.5K (2560x1600), 600 nits",
-      "battery": "10000mAh, Sạc nhanh 33W"
+      "battery": "10000mAh, Sạc nhanh 33W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Hỗ trợ bút Xiaomi Redmi Stylus (Mua rời)",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm tản nhiệt nhanh"
     },
     "needs": [
       "study",
@@ -1627,7 +1714,10 @@
       "ram": "8GB LPDDR5",
       "storage": "128GB UFS 3.1",
       "display": "12.7\" LTPS LCD, 144Hz, 2.9K (2944x1840)",
-      "battery": "10200mAh, Sạc nhanh 20W"
+      "battery": "10200mAh, Sạc nhanh 20W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Hỗ trợ bút Lenovo Precision Pen 3 (Mua rời)",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm tản nhiệt nhanh"
     },
     "needs": [
       "study",
@@ -1680,7 +1770,10 @@
       "ram": "12GB LPDDR5X",
       "storage": "256GB UFS 4.0",
       "display": "12.1\" IPS LCD, 144Hz, 3K (3000x2120), 900 nits",
-      "battery": "9510mAh, Sạc siêu nhanh 67W SuperVOOC"
+      "battery": "9510mAh, Sạc siêu nhanh 67W SuperVOOC",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
     },
     "needs": [
       "gaming",
@@ -1736,7 +1829,10 @@
       "ram": "Không (Thiết bị hiển thị cảm ứng vẽ chuyên nghiệp)",
       "storage": "Không",
       "display": "13.3\" IPS LCD Cảm ứng đa điểm, 60Hz, 99% sRGB",
-      "battery": "Không dùng pin (Cần kết nối nguồn trực tiếp qua USB-C)"
+      "battery": "Không dùng pin (Cần kết nối nguồn trực tiếp qua USB-C)",
+      "size_weight": "Kích thước lớn (~12.4\"-14.6\"), nặng khoảng 580g-730g",
+      "stylus": "Đi kèm bút vẽ Wacom Pro Pen / One Pen chuyên dụng vẽ đồ họa",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
     },
     "needs": [
       "graphic_design",
@@ -1781,7 +1877,10 @@
       "ram": "1GB",
       "storage": "32GB",
       "display": "10.2\" Paperwhite E-Ink Screen, 300 ppi, Đèn nền điều chỉnh nhiệt độ màu",
-      "battery": "Dùng lượng pin kéo dài nhiều tuần (Sử dụng trung bình 3-4 tuần)"
+      "battery": "Dùng lượng pin kéo dài nhiều tuần (Sử dụng trung bình 3-4 tuần)",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Đi kèm bút Kindle Basic/Premium Stylus",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
     },
     "needs": [
       "study",
@@ -1830,7 +1929,10 @@
       "ram": "8GB LPDDR4X",
       "storage": "256GB UFS 2.2",
       "display": "12.1\" IPS LCD, 120Hz, 2.5K (2560x1600)",
-      "battery": "8300mAh, Sạc nhanh 35W"
+      "battery": "8300mAh, Sạc nhanh 35W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
     },
     "needs": [
       "study",
@@ -1878,7 +1980,10 @@
       "ram": "6GB LPDDR5",
       "storage": "128GB UFS 3.1",
       "display": "8.0\" PLS LCD, 120Hz, Gorilla Glass 5",
-      "battery": "5050mAh (Pin tháo rời dễ dàng, có chế độ không dùng pin)"
+      "battery": "5050mAh (Pin tháo rời dễ dàng, có chế độ không dùng pin)",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Không hỗ trợ (Không tương thích S-Pen)",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
     },
     "needs": [
       "travel",
@@ -1929,7 +2034,10 @@
       "ram": "3GB",
       "storage": "64GB",
       "display": "10.2\" Retina IPS LCD, 60Hz, 500 nits",
-      "battery": "8557mAh (Dùng tốt 10h)"
+      "battery": "8557mAh (Dùng tốt 10h)",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Hỗ trợ Apple Pencil 1 / USB-C",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
     },
     "needs": [
       "study",
@@ -1986,7 +2094,10 @@
       "ram": "8GB",
       "storage": "64GB",
       "display": "10.9\" Liquid Retina, 60Hz, True Tone",
-      "battery": "7600mAh"
+      "battery": "7600mAh",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Hỗ trợ Apple Pencil Pro & Apple Pencil USB-C",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
     },
     "needs": [
       "study",
@@ -2045,7 +2156,10 @@
       "ram": "8GB LPDDR5",
       "storage": "128GB UFS 3.1",
       "display": "11\" IPS LCD, 144Hz, 2.8K, HDR10+",
-      "battery": "8600mAh, Sạc nhanh 67W"
+      "battery": "8600mAh, Sạc nhanh 67W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Hỗ trợ bút Xiaomi Focus Pen / Stylus 2nd Gen (Mua rời)",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm tản nhiệt nhanh"
     },
     "needs": [
       "gaming",
@@ -2098,7 +2212,10 @@
       "ram": "12GB",
       "storage": "256GB UFS 4.0",
       "display": "14.6\" Dynamic AMOLED 2X, 120Hz, HDR10+",
-      "battery": "11200mAh, Sạc nhanh 45W"
+      "battery": "11200mAh, Sạc nhanh 45W",
+      "size_weight": "Kích thước lớn (~12.4\"-14.6\"), nặng khoảng 580g-730g",
+      "stylus": "Tặng kèm bút S-Pen chính hãng trong hộp",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm tản nhiệt nhanh"
     },
     "needs": [
       "graphic_design",
@@ -2153,7 +2270,10 @@
       "ram": "12GB",
       "storage": "256GB",
       "display": "12.4\" Dynamic AMOLED 2X, 120Hz, HDR10+",
-      "battery": "10090mAh, Sạc nhanh 45W"
+      "battery": "10090mAh, Sạc nhanh 45W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Tặng kèm bút S-Pen chính hãng trong hộp",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm tản nhiệt nhanh"
     },
     "needs": [
       "graphic_design",
@@ -2207,7 +2327,10 @@
       "ram": "6GB LPDDR4X",
       "storage": "128GB",
       "display": "11.5\" IPS LCD, 120Hz, 2.2K",
-      "battery": "7700mAh, Sạc nhanh 22.5W"
+      "battery": "7700mAh, Sạc nhanh 22.5W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Hỗ trợ bút cảm ứng NearLink M-Pencil Gen 3 (Độ trễ cực thấp)",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
     },
     "needs": [
       "study",
@@ -2254,7 +2377,10 @@
       "ram": "1GB",
       "storage": "32GB",
       "display": "6.8\" E-Ink Carta 1200, 300 ppi, Đèn nền tông ấm",
-      "battery": "Dung lượng pin chờ kéo dài tới 10 tuần"
+      "battery": "Dung lượng pin chờ kéo dài tới 10 tuần",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
     },
     "needs": [
       "heavy_reading",
@@ -2301,7 +2427,10 @@
       "ram": "8GB",
       "storage": "128GB",
       "display": "12.7\" LTPS LCD, 60Hz, 3K (2944x1840)",
-      "battery": "10200mAh, Sạc nhanh 30W"
+      "battery": "10200mAh, Sạc nhanh 30W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Hỗ trợ bút Lenovo Precision Pen 3 (Mua rời)",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
     },
     "needs": [
       "study",
@@ -2352,7 +2481,10 @@
       "ram": "6GB LPDDR4X",
       "storage": "128GB",
       "display": "11\" IPS LCD, 90Hz, Full HD+",
-      "battery": "8000mAh, Sạc 10W"
+      "battery": "8000mAh, Sạc 10W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Hỗ trợ bút Xiaomi Redmi Stylus (Mua rời)",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
     },
     "needs": [
       "study",
@@ -2404,7 +2536,10 @@
       "ram": "4GB",
       "storage": "128GB",
       "display": "10.36\" IPS LCD, 60Hz, 2K (2000x1200)",
-      "battery": "8200mAh, Sạc nhanh 18W"
+      "battery": "8200mAh, Sạc nhanh 18W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
     },
     "needs": [
       "study",
@@ -2451,7 +2586,10 @@
       "ram": "6GB",
       "storage": "128GB",
       "display": "11\" IPS LCD, 60Hz, Full HD+",
-      "battery": "7700mAh, Sạc nhanh 22.5W"
+      "battery": "7700mAh, Sạc nhanh 22.5W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Hỗ trợ bút M-Pencil (Mua rời)",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
     },
     "needs": [
       "study",
@@ -2498,7 +2636,10 @@
       "ram": "8GB",
       "storage": "128GB",
       "display": "11\" Liquid Retina IPS, 60Hz, True Tone",
-      "battery": "28.93 Wh (Dùng tốt 10h)"
+      "battery": "28.93 Wh (Dùng tốt 10h)",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Hỗ trợ Apple Pencil Pro & Apple Pencil USB-C",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
     },
     "needs": [
       "study",
@@ -2556,7 +2697,10 @@
       "ram": "Không",
       "storage": "Không",
       "display": "11.6\" IPS LCD Cảm ứng vẽ, 60Hz, 99% sRGB",
-      "battery": "Không dùng pin (Cấp nguồn USB-C)"
+      "battery": "Không dùng pin (Cấp nguồn USB-C)",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Đi kèm bút vẽ Wacom Pro Pen / One Pen chuyên dụng vẽ đồ họa",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
     },
     "needs": [
       "graphic_design",
@@ -2601,7 +2745,10 @@
       "ram": "8GB LPDDR5X",
       "storage": "128GB UFS 4.0",
       "display": "11.2\" IPS LCD, 144Hz, 3.2K (3200x2136), 800 nits, Tỷ lệ 3:2",
-      "battery": "8850mAh, Sạc nhanh 45W"
+      "battery": "8850mAh, Sạc nhanh 45W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Hỗ trợ bút Xiaomi Focus Pen / Stylus 2nd Gen (Mua rời)",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm tản nhiệt nhanh"
     },
     "needs": [
       "study",
@@ -2659,7 +2806,10 @@
       "ram": "8GB LPDDR5X",
       "storage": "256GB UFS 4.0",
       "display": "11.2\" IPS LCD, 144Hz, 3.2K (3200x2136), 800 nits, Tỷ lệ 3:2",
-      "battery": "8850mAh, Sạc nhanh 67W"
+      "battery": "8850mAh, Sạc nhanh 67W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Hỗ trợ bút Xiaomi Focus Pen / Stylus 2nd Gen (Mua rời)",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm tản nhiệt nhanh"
     },
     "needs": [
       "gaming",
@@ -2716,7 +2866,10 @@
       "ram": "8GB LPDDR5X",
       "storage": "128GB UFS 4.0",
       "display": "12.7\" IPS LCD, 144Hz, 2.9K (2944x1840)",
-      "battery": "10200mAh, Sạc nhanh 45W"
+      "battery": "10200mAh, Sạc nhanh 45W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Hỗ trợ bút Lenovo Precision Pen 3 (Mua rời)",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm tản nhiệt nhanh"
     },
     "needs": [
       "study",
@@ -2769,7 +2922,10 @@
       "ram": "8GB",
       "storage": "128GB NVMe",
       "display": "8.3\" Liquid Retina IPS LCD, 60Hz, 500 nits, True Tone",
-      "battery": "5078mAh (Khoảng 9-10h sử dụng)"
+      "battery": "5078mAh (Khoảng 9-10h sử dụng)",
+      "size_weight": "Siêu nhỏ gọn (~8.3\"-8.8\"), nặng khoảng 290g-350g",
+      "stylus": "Hỗ trợ Apple Pencil Pro & Apple Pencil USB-C",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm tản nhiệt nhanh"
     },
     "needs": [
       "study",
@@ -2831,7 +2987,10 @@
       "ram": "8GB LPDDR5X",
       "storage": "128GB UFS 4.0",
       "display": "11\" Dynamic AMOLED 2X, 120Hz, HDR10+, IP68",
-      "battery": "8400mAh, Sạc nhanh 45W"
+      "battery": "8400mAh, Sạc nhanh 45W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Tặng kèm bút S-Pen chính hãng trong hộp",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm tản nhiệt nhanh"
     },
     "needs": [
       "gaming",
@@ -2888,7 +3047,10 @@
       "ram": "8GB LPDDR4X",
       "storage": "128GB UFS 2.2",
       "display": "11.35\" IPS LCD, 90Hz, 2.4K (2408x1720)",
-      "battery": "8000mAh, Sạc nhanh 33W SUPERVOOC"
+      "battery": "8000mAh, Sạc nhanh 33W SUPERVOOC",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
     },
     "needs": [
       "study",
@@ -2937,7 +3099,10 @@
       "ram": "4GB LPDDR4X",
       "storage": "128GB",
       "display": "11.5\" IPS LCD, 120Hz, 2K (2000x1200)",
-      "battery": "7250mAh, Sạc 22.5W"
+      "battery": "7250mAh, Sạc 22.5W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
     },
     "needs": [
       "study",
@@ -2984,7 +3149,10 @@
       "ram": "8GB",
       "storage": "128GB",
       "display": "12.4\" IPS LCD, 90Hz, WQXGA (2560x1600), IP68",
-      "battery": "10090mAh, Sạc nhanh 45W"
+      "battery": "10090mAh, Sạc nhanh 45W",
+      "size_weight": "Kích thước tiêu chuẩn (~10.9\"-11.5\"), nặng khoảng 460g-500g",
+      "stylus": "Tặng kèm bút S-Pen chính hãng trong hộp",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm tản nhiệt nhanh"
     },
     "needs": [
       "graphic_design",
@@ -3039,7 +3207,10 @@
       "ram": "16GB Unified Memory",
       "storage": "512GB SSD PCIe",
       "display": "13.6\" Liquid Retina IPS, 2560x1664, True Tone, 500 nits",
-      "battery": "52.6 Wh (Sử dụng thực tế 15h+)"
+      "battery": "52.6 Wh (Sử dụng thực tế 15h+)",
+      "size_weight": "Mỏng nhẹ di động (~13\"-14\"), nặng khoảng 1.1kg - 1.4kg",
+      "stylus": "Không hỗ trợ (Màn hình thường)",
+      "cooling": "Tản nhiệt thụ động (Hoàn toàn im lặng)"
     },
     "needs": [
       "programming",
@@ -3104,7 +3275,10 @@
       "ram": "32GB LPDDR5X 6400MHz",
       "storage": "1TB SSD M.2 NVMe PCIe 4.0",
       "display": "14\" 3K ROG Nebula OLED, 120Hz, 100% DCI-P3, G-Sync",
-      "battery": "73 Wh (Sử dụng văn phòng 6-8h)"
+      "battery": "73 Wh (Sử dụng văn phòng 6-8h)",
+      "size_weight": "Mỏng nhẹ di động (~13\"-14\"), nặng khoảng 1.1kg - 1.4kg",
+      "stylus": "Không hỗ trợ (Màn hình thường)",
+      "cooling": "Hệ thống tản nhiệt khí 2 quạt công suất cao + Kim loại lỏng CPU"
     },
     "needs": [
       "gaming",
@@ -3164,7 +3338,10 @@
       "ram": "16GB LPDDR5X",
       "storage": "512GB SSD NVMe PCIe 4.0",
       "display": "13.4\" FHD+ IPS, 120Hz, 500 nits, 100% sRGB",
-      "battery": "55 Wh (Sử dụng hỗn hợp 9h+)"
+      "battery": "55 Wh (Sử dụng hỗn hợp 9h+)",
+      "size_weight": "Mỏng nhẹ di động (~13\"-14\"), nặng khoảng 1.1kg - 1.4kg",
+      "stylus": "Không hỗ trợ (Màn hình thường)",
+      "cooling": "Quạt tản nhiệt đơn / kép thông minh, hoạt động êm"
     },
     "needs": [
       "programming",
@@ -3221,7 +3398,10 @@
       "ram": "16GB DDR5 4800MHz",
       "storage": "512GB SSD NVMe PCIe 4.0",
       "display": "15.6\" FHD IPS, 144Hz, 45% NTSC",
-      "battery": "53.5 Wh (Sử dụng văn phòng 3-4h)"
+      "battery": "53.5 Wh (Sử dụng văn phòng 3-4h)",
+      "size_weight": "Hiệu năng cao (~15.6\"-16\"), nặng khoảng 2.0kg - 2.4kg",
+      "stylus": "Không hỗ trợ (Màn hình thường)",
+      "cooling": "Hệ thống tản nhiệt khí 2 quạt công suất cao + Kim loại lỏng CPU"
     },
     "needs": [
       "gaming",
@@ -3276,7 +3456,10 @@
       "ram": "8GB DDR4 3200MHz",
       "storage": "512GB SSD PCIe NVMe",
       "display": "15.6\" FHD (1920x1080) IPS LCD Anti-glare",
-      "battery": "36 Wh (Sử dụng văn phòng 4-5h)"
+      "battery": "36 Wh (Sử dụng văn phòng 4-5h)",
+      "size_weight": "Mỏng nhẹ di động (~14\"-15.6\"), nặng khoảng 1.4kg - 1.6kg",
+      "stylus": "Không hỗ trợ (Màn hình thường)",
+      "cooling": "Quạt tản nhiệt đơn / kép thông minh, hoạt động êm"
     },
     "needs": [
       "office_work",
@@ -3330,7 +3513,10 @@
       "ram": "24GB Unified Memory mặc định",
       "storage": "512GB SSD PCIe siêu tốc",
       "display": "14.2\" Liquid Retina XDR Mini-LED, 120Hz ProMotion, 1600 nits",
-      "battery": "72.4 Wh (Sử dụng thực tế 18h+)"
+      "battery": "72.4 Wh (Sử dụng thực tế 18h+)",
+      "size_weight": "Mỏng nhẹ di động (~13\"-14\"), nặng khoảng 1.1kg - 1.4kg",
+      "stylus": "Không hỗ trợ (Màn hình thường)",
+      "cooling": "Quạt tản nhiệt đơn / kép thông minh, hoạt động êm"
     },
     "needs": [
       "programming",
@@ -3386,7 +3572,10 @@
       "ram": "32GB LPDDR5X 6400MHz",
       "storage": "1TB SSD NVMe PCIe 4.0",
       "display": "14\" 2.8K (2880x1800) OLED, 120Hz, 400 nits, 100% DCI-P3",
-      "battery": "57 Wh (Sử dụng văn phòng 10-12h)"
+      "battery": "57 Wh (Sử dụng văn phòng 10-12h)",
+      "size_weight": "Mỏng nhẹ di động (~14\"-15.6\"), nặng khoảng 1.4kg - 1.6kg",
+      "stylus": "Không hỗ trợ (Màn hình thường)",
+      "cooling": "Quạt tản nhiệt đơn / kép thông minh, hoạt động êm"
     },
     "needs": [
       "office_work",
@@ -3440,7 +3629,10 @@
       "ram": "16GB DDR5 5600MHz (Hỗ trợ nâng cấp 32GB)",
       "storage": "512GB SSD M.2 PCIe 4.0",
       "display": "15.6\" FHD (1920x1080) IPS, 144Hz, 100% sRGB, G-Sync",
-      "battery": "90 Wh (Sử dụng văn phòng 5-6h)"
+      "battery": "90 Wh (Sử dụng văn phòng 5-6h)",
+      "size_weight": "Hiệu năng cao (~15.6\"-16\"), nặng khoảng 2.0kg - 2.4kg",
+      "stylus": "Không hỗ trợ (Màn hình thường)",
+      "cooling": "Hệ thống tản nhiệt khí 2 quạt công suất cao + Kim loại lỏng CPU"
     },
     "needs": [
       "gaming",
@@ -3491,7 +3683,10 @@
       "ram": "16GB DDR5 5600MHz",
       "storage": "1TB SSD PCIe 4.0 NVMe",
       "display": "16\" WQXGA (2560x1600) IPS, 240Hz, 500 nits, 100% sRGB",
-      "battery": "80 Wh (Sử dụng văn phòng 3-4h)"
+      "battery": "80 Wh (Sử dụng văn phòng 3-4h)",
+      "size_weight": "Hiệu năng cao (~15.6\"-16\"), nặng khoảng 2.0kg - 2.4kg",
+      "stylus": "Không hỗ trợ (Màn hình thường)",
+      "cooling": "Hệ thống tản nhiệt khí 2 quạt công suất cao + Kim loại lỏng CPU"
     },
     "needs": [
       "gaming",
@@ -3542,7 +3737,10 @@
       "ram": "16GB LPDDR5X",
       "storage": "512GB SSD NVMe PCIe 4.0",
       "display": "14\" 2.8K (2880x1800) OLED, 90Hz, 100% DCI-P3, 500 nits",
-      "battery": "65 Wh (Sử dụng văn phòng 7-8h)"
+      "battery": "65 Wh (Sử dụng văn phòng 7-8h)",
+      "size_weight": "Mỏng nhẹ di động (~13\"-14\"), nặng khoảng 1.1kg - 1.4kg",
+      "stylus": "Không hỗ trợ (Màn hình thường)",
+      "cooling": "Quạt tản nhiệt đơn / kép thông minh, hoạt động êm"
     },
     "needs": [
       "office_work",
@@ -3595,7 +3793,10 @@
       "ram": "16GB DDR5 4800MHz",
       "storage": "512GB SSD PCIe NVMe",
       "display": "16.1\" FHD IPS, 144Hz, 250 nits, 45% NTSC",
-      "battery": "70 Wh (Sử dụng hỗn hợp 4h)"
+      "battery": "70 Wh (Sử dụng hỗn hợp 4h)",
+      "size_weight": "Hiệu năng cao (~15.6\"-16\"), nặng khoảng 2.0kg - 2.4kg",
+      "stylus": "Không hỗ trợ (Màn hình thường)",
+      "cooling": "Quạt tản nhiệt đơn / kép thông minh, hoạt động êm"
     },
     "needs": [
       "budget_gaming",
@@ -3645,7 +3846,10 @@
       "ram": "16GB LPDDR5X 7467MHz",
       "storage": "512GB SSD PCIe 4.0 NVMe",
       "display": "17\" WQXGA (2560x1600) IPS, 60Hz, 350 nits, 99% DCI-P3",
-      "battery": "77 Wh (Sử dụng thực tế 12-14h)"
+      "battery": "77 Wh (Sử dụng thực tế 12-14h)",
+      "size_weight": "Mỏng nhẹ di động (~14\"-15.6\"), nặng khoảng 1.4kg - 1.6kg",
+      "stylus": "Không hỗ trợ (Màn hình thường)",
+      "cooling": "Quạt tản nhiệt đơn / kép thông minh, hoạt động êm"
     },
     "needs": [
       "travel",
@@ -3694,7 +3898,10 @@
       "ram": "16GB DDR5 5200MHz",
       "storage": "512GB SSD PCIe NVMe M.2",
       "display": "14\" WUXGA (1920x1200) IPS Anti-glare, 400 nits, 100% sRGB",
-      "battery": "51 Wh (Sử dụng văn phòng 8h)"
+      "battery": "51 Wh (Sử dụng văn phòng 8h)",
+      "size_weight": "Mỏng nhẹ di động (~14\"-15.6\"), nặng khoảng 1.4kg - 1.6kg",
+      "stylus": "Không hỗ trợ (Màn hình thường)",
+      "cooling": "Quạt tản nhiệt đơn / kép thông minh, hoạt động êm"
     },
     "needs": [
       "office_work",
@@ -3748,7 +3955,10 @@
       "ram": "16GB LPDDR5X",
       "storage": "1TB SSD PCIe 4.0 NVMe",
       "display": "14\" 3K (2880x1800) OLED Lumina, 120Hz, 600 nits",
-      "battery": "75 Wh (Sử dụng thực tế 10-12h)"
+      "battery": "75 Wh (Sử dụng thực tế 10-12h)",
+      "size_weight": "Mỏng nhẹ di động (~13\"-14\"), nặng khoảng 1.1kg - 1.4kg",
+      "stylus": "Không hỗ trợ (Màn hình thường)",
+      "cooling": "Quạt tản nhiệt đơn / kép thông minh, hoạt động êm"
     },
     "needs": [
       "office_work",
@@ -3805,7 +4015,10 @@
       "ram": "32GB DDR5 5600MHz",
       "storage": "1TB SSD PCIe 4.0 NVMe",
       "display": "16\" WQXGA (2560x1600) IPS, 240Hz, 500 nits, 100% DCI-P3",
-      "battery": "90 Wh (Sử dụng văn phòng 3h)"
+      "battery": "90 Wh (Sử dụng văn phòng 3h)",
+      "size_weight": "Hiệu năng cao (~15.6\"-16\"), nặng khoảng 2.0kg - 2.4kg",
+      "stylus": "Không hỗ trợ (Màn hình thường)",
+      "cooling": "Hệ thống tản nhiệt khí 2 quạt công suất cao + Kim loại lỏng CPU"
     },
     "needs": [
       "gaming",
@@ -3857,7 +4070,10 @@
       "ram": "64GB DDR5 6000MHz Dual Channel (2x32GB)",
       "storage": "2TB SSD M.2 Samsung 990 Pro PCIe 4.0",
       "display": "Cần mua rời (Khuyên dùng Màn hình 4K OLED 144Hz+)",
-      "battery": "Bộ nguồn Thermaltake 1200W Platinum (Không có pin)"
+      "battery": "Bộ nguồn Thermaltake 1200W Platinum (Không có pin)",
+      "size_weight": "Kích thước Mid-Tower tiêu chuẩn (Không kèm màn hình)",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt nước AIO 360mm cao cấp + Quạt case đối lưu lớn"
     },
     "needs": [
       "gaming",
@@ -3911,7 +4127,10 @@
       "ram": "32GB DDR5 Corsair Vengeance 5600MHz",
       "storage": "1TB SSD M.2 NVMe PCIe 4.0 Crucial",
       "display": "Cần mua rời (Khuyên dùng màn hình 2K 180Hz IPS)",
-      "battery": "Bộ nguồn Corsair RM750e 750W Gold"
+      "battery": "Bộ nguồn Corsair RM750e 750W Gold",
+      "size_weight": "Kích thước Mid-Tower tiêu chuẩn (Không kèm màn hình)",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt khí tháp đôi CPU + Quạt case đối lưu"
     },
     "needs": [
       "gaming",
@@ -3963,7 +4182,10 @@
       "ram": "16GB DDR5 5200MHz (2x8GB)",
       "storage": "512GB SSD M.2 NVMe PCIe 4.0",
       "display": "Cần mua rời (Khuyên dùng màn 1080p hoặc 2K IPS 144Hz)",
-      "battery": "Bộ nguồn Deepcool 650W Bronze"
+      "battery": "Bộ nguồn Deepcool 650W Bronze",
+      "size_weight": "Kích thước Mid-Tower tiêu chuẩn (Không kèm màn hình)",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt khí tháp đôi CPU + Quạt case đối lưu"
     },
     "needs": [
       "gaming",
@@ -4014,7 +4236,10 @@
       "ram": "16GB DDR4 3200MHz (2x8GB)",
       "storage": "512GB SSD M.2 NVMe PCIe 3.0",
       "display": "Cần mua rời (Khuyên dùng màn 24 inch FHD IPS giá rẻ)",
-      "battery": "Bộ nguồn Xigmatek X-Power III 450W"
+      "battery": "Bộ nguồn Xigmatek X-Power III 450W",
+      "size_weight": "Kích thước Mid-Tower tiêu chuẩn (Không kèm màn hình)",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt khí tháp đôi CPU + Quạt case đối lưu"
     },
     "needs": [
       "office_work",
@@ -4065,7 +4290,10 @@
       "gpu": "Dual NVIDIA GeForce RTX 4090 24GB NVLink (Tổng 48GB VRAM)",
       "ram": "256GB ECC DDR5 Registered (Tự sửa lỗi hệ thống)",
       "storage": "8TB SSD M.2 NVMe PCIe 5.0 RAID 0 siêu tốc",
-      "display": "Cần mua rời (Khuyên dùng bộ màn hình chuyên dụng đồ họa)"
+      "display": "Cần mua rời (Khuyên dùng bộ màn hình chuyên dụng đồ họa)",
+      "size_weight": "Kích thước Mid-Tower tiêu chuẩn (Không kèm màn hình)",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt khí tháp đôi CPU + Quạt case đối lưu"
     },
     "needs": [
       "programming",
@@ -4112,7 +4340,10 @@
       "gpu": "NVIDIA GeForce GTX 1650 4GB GDDR5",
       "ram": "8GB DDR4 3200MHz",
       "storage": "256GB SSD NVMe M.2",
-      "display": "Cần mua rời (Khuyên dùng màn hình 22 inch FHD 75Hz giá rẻ)"
+      "display": "Cần mua rời (Khuyên dùng màn hình 22 inch FHD 75Hz giá rẻ)",
+      "size_weight": "Kích thước Mid-Tower tiêu chuẩn (Không kèm màn hình)",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt khí tháp đôi CPU + Quạt case đối lưu"
     },
     "needs": [
       "study",
@@ -4157,7 +4388,10 @@
       "gpu": "NVIDIA GeForce RTX 4060 8GB GDDR6 ITX Edition",
       "ram": "16GB DDR5 5600MHz (2x8GB) Corsair",
       "storage": "1TB SSD M.2 NVMe PCIe 4.0",
-      "display": "Cần kết nối với Smart TV hoặc màn hình phòng khách"
+      "display": "Cần kết nối với Smart TV hoặc màn hình phòng khách",
+      "size_weight": "Kích thước Mid-Tower tiêu chuẩn (Không kèm màn hình)",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt khí tháp đôi CPU + Quạt case đối lưu"
     },
     "needs": [
       "gaming",
@@ -4202,7 +4436,10 @@
       "gpu": "Intel UHD Graphics 630 (Tích hợp)",
       "ram": "32GB DDR4 2666MHz ECC Unbuffered",
       "storage": "250GB SSD Cache + Hỗ trợ 6 khay HDD (Chưa kèm ổ cứng lưu trữ)",
-      "display": "Điều khiển từ xa qua giao diện Web (Không cần màn hình)"
+      "display": "Điều khiển từ xa qua giao diện Web (Không cần màn hình)",
+      "size_weight": "Kích thước Mid-Tower tiêu chuẩn (Không kèm màn hình)",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt khí tháp đôi CPU + Quạt case đối lưu"
     },
     "needs": [
       "study",
@@ -4246,7 +4483,10 @@
       "gpu": "NVIDIA GeForce RTX 4080 Super 16GB GDDR6X Custom Block",
       "ram": "32GB DDR5 6400MHz RGB G.Skill",
       "storage": "2TB SSD M.2 NVMe PCIe 4.0 Samsung 990 Pro",
-      "display": "Cần mua rời (Khuyên dùng màn hình 2K/4K 240Hz OLED)"
+      "display": "Cần mua rời (Khuyên dùng màn hình 2K/4K 240Hz OLED)",
+      "size_weight": "Kích thước Mid-Tower tiêu chuẩn (Không kèm màn hình)",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt khí tháp đôi CPU + Quạt case đối lưu"
     },
     "needs": [
       "gaming",
@@ -4291,7 +4531,10 @@
       "gpu": "Intel UHD Graphics 770 (Tích hợp)",
       "ram": "32GB DDR5 5200MHz Dual Channel",
       "storage": "1TB SSD PCIe 4.0 NVMe chuyên dụng ghi âm",
-      "display": "Cần mua rời"
+      "display": "Cần mua rời",
+      "size_weight": "Kích thước Mid-Tower tiêu chuẩn (Không kèm màn hình)",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt khí tháp đôi CPU + Quạt case đối lưu"
     },
     "needs": [
       "office_work",
@@ -4335,7 +4578,10 @@
       "gpu": "NVIDIA Quadro K620 (Mục đích xuất hình cơ bản)",
       "ram": "128GB DDR4 ECC Registered (4x32GB)",
       "storage": "2TB SSD Enterprise SAS RAID 5",
-      "display": "Truy cập từ xa bằng Proxmox VE Web UI / IPMI"
+      "display": "Truy cập từ xa bằng Proxmox VE Web UI / IPMI",
+      "size_weight": "Kích thước Mid-Tower tiêu chuẩn (Không kèm màn hình)",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt khí tháp đôi CPU + Quạt case đối lưu"
     },
     "needs": [
       "programming",
@@ -4379,7 +4625,10 @@
       "gpu": "AMD Radeon Vega 7 Graphics (Tích hợp)",
       "ram": "16GB DDR4 3200MHz",
       "storage": "1TB SSD NVMe M.2 Kingston",
-      "display": "Cần mua rời"
+      "display": "Cần mua rời",
+      "size_weight": "Kích thước Mid-Tower tiêu chuẩn (Không kèm màn hình)",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt khí tháp đôi CPU + Quạt case đối lưu"
     },
     "needs": [
       "office_work",
