@@ -10,6 +10,73 @@ export function resolveImagePath(url: string): string {
   return `${basePath}${cleanUrl}`;
 }
 
+function getRamSize(ramStr: string): number {
+  const match = ramStr.match(/(\d+)\s*GB/i);
+  return match ? parseInt(match[1], 10) : 0;
+}
+
+function getStorageSize(storageStr: string): number {
+  const str = storageStr.toLowerCase();
+  if (str.includes("tb")) {
+    const match = str.match(/(\d+)\s*tb/i);
+    return match ? parseInt(match[1], 10) * 1024 : 1024;
+  }
+  const match = str.match(/(\d+)\s*gb/i);
+  return match ? parseInt(match[1], 10) : 0;
+}
+
+function getHz(displayStr: string): number {
+  const match = displayStr.match(/(\d+)\s*Hz/i);
+  return match ? parseInt(match[1], 10) : 60;
+}
+
+function getCpuTier(cpuStr: string): 1 | 2 | 3 | 4 {
+  const str = cpuStr.toUpperCase();
+  // Tier 1: Apple Silicon M-series, Intel i9/Core Ultra 9, Ryzen 9, flagship Snapdragon 8 Gen 3 / X Elite
+  if (
+    str.includes("M4") ||
+    str.includes("M3") ||
+    str.includes("M2") ||
+    str.includes("M1") ||
+    str.includes("8 GEN 3") ||
+    str.includes("X ELITE") ||
+    str.includes("X PLUS") ||
+    str.includes("I9-") ||
+    str.includes("RYZEN 9")
+  ) {
+    return 1;
+  }
+  // Tier 2: Apple A17/A18, Snapdragon 8 Gen 2 / 8+ Gen 1 / 870, Intel i7, Ryzen 7, Kirin 9010
+  if (
+    str.includes("A17 PRO") ||
+    str.includes("A18") ||
+    str.includes("8 GEN 2") ||
+    str.includes("8+ GEN 1") ||
+    str.includes("870") ||
+    str.includes("I7-") ||
+    str.includes("RYZEN 7") ||
+    str.includes("KIRIN 9010") ||
+    str.includes("CORE ULTRA 7")
+  ) {
+    return 2;
+  }
+  // Tier 3: Intel i5, Ryzen 5, Kirin 9000, Exynos 1380, Snapdragon 7, Dimensity 7200
+  if (
+    str.includes("I5-") ||
+    str.includes("RYZEN 5") ||
+    str.includes("KIRIN 9000") ||
+    str.includes("EXYNOS 1380") ||
+    str.includes("7 GEN") ||
+    str.includes("7S GEN") ||
+    str.includes("DIMENSITY 7") ||
+    str.includes("CORE ULTRA 5")
+  ) {
+    return 3;
+  }
+  // Tier 4: low end/budget
+  return 4;
+}
+
 export interface Device {
   id: string;
   name: string;
@@ -61,13 +128,14 @@ export interface RecommendationResult {
 export function getPriceRangeBounds(range: string): { min: number; max: number } {
   switch (range) {
     case "<10 triệu":
-      return { min: 0, max: 10000000 };
+      return { min: 0, max: 10500000 };
     case "10-20 triệu":
-      return { min: 10000000, max: 20000000 };
+      // Include great options slightly below 10M (e.g. 8M+) to ensure accuracy and cost-saving choices
+      return { min: 8000000, max: 20500000 };
     case "20-40 triệu":
-      return { min: 20000000, max: 40000000 };
+      return { min: 18000000, max: 41000000 };
     case "40 triệu+":
-      return { min: 40000000, max: 999999999 };
+      return { min: 38000000, max: 999999999 };
     default:
       return { min: 0, max: 999999999 };
   }
@@ -114,9 +182,61 @@ export function getRecommendations(
     } else {
       // Base score is proportion of selected needs that the device supports
       const baseScore = (matchingNeeds.length / selectedNeedIds.length) * 100;
-      
-      // Let's refine the score: devices that support additional needs related to this category get a tiny bonus
-      matchScore = Math.min(100, Math.round(baseScore));
+      let score = baseScore;
+
+      const hasHeavyLoad = 
+        selectedNeedIds.includes("gaming") ||
+        selectedNeedIds.includes("video_editing") ||
+        selectedNeedIds.includes("graphic_design") ||
+        selectedNeedIds.includes("programming") ||
+        selectedNeedIds.includes("aiml") ||
+        selectedNeedIds.includes("data_science") ||
+        selectedNeedIds.includes("engineering_cad");
+
+      const ram = getRamSize(device.specs.ram);
+      const storage = getStorageSize(device.specs.storage);
+      const hz = getHz(device.specs.display);
+      const cpuTier = getCpuTier(device.specs.cpu);
+
+      // Penalize/Reward based on specs
+      if (hasHeavyLoad) {
+        // RAM penalties
+        if (ram < 8) {
+          score -= 30; // Heavy lag
+        } else if (ram === 8) {
+          score -= 10; // Barely enough for some tasks
+        } else if (ram >= 16) {
+          score += 10; // Excellent multitasking
+        }
+
+        // Storage penalties
+        if (storage < 128) {
+          score -= 15;
+        } else if (storage >= 512) {
+          score += 5;
+        }
+
+        // CPU penalties
+        if (cpuTier === 4) {
+          score -= 40; // Definite bottleneck
+        } else if (cpuTier === 3) {
+          score -= 15; // Moderate slowdowns
+        } else if (cpuTier === 1) {
+          score += 10; // Extra smooth
+        }
+      }
+
+      // Special gaming screen evaluation
+      if (selectedNeedIds.includes("gaming") || selectedNeedIds.includes("budget_gaming")) {
+        if (hz < 90) {
+          score -= 15; // 60Hz is laggy for modern gaming
+        } else if (hz >= 120) {
+          score += 5; // Ultra smooth motion
+        }
+      }
+
+      // Constrain score between 0 and 100
+      matchScore = Math.max(0, Math.min(100, Math.round(score)));
     }
 
     // Generate reason text dynamically
