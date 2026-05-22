@@ -6,31 +6,49 @@
       "M2",
       "M1",
       "8 GEN 3",
+      "8 GEN 4",
       "X ELITE",
       "X PLUS",
       "I9-",
-      "RYZEN 9"
+      "RYZEN 9",
+      "A18 PRO",
+      "DIMENSITY 9300",
+      "DIMENSITY 9400",
+      "EXYNOS 2400",
+      "CORE ULTRA 9"
     ],
     "tier_2": [
       "A17 PRO",
       "A18",
+      "A16",
       "8 GEN 2",
+      "8S GEN 3",
       "8+ GEN 1",
       "870",
       "I7-",
       "RYZEN 7",
       "KIRIN 9010",
-      "CORE ULTRA 7"
+      "CORE ULTRA 7",
+      "DIMENSITY 9200",
+      "DIMENSITY 8300",
+      "EXYNOS 1480"
     ],
     "tier_3": [
       "I5-",
       "RYZEN 5",
       "KIRIN 9000",
       "EXYNOS 1380",
+      "EXYNOS 1280",
       "7 GEN",
       "7S GEN",
+      "6 GEN 1",
       "DIMENSITY 7",
-      "CORE ULTRA 5"
+      "DIMENSITY 6",
+      "CORE ULTRA 5",
+      "A15",
+      "A14",
+      "G99",
+      "HELIO G99"
     ]
   },
   "budget_ranges": [
