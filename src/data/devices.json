@@ -6424,5 +6424,402 @@
       "RTX 3050 TGP thấp, gaming hạn chế",
       "Pin không bền khi bật GPU rời"
     ]
+  },
+  {
+    "id": "samsung-galaxy-s25",
+    "name": "Samsung Galaxy S25",
+    "brand": "Samsung",
+    "category": "mobile",
+    "price": 22990000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "Snapdragon 8 Elite",
+      "gpu": "Adreno 830",
+      "ram": "12GB LPDDR5X",
+      "storage": "256GB UFS 4.0",
+      "display": "6.2\" Dynamic AMOLED 2X, 120Hz LTPO, HDR10+",
+      "battery": "4000mAh, Sạc nhanh 25W",
+      "size_weight": "Nhỏ gọn (~6.2\"), nặng 162g - nhẹ nhất series",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt buồng hơi Vapor Chamber"
+    },
+    "needs": [
+      "photography",
+      "gaming",
+      "entertainment",
+      "zoom_meeting",
+      "online_seller",
+      "reading_news"
+    ],
+    "image_url": "/images/devices/galaxy-s25.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=galaxy%20s25",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=galaxy%20s25"
+      }
+    ],
+    "pros": [
+      "Nhỏ gọn nhẹ nhất flagship Android hiện tại 162g",
+      "Chip 8 Elite mạnh mẽ, AI Galaxy nâng cao",
+      "7 năm cập nhật Android từ Samsung"
+    ],
+    "cons": [
+      "Pin 4000mAh nhỏ, sạc 25W chậm",
+      "Không có S-Pen"
+    ]
+  },
+  {
+    "id": "vivo-x200-pro",
+    "name": "Vivo X200 Pro (Global)",
+    "brand": "Vivo",
+    "category": "mobile",
+    "price": 24990000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "MediaTek Dimensity 9400",
+      "gpu": "Immortalis-G925 MC12",
+      "ram": "16GB LPDDR5T",
+      "storage": "512GB UFS 4.0",
+      "display": "6.78\" AMOLED, 120Hz LTPO, HDR10+, 4500 nits",
+      "battery": "6000mAh, Sạc nhanh 90W",
+      "size_weight": "Kích thước vừa (~6.78\"), nặng 229g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt buồng hơi VC 3D + Kim loại lỏng"
+    },
+    "needs": [
+      "photography",
+      "gaming",
+      "vlogging",
+      "entertainment",
+      "zoom_meeting",
+      "battery_life"
+    ],
+    "image_url": "/images/devices/vivo-x200-pro.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=vivo%20x200%20pro",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=vivo%20x200%20pro"
+      }
+    ],
+    "pros": [
+      "Pin 6000mAh siêu trâu kèm sạc 90W nhanh",
+      "Camera Zeiss zoom periscope 200MP đỉnh cao",
+      "Chip Dimensity 9400 mạnh nhất MediaTek"
+    ],
+    "cons": [
+      "Nặng 229g",
+      "Ít phổ biến tại thị trường VN"
+    ]
+  },
+  {
+    "id": "realme-gt-7-pro",
+    "name": "Realme GT 7 Pro 5G",
+    "brand": "Realme",
+    "category": "mobile",
+    "price": 15990000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Snapdragon 8 Elite",
+      "gpu": "Adreno 830",
+      "ram": "12GB LPDDR5X",
+      "storage": "256GB UFS 4.0",
+      "display": "6.78\" AMOLED, 120Hz LTPO, HDR10+",
+      "battery": "6500mAh, Sạc siêu nhanh 120W",
+      "size_weight": "Kích thước lớn (~6.78\"), nặng 223g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt buồng hơi VC + Kim loại lỏng CPU"
+    },
+    "needs": [
+      "gaming",
+      "photography",
+      "entertainment",
+      "battery_life",
+      "zoom_meeting"
+    ],
+    "image_url": "/images/devices/realme-gt7-pro.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=realme%20gt%207%20pro",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=realme%20gt%207%20pro"
+      }
+    ],
+    "pros": [
+      "Chip 8 Elite ở tầm giá 16 triệu - rất đáng tiền",
+      "Pin 6500mAh + sạc 120W đầy pin trong 33 phút",
+      "Kháng nước IP69 cấp độ cao nhất"
+    ],
+    "cons": [
+      "Nặng 223g",
+      "Camera chưa phải điểm mạnh nhất"
+    ]
+  },
+  {
+    "id": "poco-x7-pro",
+    "name": "Poco X7 Pro 5G",
+    "brand": "Poco",
+    "category": "mobile",
+    "price": 9990000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "MediaTek Dimensity 8400 Ultra",
+      "gpu": "Mali-G720 MC7",
+      "ram": "12GB LPDDR5X",
+      "storage": "256GB UFS 3.1",
+      "display": "6.67\" AMOLED, 120Hz LTPO, HDR10+",
+      "battery": "6550mAh, Sạc nhanh 90W",
+      "size_weight": "Kích thước lớn (~6.67\"), nặng 210g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt buồng hơi VC + Kim loại lỏng"
+    },
+    "needs": [
+      "gaming",
+      "budget_gaming",
+      "entertainment",
+      "battery_life",
+      "photography"
+    ],
+    "image_url": "/images/devices/poco-x7-pro.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=poco%20x7%20pro",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=poco%20x7%20pro"
+      }
+    ],
+    "pros": [
+      "Hiệu năng gaming cực tốt dưới 10 triệu",
+      "Pin 6550mAh sạc 90W dùng cả ngày thoải mái",
+      "Màn hình AMOLED 120Hz LTPO mượt mà"
+    ],
+    "cons": [
+      "Thiết kế hơi dày, nặng 210g",
+      "Camera không phải điểm mạnh"
+    ]
+  },
+  {
+    "id": "nokia-g42",
+    "name": "Nokia G42 5G",
+    "brand": "Nokia",
+    "category": "mobile",
+    "price": 4490000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Snapdragon 480+",
+      "gpu": "Adreno 619",
+      "ram": "6GB LPDDR4X",
+      "storage": "128GB",
+      "display": "6.56\" IPS LCD, 90Hz, HD+",
+      "battery": "5000mAh, Sạc 20W",
+      "size_weight": "Kích thước vừa (~6.56\"), nặng 193g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động"
+    },
+    "needs": [
+      "study",
+      "parental_control",
+      "reading_news",
+      "zoom_meeting",
+      "ride_hailing_shipper"
+    ],
+    "image_url": "/images/devices/nokia-g42.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=nokia%20g42%205g",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=nokia%20g42%205g"
+      }
+    ],
+    "pros": [
+      "Thiết kế từ nhựa tái chế thân thiện môi trường",
+      "3 năm cập nhật Android và 4 năm bảo mật từ Nokia",
+      "Tự sửa chữa dễ dàng - có thể thay pin, màn hình"
+    ],
+    "cons": [
+      "Chip Snapdragon 480+ hiệu năng rất hạn chế",
+      "Màn hình HD+ độ phân giải thấp"
+    ]
+  },
+  {
+    "id": "acer-nitro-v-15",
+    "name": "Acer Nitro V 15 (2024)",
+    "brand": "Acer",
+    "category": "laptop",
+    "price": 19990000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Intel Core i5-13420H",
+      "gpu": "NVIDIA GeForce RTX 4050 6GB",
+      "ram": "16GB DDR5",
+      "storage": "512GB NVMe SSD",
+      "display": "15.6\" IPS, 144Hz, Full HD, sRGB 72%",
+      "battery": "55Wh (~5-6h)",
+      "size_weight": "Hiệu năng cao (~15.6\"), nặng 2.3kg",
+      "stylus": "Không hỗ trợ (Màn hình thường)",
+      "cooling": "Hệ thống tản nhiệt khí 2 quạt công suất cao"
+    },
+    "needs": [
+      "gaming",
+      "budget_gaming",
+      "video_editing",
+      "programming",
+      "study"
+    ],
+    "image_url": "/images/devices/acer-nitro-v-15.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=acer%20nitro%20v%2015",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=acer%20nitro%20v%2015"
+      }
+    ],
+    "pros": [
+      "RTX 4050 chơi game AAA mượt ở 1080p",
+      "Giá rẻ nhất có RTX 4050 trên thị trường",
+      "144Hz gaming mượt mà, nâng cấp RAM/SSD dễ"
+    ],
+    "cons": [
+      "Pin chỉ 5-6 tiếng",
+      "Màn hình sRGB 72% không phù hợp đồ họa chuyên nghiệp"
+    ]
+  },
+  {
+    "id": "hp-envy-x360-14",
+    "name": "HP Envy x360 14 (2024)",
+    "brand": "HP",
+    "category": "laptop",
+    "price": 22990000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "AMD Ryzen 7 8700U",
+      "gpu": "AMD Radeon 780M + NVIDIA RTX 4050 6GB",
+      "ram": "16GB LPDDR5X",
+      "storage": "512GB NVMe SSD",
+      "display": "14.0\" OLED Touch, 120Hz, 2.8K (2880 x 1800), sRGB 100%",
+      "battery": "72Wh (~10h)",
+      "size_weight": "Mỏng nhẹ (~14.0\"), nặng 1.42kg",
+      "stylus": "Hỗ trợ bút cảm ứng xoay gập 360 độ",
+      "cooling": "Quạt tản nhiệt đôi HP Dual Fan"
+    },
+    "needs": [
+      "graphic_design",
+      "digital_art",
+      "video_editing",
+      "programming",
+      "office_work",
+      "thin_light_executive",
+      "travel",
+      "zoom_meeting"
+    ],
+    "image_url": "/images/devices/hp-envy-x360-14.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=hp%20envy%20x360%2014",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=hp%20envy%20x360%2014"
+      }
+    ],
+    "pros": [
+      "Màn hình OLED cảm ứng 2.8K đẹp, gập 360° vẽ trực tiếp",
+      "RTX 4050 nhẹ nhàng đủ cho thiết kế và render",
+      "Thân nhôm siêu mỏng nhẹ 1.42kg"
+    ],
+    "cons": [
+      "Pin giảm nhanh khi bật GPU rời",
+      "Giá tương đối cao"
+    ]
+  },
+  {
+    "id": "lenovo-thinkpad-e14-gen5",
+    "name": "Lenovo ThinkPad E14 Gen 5",
+    "brand": "Lenovo",
+    "category": "laptop",
+    "price": 17990000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "AMD Ryzen 5 7530U",
+      "gpu": "AMD Radeon Integrated",
+      "ram": "16GB DDR4",
+      "storage": "512GB SSD NVMe",
+      "display": "14.0\" IPS, 60Hz, Full HD, 250 nits",
+      "battery": "57Wh (~9h)",
+      "size_weight": "Mỏng nhẹ (~14.0\"), nặng 1.56kg",
+      "stylus": "Không hỗ trợ (Màn hình thường)",
+      "cooling": "Quạt tản nhiệt đơn / kép thông minh, hoạt động êm"
+    },
+    "needs": [
+      "office_work",
+      "programming",
+      "study",
+      "zoom_meeting",
+      "travel",
+      "data_science"
+    ],
+    "image_url": "/images/devices/thinkpad-e14-gen5.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=thinkpad%20e14%20gen%205",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=thinkpad%20e14%20gen%205"
+      }
+    ],
+    "pros": [
+      "Bàn phím ThinkPad tốt nhất thị trường, gõ cực sướng",
+      "Bền bỉ MIL-SPEC, port đa dạng (USB-A, HDMI, Ethernet)",
+      "Giá phải chăng, hỗ trợ doanh nghiệp tốt"
+    ],
+    "cons": [
+      "Màn hình 60Hz, độ sáng 250 nits chưa đủ ngoài trời",
+      "Thiết kế truyền thống, không đẹp bằng đối thủ"
+    ]
+  },
+  {
+    "id": "asus-zenbook-14-oled-2024",
+    "name": "Asus Zenbook 14 OLED (2024)",
+    "brand": "Asus",
+    "category": "laptop",
+    "price": 21990000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "Intel Core Ultra 9 185H",
+      "gpu": "Intel Arc iGPU + Intel AI Boost",
+      "ram": "32GB LPDDR5X",
+      "storage": "1TB SSD NVMe",
+      "display": "14.0\" OLED, 120Hz, 2.8K (2880 x 1800), PANTONE Validated",
+      "battery": "75Wh (~12h)",
+      "size_weight": "Mỏng nhẹ (~14.0\"), nặng 1.2kg",
+      "stylus": "Không hỗ trợ (Màn hình thường)",
+      "cooling": "Quạt tản nhiệt đôi Asus Duo-Fan"
+    },
+    "needs": [
+      "programming",
+      "data_science",
+      "graphic_design",
+      "office_work",
+      "thin_light_executive",
+      "travel",
+      "zoom_meeting",
+      "aiml",
+      "battery_life"
+    ],
+    "image_url": "/images/devices/zenbook-14-oled-2024.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=asus%20zenbook%2014%20oled%202024",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=asus%20zenbook%2014%20oled%202024"
+      }
+    ],
+    "pros": [
+      "RAM 32GB + 1TB SSD cấu hình khủng cho lập trình, data science",
+      "Màn hình OLED 2.8K chuẩn màu đẹp nhất phân khúc",
+      "Siêu mỏng nhẹ 1.2kg, pin 12 giờ"
+    ],
+    "cons": [
+      "Không có GPU rời, không phù hợp render nặng",
+      "Giá cao hơn đối thủ cùng cấu hình"
+    ]
   }
 ]
