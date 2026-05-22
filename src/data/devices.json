@@ -1008,6 +1008,90 @@
     "cons": ["Không thể hoạt động độc lập (cần cắm dây với máy tính/điện thoại)", "Màn hình 11.6 inch hơi nhỏ cho các bản vẽ phức tạp"]
   },
   {
+    "id": "xiaomi-pad-7",
+    "name": "Xiaomi Pad 7",
+    "brand": "Xiaomi",
+    "category": "tablet",
+    "price": 9490000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Snapdragon 7+ Gen 3 (4nm)",
+      "gpu": "Adreno 732",
+      "ram": "8GB LPDDR5X",
+      "storage": "128GB UFS 4.0",
+      "display": "11.2\" IPS LCD, 144Hz, 3.2K (3200x2136), 800 nits, Tỷ lệ 3:2",
+      "battery": "8850mAh, Sạc nhanh 45W"
+    },
+    "needs": ["study", "travel", "entertainment", "note_taking", "reading_news", "zoom_meeting", "online_seller", "consultant_sales"],
+    "image_url": "https://images.unsplash.com/photo-1527690787265-17a41eb93a8d?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=xiaomi+pad+7",
+    "pros": ["Màn hình 3.2K độ phân giải siêu nét, tỷ lệ 3:2 tối ưu văn phòng và biểu đồ", "Chip Snapdragon 7+ Gen 3 cực mạnh trong phân khúc tầm trung", "Vỏ nhôm nguyên khối sang trọng"],
+    "cons": ["Tấm nền IPS LCD hiển thị màu đen chưa sâu tuyệt đối", "Không hỗ trợ cắm SIM LTE trực tiếp"]
+  },
+  {
+    "id": "xiaomi-pad-7-pro",
+    "name": "Xiaomi Pad 7 Pro",
+    "brand": "Xiaomi",
+    "category": "tablet",
+    "price": 11990000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Snapdragon 8 Gen 3 (4nm)",
+      "gpu": "Adreno 750",
+      "ram": "8GB LPDDR5X",
+      "storage": "256GB UFS 4.0",
+      "display": "11.2\" IPS LCD, 144Hz, 3.2K (3200x2136), 800 nits, Tỷ lệ 3:2",
+      "battery": "8850mAh, Sạc nhanh 67W"
+    },
+    "needs": ["gaming", "graphic_design", "video_editing", "study", "travel", "entertainment", "note_taking", "online_seller", "zoom_meeting", "consultant_sales"],
+    "image_url": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=xiaomi+pad+7+pro",
+    "pros": ["Cấu hình cực mạnh Snapdragon 8 Gen 3 hỗ trợ chơi game đồ họa cao và render video siêu nhanh", "Tốc độ sạc 67W cực kỳ ấn tượng", "Kết nối Wi-Fi 7 thế hệ mới cực kỳ nhanh chóng"],
+    "cons": ["Vẫn sử dụng tấm nền IPS LCD thay vì OLED", "Mức giá cận cao cấp cạnh tranh với iPad cũ"]
+  },
+  {
+    "id": "lenovo-xiaoxin-pad-pro-12-7",
+    "name": "Lenovo Xiaoxin Pad Pro 12.7 (2024)",
+    "brand": "Lenovo",
+    "category": "tablet",
+    "price": 6990000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "MediaTek Dimensity 8300 (4nm)",
+      "gpu": "Mali-G615 MC6",
+      "ram": "8GB LPDDR5X",
+      "storage": "128GB UFS 4.0",
+      "display": "12.7\" IPS LCD, 144Hz, 2.9K (2944x1840)",
+      "battery": "10200mAh, Sạc nhanh 45W"
+    },
+    "needs": ["study", "entertainment", "parental_control", "reading_news", "zoom_meeting", "online_seller"],
+    "image_url": "https://images.unsplash.com/photo-1527690787265-17a41eb93a8d?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=xiaoxin+pad+pro+12.7",
+    "pros": ["Màn hình cực kỳ lớn 12.7 inch tha hồ làm việc đa nhiệm và xem phim giải trí", "Hiệu năng cực tốt nhờ chip Dimensity 8300 và bộ nhớ UFS 4.0", "Dung lượng pin khủng 10.200mAh dùng thoải mái cả ngày"],
+    "cons": ["Kích thước lớn và khá nặng khi cầm một tay", "Là hàng nhập khẩu nội địa cần cài đặt tiếng Việt thủ công"]
+  },
+  {
+    "id": "ipad-mini-7",
+    "name": "Apple iPad Mini 7 (A17 Pro - 2024)",
+    "brand": "Apple",
+    "category": "tablet",
+    "price": 13990000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Apple A17 Pro (3nm)",
+      "gpu": "Apple 5-core GPU",
+      "ram": "8GB",
+      "storage": "128GB NVMe",
+      "display": "8.3\" Liquid Retina IPS LCD, 60Hz, 500 nits, True Tone",
+      "battery": "5078mAh (Khoảng 9-10h sử dụng)"
+    },
+    "needs": ["study", "travel", "gaming", "entertainment", "note_taking", "zoom_meeting", "online_seller", "consultant_sales"],
+    "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=ipad+mini+7",
+    "pros": ["Kích thước siêu nhỏ gọn 8.3 inch cực kỳ dễ bỏ túi xách đi gặp đối tác, khách hàng", "Chip A17 Pro và 8GB RAM cực mạnh hỗ trợ các tính năng Apple Intelligence", "Tương thích bút Apple Pencil Pro mới nhất"],
+    "cons": ["Tần số quét chỉ dừng lại ở 60Hz", "Màn hình nhỏ không tối ưu cho những ai cần không gian vẽ vẽ chuyên nghiệp"]
+  },
+  {
     "id": "macbook-air-m3",
     "name": "MacBook Air M3 13\" (2024)",
     "brand": "Apple",
