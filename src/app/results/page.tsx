@@ -80,6 +80,7 @@ function ResultsContent() {
   const [compareList, setCompareList] = useState<string[]>([]);
   const [expandedDevice, setExpandedDevice] = useState<string | null>(null);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+  const [showMobileFilters, setShowMobileFilters] = useState<boolean>(false);
 
   useEffect(() => {
     const handleOutsideClick = () => setActiveDropdown(null);
@@ -285,276 +286,319 @@ function ResultsContent() {
     }
   };
 
+  const renderFiltersContent = () => {
+    return (
+      <div className="glass-panel rounded-2xl p-5 border border-white/5">
+        <div className="flex items-center justify-between mb-4 border-b border-white/5 pb-3">
+          <h3 className="text-sm font-bold text-white flex items-center space-x-2">
+            <Filter className="h-4 w-4 text-brand-primary" />
+            <span>Bộ Lọc Chi Tiết</span>
+          </h3>
+          {(selectedBrands.length > 0 ||
+            sortBy !== "score-desc" ||
+            selectedRamRange.length > 0 ||
+            selectedStorageRange.length > 0 ||
+            selectedCpuBrands.length > 0 ||
+            selectedGpuTypes.length > 0 ||
+            selectedHzRange.length > 0) && (
+            <button
+              onClick={() => {
+                setSelectedBrands([]);
+                setSortBy("score-desc");
+                setSelectedRamRange([]);
+                setSelectedStorageRange([]);
+                setSelectedCpuBrands([]);
+                setSelectedGpuTypes([]);
+                setSelectedHzRange([]);
+              }}
+              className="text-[10px] text-brand-primary hover:underline font-semibold"
+            >
+              Xóa tất cả
+            </button>
+          )}
+        </div>
+
+        {/* Current Criteria Summary */}
+        <div className="mb-6 bg-white/5 rounded-xl p-3 text-[11px] space-y-1">
+          <span className="text-brand-muted uppercase tracking-wider font-bold block mb-1">Cấu hình đang lọc</span>
+          <div>
+            <span className="text-brand-muted">Phân mục:</span>{" "}
+            <span className="text-white font-semibold">{translateCategory(category)}</span>
+          </div>
+          <div>
+            <span className="text-brand-muted">Ngân sách:</span>{" "}
+            <span className="text-white font-semibold">{budget}</span>
+          </div>
+          <div>
+            <span className="text-brand-muted">Nhu cầu:</span>{" "}
+            <span className="text-white font-semibold">{selectedNeeds.length} mục đã chọn</span>
+          </div>
+        </div>
+
+        {/* Brand Filter Checklist */}
+        <div className="mb-6">
+          <span className="text-xs font-bold text-white block mb-3">Thương hiệu</span>
+          {brands.length === 0 ? (
+            <p className="text-[10px] text-brand-muted">Không tìm thấy thương hiệu phù hợp.</p>
+          ) : (
+            <div className="space-y-2 max-h-40 overflow-y-auto pr-1">
+              {brands.map((brand) => {
+                const isChecked = selectedBrands.includes(brand);
+                return (
+                  <button
+                    key={brand}
+                    onClick={() => handleBrandToggle(brand)}
+                    className="flex items-center space-x-3 w-full text-left py-1 text-xs text-brand-muted hover:text-white transition-colors"
+                  >
+                    <div className={`h-4 w-4 rounded border flex items-center justify-center transition-all ${
+                      isChecked ? "bg-brand-primary border-brand-primary text-white" : "border-white/20 bg-transparent"
+                    }`}>
+                      {isChecked && <Check className="h-3 w-3" />}
+                    </div>
+                    <span>{brand}</span>
+                  </button>
+                );
+              })}
+            </div>
+          )}
+        </div>
+
+        {/* Sorting Dropdown */}
+        <div className="mb-6">
+          <label className="text-xs font-bold text-white block mb-3">Sắp xếp theo</label>
+          <select
+            value={sortBy}
+            onChange={(e) => setSortBy(e.target.value)}
+            className="w-full bg-white/5 border border-white/10 rounded-xl py-2 px-3 text-xs text-white focus:outline-none focus:border-brand-primary transition-all duration-300"
+          >
+            <option value="score-desc" className="bg-[#0f1428] text-white">Độ trùng khớp giảm dần</option>
+            <option value="price-asc" className="bg-[#0f1428] text-white">Giá tăng dần</option>
+            <option value="price-desc" className="bg-[#0f1428] text-white">Giá giảm dần</option>
+          </select>
+        </div>
+
+        {/* Advanced Spec Filters (Pro) */}
+        <div className="border-t border-white/5 pt-5 mt-5">
+          <span className="text-xs font-bold text-white block mb-4 flex items-center space-x-2">
+            <Cpu className="h-3.5 w-3.5 text-brand-primary animate-pulse" />
+            <span>Bộ Lọc Thông Số (Pro)</span>
+          </span>
+
+          <div className="space-y-4">
+            {/* RAM Filter */}
+            <div>
+              <span className="text-[10px] font-bold text-brand-muted uppercase tracking-wider block mb-2">Bộ nhớ RAM</span>
+              <div className="space-y-1.5">
+                {[
+                  { label: "4GB - 8GB", value: "4-8" },
+                  { label: "12GB - 16GB", value: "12-16" },
+                  { label: "24GB - 32GB", value: "24-32" },
+                  { label: "64GB+", value: "64+" }
+                ].map((item) => {
+                  const isChecked = selectedRamRange.includes(item.value);
+                  return (
+                    <button
+                      key={item.value}
+                      onClick={() => handleRamToggle(item.value)}
+                      className="flex items-center space-x-2 w-full text-left py-0.5 text-xs text-brand-muted hover:text-white transition-colors"
+                    >
+                      <div className={`h-3.5 w-3.5 rounded border flex items-center justify-center transition-all ${
+                        isChecked ? "bg-brand-primary border-brand-primary text-white" : "border-white/20 bg-transparent"
+                      }`}>
+                        {isChecked && <Check className="h-2.5 w-2.5" />}
+                      </div>
+                      <span>{item.label}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Storage Filter */}
+            <div>
+              <span className="text-[10px] font-bold text-brand-muted uppercase tracking-wider block mb-2">Ổ cứng lưu trữ</span>
+              <div className="space-y-1.5">
+                {[
+                  { label: "Dưới 256GB", value: "<256" },
+                  { label: "256GB - 512GB", value: "256-512" },
+                  { label: "1TB+", value: "1000+" }
+                ].map((item) => {
+                  const isChecked = selectedStorageRange.includes(item.value);
+                  return (
+                    <button
+                      key={item.value}
+                      onClick={() => handleStorageToggle(item.value)}
+                      className="flex items-center space-x-2 w-full text-left py-0.5 text-xs text-brand-muted hover:text-white transition-colors"
+                    >
+                      <div className={`h-3.5 w-3.5 rounded border flex items-center justify-center transition-all ${
+                        isChecked ? "bg-brand-primary border-brand-primary text-white" : "border-white/20 bg-transparent"
+                      }`}>
+                        {isChecked && <Check className="h-2.5 w-2.5" />}
+                      </div>
+                      <span>{item.label}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* CPU Brand Filter */}
+            <div>
+              <span className="text-[10px] font-bold text-brand-muted uppercase tracking-wider block mb-2">Hãng vi xử lý (CPU)</span>
+              <div className="space-y-1.5">
+                {[
+                  { label: "Apple Silicon", value: "apple" },
+                  { label: "Intel Core / Xeon", value: "intel" },
+                  { label: "AMD Ryzen / Epyc", value: "amd" },
+                  { label: "Snapdragon ARM", value: "snapdragon" },
+                  { label: "MediaTek / Khác", value: "mediatek" }
+                ].map((item) => {
+                  const isChecked = selectedCpuBrands.includes(item.value);
+                  return (
+                    <button
+                      key={item.value}
+                      onClick={() => handleCpuBrandToggle(item.value)}
+                      className="flex items-center space-x-2 w-full text-left py-0.5 text-xs text-brand-muted hover:text-white transition-colors"
+                    >
+                      <div className={`h-3.5 w-3.5 rounded border flex items-center justify-center transition-all ${
+                        isChecked ? "bg-brand-primary border-brand-primary text-white" : "border-white/20 bg-transparent"
+                      }`}>
+                        {isChecked && <Check className="h-2.5 w-2.5" />}
+                      </div>
+                      <span>{item.label}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* GPU Filter - only display for laptop and pc categories */}
+            {(category === "laptop" || category === "pc") && (
+              <div>
+                <span className="text-[10px] font-bold text-brand-muted uppercase tracking-wider block mb-2">Card đồ họa (GPU)</span>
+                <div className="space-y-1.5">
+                  {[
+                    { label: "NVIDIA GeForce / RTX", value: "nvidia" },
+                    { label: "AMD Radeon / Apple", value: "amd" },
+                    { label: "Tích hợp / Khác", value: "integrated" }
+                  ].map((item) => {
+                    const isChecked = selectedGpuTypes.includes(item.value);
+                    return (
+                      <button
+                        key={item.value}
+                        onClick={() => handleGpuTypeToggle(item.value)}
+                        className="flex items-center space-x-2 w-full text-left py-0.5 text-xs text-brand-muted hover:text-white transition-colors"
+                      >
+                        <div className={`h-3.5 w-3.5 rounded border flex items-center justify-center transition-all ${
+                          isChecked ? "bg-brand-primary border-brand-primary text-white" : "border-white/20 bg-transparent"
+                        }`}>
+                          {isChecked && <Check className="h-2.5 w-2.5" />}
+                        </div>
+                        <span>{item.label}</span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+
+            {/* Display Hz Filter */}
+            <div>
+              <span className="text-[10px] font-bold text-brand-muted uppercase tracking-wider block mb-2">Tần số quét màn hình</span>
+              <div className="space-y-1.5">
+                {[
+                  { label: "60Hz tiêu chuẩn", value: "60" },
+                  { label: "90Hz - 120Hz mượt", value: "90-120" },
+                  { label: "144Hz - 165Hz gaming", value: "144-165" },
+                  { label: "240Hz+ tối thượng", value: "240+" }
+                ].map((item) => {
+                  const isChecked = selectedHzRange.includes(item.value);
+                  return (
+                    <button
+                      key={item.value}
+                      onClick={() => handleHzToggle(item.value)}
+                      className="flex items-center space-x-2 w-full text-left py-0.5 text-xs text-brand-muted hover:text-white transition-colors"
+                    >
+                      <div className={`h-3.5 w-3.5 rounded border flex items-center justify-center transition-all ${
+                        isChecked ? "bg-brand-primary border-brand-primary text-white" : "border-white/20 bg-transparent"
+                      }`}>
+                        {isChecked && <Check className="h-2.5 w-2.5" />}
+                      </div>
+                      <span>{item.label}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Header Back Button */}
-      <div className="mb-6 flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
+      <div className="mb-6 flex items-center justify-between gap-4">
         <Link
           href="/"
           className="inline-flex items-center space-x-2 text-xs font-semibold text-brand-muted hover:text-white transition-colors"
         >
           <ArrowLeft className="h-4 w-4" />
-          <span>Quay lại bộ lọc</span>
+          <span>Quay lại</span>
         </Link>
-        {compareList.length > 0 && (
-          <Link
-            href="/compare"
-            className="inline-flex items-center space-x-2 bg-brand-secondary hover:bg-brand-secondary/95 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all duration-300 shadow-md hover:scale-105"
+        
+        <div className="flex items-center space-x-2">
+          <button
+            onClick={() => setShowMobileFilters(true)}
+            className="lg:hidden inline-flex items-center space-x-1.5 bg-white/5 border border-white/10 hover:border-white/20 text-white px-3.5 py-2 rounded-xl text-xs font-bold transition-all"
           >
-            <Scale className="h-4 w-4" />
-            <span>So sánh {compareList.length} thiết bị</span>
-          </Link>
-        )}
+            <Filter className="h-3.5 w-3.5 text-brand-primary" />
+            <span>Lọc & Sắp xếp</span>
+          </button>
+
+          {compareList.length > 0 && (
+            <Link
+              href="/compare"
+              className="inline-flex items-center space-x-2 bg-brand-secondary hover:bg-brand-secondary/95 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all duration-300 shadow-md hover:scale-105"
+            >
+              <Scale className="h-4 w-4" />
+              <span className="hidden sm:inline">So sánh {compareList.length} thiết bị</span>
+              <span className="sm:hidden">{compareList.length} So sánh</span>
+            </Link>
+          )}
+        </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
-        {/* SIDEBAR FILTERS */}
-        <div className="col-span-1 space-y-6">
-          <div className="glass-panel rounded-2xl p-5 border border-white/5">
-            <div className="flex items-center justify-between mb-4 border-b border-white/5 pb-3">
-              <h3 className="text-sm font-bold text-white flex items-center space-x-2">
-                <Filter className="h-4 w-4 text-brand-primary" />
-                <span>Bộ Lọc Chi Tiết</span>
-              </h3>
-              {(selectedBrands.length > 0 ||
-                sortBy !== "score-desc" ||
-                selectedRamRange.length > 0 ||
-                selectedStorageRange.length > 0 ||
-                selectedCpuBrands.length > 0 ||
-                selectedGpuTypes.length > 0 ||
-                selectedHzRange.length > 0) && (
-                <button
-                  onClick={() => {
-                    setSelectedBrands([]);
-                    setSortBy("score-desc");
-                    setSelectedRamRange([]);
-                    setSelectedStorageRange([]);
-                    setSelectedCpuBrands([]);
-                    setSelectedGpuTypes([]);
-                    setSelectedHzRange([]);
-                  }}
-                  className="text-[10px] text-brand-primary hover:underline font-semibold"
-                >
-                  Xóa tất cả
-                </button>
-              )}
-            </div>
-
-            {/* Current Criteria Summary */}
-            <div className="mb-6 bg-white/5 rounded-xl p-3 text-[11px] space-y-1">
-              <span className="text-brand-muted uppercase tracking-wider font-bold block mb-1">Cấu hình đang lọc</span>
-              <div>
-                <span className="text-brand-muted">Phân mục:</span>{" "}
-                <span className="text-white font-semibold">{translateCategory(category)}</span>
-              </div>
-              <div>
-                <span className="text-brand-muted">Ngân sách:</span>{" "}
-                <span className="text-white font-semibold">{budget}</span>
-              </div>
-              <div>
-                <span className="text-brand-muted">Nhu cầu:</span>{" "}
-                <span className="text-white font-semibold">{selectedNeeds.length} mục đã chọn</span>
-              </div>
-            </div>
-
-            {/* Brand Filter Checklist */}
-            <div className="mb-6">
-              <span className="text-xs font-bold text-white block mb-3">Thương hiệu</span>
-              {brands.length === 0 ? (
-                <p className="text-[10px] text-brand-muted">Không tìm thấy thương hiệu phù hợp.</p>
-              ) : (
-                <div className="space-y-2 max-h-40 overflow-y-auto pr-1">
-                  {brands.map((brand) => {
-                    const isChecked = selectedBrands.includes(brand);
-                    return (
-                      <button
-                        key={brand}
-                        onClick={() => handleBrandToggle(brand)}
-                        className="flex items-center space-x-3 w-full text-left py-1 text-xs text-brand-muted hover:text-white transition-colors"
-                      >
-                        <div className={`h-4 w-4 rounded border flex items-center justify-center transition-all ${
-                          isChecked ? "bg-brand-primary border-brand-primary text-white" : "border-white/20 bg-transparent"
-                        }`}>
-                          {isChecked && <Check className="h-3 w-3" />}
-                        </div>
-                        <span>{brand}</span>
-                      </button>
-                    );
-                  })}
-                </div>
-              )}
-            </div>
-
-            {/* Sorting Dropdown */}
-            <div className="mb-6">
-              <label className="text-xs font-bold text-white block mb-3">Sắp xếp theo</label>
-              <select
-                value={sortBy}
-                onChange={(e) => setSortBy(e.target.value)}
-                className="w-full bg-white/5 border border-white/10 rounded-xl py-2 px-3 text-xs text-white focus:outline-none focus:border-brand-primary transition-all duration-300"
-              >
-                <option value="score-desc" className="bg-[#0f1428] text-white">Độ trùng khớp giảm dần</option>
-                <option value="price-asc" className="bg-[#0f1428] text-white">Giá tăng dần</option>
-                <option value="price-desc" className="bg-[#0f1428] text-white">Giá giảm dần</option>
-              </select>
-            </div>
-
-            {/* Advanced Spec Filters (Pro) */}
-            <div className="border-t border-white/5 pt-5 mt-5">
-              <span className="text-xs font-bold text-white block mb-4 flex items-center space-x-2">
-                <Cpu className="h-3.5 w-3.5 text-brand-primary animate-pulse" />
-                <span>Bộ Lọc Thông Số (Pro)</span>
-              </span>
-
-              <div className="space-y-4">
-                {/* RAM Filter */}
-                <div>
-                  <span className="text-[10px] font-bold text-brand-muted uppercase tracking-wider block mb-2">Bộ nhớ RAM</span>
-                  <div className="space-y-1.5">
-                    {[
-                      { label: "4GB - 8GB", value: "4-8" },
-                      { label: "12GB - 16GB", value: "12-16" },
-                      { label: "24GB - 32GB", value: "24-32" },
-                      { label: "64GB+", value: "64+" }
-                    ].map((item) => {
-                      const isChecked = selectedRamRange.includes(item.value);
-                      return (
-                        <button
-                          key={item.value}
-                          onClick={() => handleRamToggle(item.value)}
-                          className="flex items-center space-x-2 w-full text-left py-0.5 text-xs text-brand-muted hover:text-white transition-colors"
-                        >
-                          <div className={`h-3.5 w-3.5 rounded border flex items-center justify-center transition-all ${
-                            isChecked ? "bg-brand-primary border-brand-primary text-white" : "border-white/20 bg-transparent"
-                          }`}>
-                            {isChecked && <Check className="h-2.5 w-2.5" />}
-                          </div>
-                          <span>{item.label}</span>
-                        </button>
-                      );
-                    })}
-                  </div>
-                </div>
-
-                {/* Storage Filter */}
-                <div>
-                  <span className="text-[10px] font-bold text-brand-muted uppercase tracking-wider block mb-2">Ổ cứng lưu trữ</span>
-                  <div className="space-y-1.5">
-                    {[
-                      { label: "Dưới 256GB", value: "<256" },
-                      { label: "256GB - 512GB", value: "256-512" },
-                      { label: "1TB+", value: "1000+" }
-                    ].map((item) => {
-                      const isChecked = selectedStorageRange.includes(item.value);
-                      return (
-                        <button
-                          key={item.value}
-                          onClick={() => handleStorageToggle(item.value)}
-                          className="flex items-center space-x-2 w-full text-left py-0.5 text-xs text-brand-muted hover:text-white transition-colors"
-                        >
-                          <div className={`h-3.5 w-3.5 rounded border flex items-center justify-center transition-all ${
-                            isChecked ? "bg-brand-primary border-brand-primary text-white" : "border-white/20 bg-transparent"
-                          }`}>
-                            {isChecked && <Check className="h-2.5 w-2.5" />}
-                          </div>
-                          <span>{item.label}</span>
-                        </button>
-                      );
-                    })}
-                  </div>
-                </div>
-
-                {/* CPU Brand Filter */}
-                <div>
-                  <span className="text-[10px] font-bold text-brand-muted uppercase tracking-wider block mb-2">Hãng vi xử lý (CPU)</span>
-                  <div className="space-y-1.5">
-                    {[
-                      { label: "Apple Silicon", value: "apple" },
-                      { label: "Intel Core / Xeon", value: "intel" },
-                      { label: "AMD Ryzen / Epyc", value: "amd" },
-                      { label: "Snapdragon ARM", value: "snapdragon" },
-                      { label: "MediaTek / Khác", value: "mediatek" }
-                    ].map((item) => {
-                      const isChecked = selectedCpuBrands.includes(item.value);
-                      return (
-                        <button
-                          key={item.value}
-                          onClick={() => handleCpuBrandToggle(item.value)}
-                          className="flex items-center space-x-2 w-full text-left py-0.5 text-xs text-brand-muted hover:text-white transition-colors"
-                        >
-                          <div className={`h-3.5 w-3.5 rounded border flex items-center justify-center transition-all ${
-                            isChecked ? "bg-brand-primary border-brand-primary text-white" : "border-white/20 bg-transparent"
-                          }`}>
-                            {isChecked && <Check className="h-2.5 w-2.5" />}
-                          </div>
-                          <span>{item.label}</span>
-                        </button>
-                      );
-                    })}
-                  </div>
-                </div>
-
-                {/* GPU Filter - only display for laptop and pc categories */}
-                {(category === "laptop" || category === "pc") && (
-                  <div>
-                    <span className="text-[10px] font-bold text-brand-muted uppercase tracking-wider block mb-2">Card đồ họa (GPU)</span>
-                    <div className="space-y-1.5">
-                      {[
-                        { label: "NVIDIA GeForce / RTX", value: "nvidia" },
-                        { label: "AMD Radeon / Apple", value: "amd" },
-                        { label: "Tích hợp / Khác", value: "integrated" }
-                      ].map((item) => {
-                        const isChecked = selectedGpuTypes.includes(item.value);
-                        return (
-                          <button
-                            key={item.value}
-                            onClick={() => handleGpuTypeToggle(item.value)}
-                            className="flex items-center space-x-2 w-full text-left py-0.5 text-xs text-brand-muted hover:text-white transition-colors"
-                          >
-                            <div className={`h-3.5 w-3.5 rounded border flex items-center justify-center transition-all ${
-                              isChecked ? "bg-brand-primary border-brand-primary text-white" : "border-white/20 bg-transparent"
-                            }`}>
-                              {isChecked && <Check className="h-2.5 w-2.5" />}
-                            </div>
-                            <span>{item.label}</span>
-                          </button>
-                        );
-                      })}
-                    </div>
-                  </div>
-                )}
-
-                {/* Display Hz Filter */}
-                <div>
-                  <span className="text-[10px] font-bold text-brand-muted uppercase tracking-wider block mb-2">Tần số quét màn hình</span>
-                  <div className="space-y-1.5">
-                    {[
-                      { label: "60Hz tiêu chuẩn", value: "60" },
-                      { label: "90Hz - 120Hz mượt", value: "90-120" },
-                      { label: "144Hz - 165Hz gaming", value: "144-165" },
-                      { label: "240Hz+ tối thượng", value: "240+" }
-                    ].map((item) => {
-                      const isChecked = selectedHzRange.includes(item.value);
-                      return (
-                        <button
-                          key={item.value}
-                          onClick={() => handleHzToggle(item.value)}
-                          className="flex items-center space-x-2 w-full text-left py-0.5 text-xs text-brand-muted hover:text-white transition-colors"
-                        >
-                          <div className={`h-3.5 w-3.5 rounded border flex items-center justify-center transition-all ${
-                            isChecked ? "bg-brand-primary border-brand-primary text-white" : "border-white/20 bg-transparent"
-                          }`}>
-                            {isChecked && <Check className="h-2.5 w-2.5" />}
-                          </div>
-                          <span>{item.label}</span>
-                        </button>
-                      );
-                    })}
-                  </div>
-                </div>
-              </div>
-            </div>
+      {/* Mobile Filters Drawer */}
+      {showMobileFilters && (
+        <div className="fixed inset-0 bg-[#070b19]/95 backdrop-blur-md z-50 p-6 overflow-y-auto block lg:hidden">
+          <div className="flex justify-between items-center mb-6 border-b border-white/10 pb-4">
+            <h3 className="text-base font-bold text-white flex items-center space-x-2">
+              <Filter className="h-4 w-4 text-brand-primary" />
+              <span>Bộ Lọc Chi Tiết</span>
+            </h3>
+            <button
+              onClick={() => setShowMobileFilters(false)}
+              className="text-xs text-brand-muted hover:text-white font-bold bg-white/5 border border-white/10 px-3 py-1.5 rounded-lg"
+            >
+              Đóng
+            </button>
           </div>
+          {renderFiltersContent()}
+          <button
+            onClick={() => setShowMobileFilters(false)}
+            className="w-full mt-6 bg-gradient-to-r from-brand-primary to-brand-secondary text-white py-3 rounded-xl font-bold text-sm shadow-md"
+          >
+            Áp dụng bộ lọc
+          </button>
+        </div>
+      )}
+
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
+        {/* SIDEBAR FILTERS - Desktop */}
+        <div className="hidden lg:block col-span-1 space-y-6">
+          {renderFiltersContent()}
         </div>
 
         {/* RESULTS MAIN LIST */}
@@ -632,9 +676,9 @@ function ResultsContent() {
                     key={device.id}
                     className="glass-panel rounded-2xl p-4 md:p-6 border border-white/5 hover:border-brand-primary/20 transition-all duration-300"
                   >
-                    <div className="flex flex-col md:flex-row gap-6">
+                    <div className="flex flex-row gap-4 sm:gap-6">
                       {/* Device Image */}
-                      <div className="w-full md:w-36 h-28 relative rounded-xl overflow-hidden bg-brand-bg flex items-center justify-center border border-white/5 flex-shrink-0">
+                      <div className="w-24 sm:w-36 h-20 sm:h-28 relative rounded-xl overflow-hidden bg-brand-bg flex items-center justify-center border border-white/5 flex-shrink-0">
                         <img
                           src={resolveImagePath(device.image_url)}
                           alt={device.name}
@@ -644,64 +688,64 @@ function ResultsContent() {
 
                       {/* Device Core Info */}
                       <div className="flex-grow min-w-0">
-                        <div className="flex justify-between items-start mb-2">
-                          <div>
-                            <span className="text-[10px] text-brand-muted font-bold tracking-widest uppercase">{device.brand}</span>
-                            <h4 className="text-base md:text-lg font-bold text-white block hover:text-brand-primary transition-colors cursor-pointer" onClick={() => setExpandedDevice(isExpanded ? null : device.id)}>
+                        <div className="flex justify-between items-start gap-2 mb-2">
+                          <div className="min-w-0">
+                            <span className="text-[9px] sm:text-[10px] text-brand-muted font-bold tracking-widest uppercase block">{device.brand}</span>
+                            <h4 className="text-sm sm:text-base md:text-lg font-bold text-white block hover:text-brand-primary transition-colors cursor-pointer truncate" onClick={() => setExpandedDevice(isExpanded ? null : device.id)}>
                               {device.name}
                             </h4>
                           </div>
                           {/* Match Score Badge */}
-                          <div className="flex flex-col items-end">
-                            <span className="text-xs md:text-sm font-extrabold bg-gradient-to-r from-brand-primary to-brand-secondary bg-clip-text text-transparent">
+                          <div className="flex flex-col items-end flex-shrink-0">
+                            <span className="text-xs sm:text-sm font-extrabold bg-gradient-to-r from-brand-primary to-brand-secondary bg-clip-text text-transparent">
                               {matchScore}% Match
                             </span>
-                            <span className="text-[9px] text-brand-muted">{reason}</span>
+                            <span className="text-[8px] sm:text-[9px] text-brand-muted text-right max-w-[80px] sm:max-w-[120px] truncate">{reason}</span>
                           </div>
                         </div>
 
                         {/* Specs Grid */}
-                        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 mt-4 text-[11px] text-brand-muted border-t border-b border-white/5 py-3 mb-4">
+                        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 mt-3 text-[10px] sm:text-[11px] text-brand-muted border-t border-b border-white/5 py-2 sm:py-3 mb-3">
                           <div>
-                            <span className="text-brand-muted/70 block text-[9px] uppercase font-bold">Vi xử lý</span>
+                            <span className="text-brand-muted/70 block text-[8px] sm:text-[9px] uppercase font-bold">Vi xử lý</span>
                             <span className="text-white truncate block">{device.specs.cpu}</span>
                           </div>
                           <div>
-                            <span className="text-brand-muted/70 block text-[9px] uppercase font-bold">RAM / SSD</span>
+                            <span className="text-brand-muted/70 block text-[8px] sm:text-[9px] uppercase font-bold">RAM / SSD</span>
                             <span className="text-white truncate block">{device.specs.ram} / {device.specs.storage}</span>
                           </div>
                           <div>
-                            <span className="text-brand-muted/70 block text-[9px] uppercase font-bold">Màn hình</span>
+                            <span className="text-brand-muted/70 block text-[8px] sm:text-[9px] uppercase font-bold">Màn hình</span>
                             <span className="text-white truncate block">{device.specs.display}</span>
                           </div>
                           <div>
-                            <span className="text-brand-muted/70 block text-[9px] uppercase font-bold">Đồ họa</span>
+                            <span className="text-brand-muted/70 block text-[8px] sm:text-[9px] uppercase font-bold">Đồ họa</span>
                             <span className="text-white truncate block">{device.specs.gpu}</span>
                           </div>
                           <div>
-                            <span className="text-brand-muted/70 block text-[9px] uppercase font-bold">Pin & Sạc</span>
+                            <span className="text-brand-muted/70 block text-[8px] sm:text-[9px] uppercase font-bold">Pin & Sạc</span>
                             <span className="text-white truncate block">{device.specs.battery}</span>
                           </div>
                           <div>
-                            <span className="text-brand-muted/70 block text-[9px] uppercase font-bold">Đầu tư</span>
+                            <span className="text-brand-muted/70 block text-[8px] sm:text-[9px] uppercase font-bold">Đầu tư</span>
                             <span className="text-brand-primary font-bold block">{formatPrice(device.price)}</span>
                           </div>
                         </div>
 
                         {/* Actions */}
-                        <div className="flex flex-wrap items-center gap-3 justify-between">
-                          <div className="flex items-center space-x-2">
+                        <div className="flex flex-col sm:flex-row sm:items-center gap-3 justify-between">
+                          <div className="flex items-center space-x-2 w-full sm:w-auto justify-between sm:justify-start">
                             {/* Compare Checkbox */}
                             <button
                               onClick={() => toggleCompare(device.id)}
-                              className={`inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg text-[10px] font-bold transition-all border ${
+                              className={`flex-1 sm:flex-initial inline-flex items-center justify-center space-x-1.5 px-3 py-1.5 rounded-lg text-[10px] font-bold transition-all border ${
                                 isComparing
                                   ? "bg-brand-secondary border-brand-secondary text-white"
                                   : "bg-white/5 border-white/5 hover:border-white/10 text-brand-muted hover:text-white"
                               }`}
                             >
                               <Scale className="h-3.5 w-3.5" />
-                              <span>{isComparing ? "Đã Thêm So Sánh" : "Thêm So Sánh"}</span>
+                              <span>{isComparing ? "Đã So Sánh" : "So Sánh"}</span>
                             </button>
 
                             {/* Favorite Heart */}
@@ -717,7 +761,7 @@ function ResultsContent() {
                             </button>
                           </div>
 
-                          <div className="flex items-center space-x-2 relative">
+                          <div className="flex items-center justify-between sm:justify-end space-x-2 w-full sm:w-auto">
                             <button
                               onClick={() => setExpandedDevice(isExpanded ? null : device.id)}
                               className="text-[10px] text-brand-muted hover:text-white font-semibold transition-colors flex items-center space-x-1 px-3 py-1.5"
@@ -725,13 +769,13 @@ function ResultsContent() {
                               <span>Chi tiết</span>
                               {isExpanded ? <ChevronUp className="h-3.5 w-3.5" /> : <ChevronDown className="h-3.5 w-3.5" />}
                             </button>
-                            <div className="relative">
+                            <div className="relative flex-1 sm:flex-initial">
                               <button
                                 onClick={(e) => {
                                   e.stopPropagation();
                                   setActiveDropdown(activeDropdown === device.id ? null : device.id);
                                 }}
-                                className="inline-flex items-center space-x-1 bg-gradient-to-r from-brand-primary to-brand-secondary text-white px-4 py-1.5 rounded-lg text-[10px] font-bold hover:scale-105 transition-all shadow-md"
+                                className="w-full sm:w-auto inline-flex items-center justify-center space-x-1 bg-gradient-to-r from-brand-primary to-brand-secondary text-white px-4 py-1.5 rounded-lg text-[10px] font-bold hover:scale-105 transition-all shadow-md"
                               >
                                 <span>Mua Ngay</span>
                                 <ChevronDown className="h-3 w-3" />
