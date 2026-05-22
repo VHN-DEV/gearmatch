@@ -1,0 +1,380 @@
+[
+  {
+    "id": "iphone-16-pro-max",
+    "name": "iPhone 16 Pro Max",
+    "brand": "Apple",
+    "category": "mobile",
+    "price": 34990000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "Apple A18 Pro (3nm)",
+      "gpu": "Apple 6-core GPU",
+      "ram": "8GB LPDDR5X",
+      "storage": "256GB NVMe",
+      "display": "6.9\" Super Retina XDR OLED, 120Hz LTPO, HDR10",
+      "battery": "4685mAh, Sạc nhanh 30W (Sử dụng 12h+)"
+    },
+    "needs": ["gaming", "photography", "travel", "battery_life", "entertainment"],
+    "image_url": "https://images.unsplash.com/photo-1727371752044-6725206eb3c3?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=iphone+16+pro+max",
+    "pros": ["Camera 48MP Zoom 5x cực đỉnh", "Hiệu năng CPU đơn nhân mạnh nhất thế giới", "Màn hình viền siêu mỏng", "Thời lượng pin xuất sắc"],
+    "cons": ["Giá thành rất cao", "Tốc độ sạc chậm so với các đối thủ Android", "Hệ sinh thái đóng"]
+  },
+  {
+    "id": "galaxy-s24-ultra",
+    "name": "Samsung Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "category": "mobile",
+    "price": 27990000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "Snapdragon 8 Gen 3 for Galaxy",
+      "gpu": "Adreno 750",
+      "ram": "12GB LPDDR5X",
+      "storage": "256GB UFS 4.0",
+      "display": "6.8\" Dynamic AMOLED 2X, 120Hz, Gorilla Armor chống chói",
+      "battery": "5000mAh, Sạc nhanh 45W"
+    },
+    "needs": ["gaming", "photography", "study", "travel", "entertainment"],
+    "image_url": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=galaxy+s24+ultra",
+    "pros": ["Tích hợp bút S-Pen tiện lợi", "Màn hình chống chói vượt trội", "Camera Zoom 100x kèm AI thông minh", "Hỗ trợ cập nhật phần mềm 7 năm"],
+    "cons": ["Thiết kế vuông vức cầm cấn tay", "Trọng lượng nặng (232g)", "Sạc 45W chưa phải nhanh nhất"]
+  },
+  {
+    "id": "rog-phone-8-pro",
+    "name": "ASUS ROG Phone 8 Pro",
+    "brand": "ASUS",
+    "category": "mobile",
+    "price": 28990000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "Snapdragon 8 Gen 3",
+      "gpu": "Adreno 750 (Gaming Optimized)",
+      "ram": "16GB LPDDR5X",
+      "storage": "512GB UFS 4.0",
+      "display": "6.78\" LTPO AMOLED, 165Hz, HDR10+, 2500 nits",
+      "battery": "5500mAh, Sạc nhanh 65W"
+    },
+    "needs": ["gaming", "battery_life", "entertainment"],
+    "image_url": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=rog+phone+8+pro",
+    "pros": ["Màn hình 165Hz siêu mượt", "Có nút vai AirTrigger cảm ứng siêu nhạy", "Hệ thống tản nhiệt buồng hơi tân tiến", "Có jack cắm tai nghe 3.5mm chất lượng"],
+    "cons": ["Thiết kế đã bớt chất 'gaming hầm hố' hơn trước", "Camera chất lượng trung bình khá", "Hệ thống cập nhật hệ điều hành ngắn"]
+  },
+  {
+    "id": "xiaomi-14T-pro",
+    "name": "Xiaomi 14T Pro",
+    "brand": "Xiaomi",
+    "category": "mobile",
+    "price": 15990000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "MediaTek Dimensity 9300+ (4nm)",
+      "gpu": "Immortalis-G720 MC12",
+      "ram": "12GB LPDDR5X",
+      "storage": "512GB UFS 4.0",
+      "display": "6.67\" AMOLED, 144Hz, HDR10+, Dolby Vision",
+      "battery": "5000mAh, Sạc siêu nhanh 120W (đầy trong 19 phút)"
+    },
+    "needs": ["gaming", "photography", "study", "entertainment"],
+    "image_url": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=xiaomi+14t+pro",
+    "pros": ["Camera ống kính Leica cao cấp", "Hiệu năng cực khủng tầm giá", "Sạc 120W siêu tốc", "Kháng nước bụi IP68"],
+    "cons": ["Giao diện HyperOS còn một số lỗi vặt", "Màn hình phẳng viền hơi dày hơn dòng flagship chính"]
+  },
+  {
+    "id": "redmi-note-13-pro",
+    "name": "Xiaomi Redmi Note 13 Pro 5G",
+    "brand": "Xiaomi",
+    "category": "mobile",
+    "price": 8490000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Snapdragon 7s Gen 2",
+      "gpu": "Adreno 710",
+      "ram": "8GB LPDDR4X",
+      "storage": "256GB UFS 2.2",
+      "display": "6.67\" AMOLED, 120Hz, 1.5K, Dolby Vision",
+      "battery": "5100mAh, Sạc nhanh 67W"
+    },
+    "needs": ["study", "travel", "entertainment"],
+    "image_url": "https://images.unsplash.com/photo-1565630916779-e303be97b6f5?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=redmi+note+13+pro",
+    "pros": ["Màn hình 1.5K sắc nét", "Camera chính 200MP chống rung OIS", "Thiết kế đẹp mắt, viền mỏng", "Thời lượng pin khỏe"],
+    "cons": ["Hiệu năng chơi game nặng ở mức trung bình", "Loa ngoài chất âm hơi mỏng", "Vẫn còn app rác cài sẵn"]
+  },
+  {
+    "id": "ipad-pro-m4",
+    "name": "iPad Pro M4 11\" (2024)",
+    "brand": "Apple",
+    "category": "tablet",
+    "price": 28990000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "Apple M4 (9-core CPU)",
+      "gpu": "Apple 10-core GPU, Dò tia phần cứng",
+      "ram": "8GB Unified Memory",
+      "storage": "256GB SSD tốc độ cao",
+      "display": "11\" Tandem OLED (Ultra Retina XDR), 120Hz ProMotion, 1600 nits",
+      "battery": "31.29 Wh (Khoảng 10h sử dụng liên tục)"
+    },
+    "needs": ["graphic_design", "video_editing", "study", "travel", "entertainment"],
+    "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=ipad+pro+m4+11",
+    "pros": ["Màn hình Tandem OLED hiển thị đẹp nhất thế giới", "Siêu mỏng nhẹ (chỉ 444g)", "Chip M4 hiệu năng ngang ngửa Macbook Pro", "Hỗ trợ bút Apple Pencil Pro mới"],
+    "cons": ["iPadOS giới hạn tiềm năng phần cứng khủng", "Phụ kiện đi kèm (Bút, Bàn phím) rất đắt", "Thời lượng pin ở mức vừa phải"]
+  },
+  {
+    "id": "galaxy-tab-s10-ultra",
+    "name": "Samsung Galaxy Tab S10 Ultra",
+    "brand": "Samsung",
+    "category": "tablet",
+    "price": 30990000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "MediaTek Dimensity 9300+",
+      "gpu": "Immortalis-G720 MC12",
+      "ram": "12GB LPDDR5X",
+      "storage": "256GB UFS 4.0",
+      "display": "14.6\" Dynamic AMOLED 2X, 120Hz, Chống chói Gorilla Armor",
+      "battery": "11200mAh, Sạc nhanh 45W"
+    },
+    "needs": ["graphic_design", "study", "travel", "battery_life", "entertainment"],
+    "image_url": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=galaxy+tab+s10+ultra",
+    "pros": ["Màn hình khổng lồ 14.6 inch cực kỳ đã mắt", "Tặng kèm bút S-Pen sẵn trong hộp", "Tính năng Samsung DeX thay thế laptop tốt", "Độ mỏng ấn tượng chỉ 5.4mm"],
+    "cons": ["Kích thước quá lớn khó mang đi lại", "Không có jack tai nghe", "Chip MediaTek tối ưu game chưa mượt bằng Snapdragon"]
+  },
+  {
+    "id": "xiaomi-pad-6s-pro",
+    "name": "Xiaomi Pad 6S Pro 12.4",
+    "brand": "Xiaomi",
+    "category": "tablet",
+    "price": 14490000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Snapdragon 8 Gen 2",
+      "gpu": "Adreno 740",
+      "ram": "8GB LPDDR5X",
+      "storage": "256GB UFS 4.0",
+      "display": "12.4\" IPS LCD, 144Hz, 3K (3048x2032), 900 nits",
+      "battery": "10000mAh, Sạc siêu nhanh 120W"
+    },
+    "needs": ["gaming", "graphic_design", "study", "entertainment"],
+    "image_url": "https://images.unsplash.com/photo-1527690787265-17a41eb93a8d?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=xiaomi+pad+6s+pro",
+    "pros": ["Màn hình 3K tần số quét 144Hz siêu mượt", "Sạc 120W cực nhanh trên phân khúc tablet", "Cấu hình Snapdragon 8 Gen 2 chơi game tốt", "Hệ thống 6 loa âm thanh sống động"],
+    "cons": ["Màn hình LCD góc nhìn kém OLED", "Bút vẽ cảm ứng chưa có độ nhạy tinh tế như Apple/Samsung", "Vẫn còn một số app chưa tối ưu giao diện máy tính bảng"]
+  },
+  {
+    "id": "ipad-gen-10",
+    "name": "Apple iPad Gen 10 10.9\"",
+    "brand": "Apple",
+    "category": "tablet",
+    "price": 9490000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Apple A14 Bionic",
+      "gpu": "Apple 4-core GPU",
+      "ram": "4GB LPDDR4X",
+      "storage": "64GB NVMe",
+      "display": "10.9\" Liquid Retina IPS LCD, 60Hz, 500 nits",
+      "battery": "7606mAh (Sử dụng khoảng 9-10h)"
+    },
+    "needs": ["study", "travel", "entertainment"],
+    "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=ipad+gen+10",
+    "pros": ["Thiết kế hiện đại, nhiều màu sắc thời trang", "Hệ điều hành iPadOS mượt mà lâu dài", "Hỗ trợ cổng USB-C tiện lợi", "Loa stereo nằm ngang xem phim hay"],
+    "cons": ["Chỉ có 64GB bộ nhớ trong ở bản tiêu chuẩn", "Chỉ hỗ trợ Apple Pencil 1 (cần cổng chuyển) hoặc Pencil USB-C", "Màn hình chưa được ép màn (lớp kính hơi xa tấm nền)"]
+  },
+  {
+    "id": "macbook-air-m3",
+    "name": "MacBook Air M3 13\" (2024)",
+    "brand": "Apple",
+    "category": "laptop",
+    "price": 27990000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "Apple M3 (8-core CPU)",
+      "gpu": "Apple 10-core GPU",
+      "ram": "16GB Unified Memory",
+      "storage": "512GB SSD PCIe",
+      "display": "13.6\" Liquid Retina IPS, 2560x1664, True Tone, 500 nits",
+      "battery": "52.6 Wh (Sử dụng thực tế 15h+)"
+    },
+    "needs": ["programming", "graphic_design", "office_work", "study", "travel", "battery_life", "entertainment"],
+    "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=macbook+air+m3+16gb",
+    "pros": ["Dung lượng pin thực tế cực kỳ trâu bò", "Thiết kế nhôm nguyên khối sang trọng, mỏng nhẹ (1.24kg)", "Không có quạt tản nhiệt nên hoạt động hoàn toàn yên tĩnh", "Hiệu năng văn phòng và lập trình web rất mượt"],
+    "cons": ["Không có quạt nên giảm hiệu năng khi render video dài", "Không hỗ trợ chơi game phổ thông Windows", "Chỉ xuất tối đa 2 màn hình ngoài khi gập máy"]
+  },
+  {
+    "id": "asus-rog-zephyrus-g14",
+    "name": "ASUS ROG Zephyrus G14 OLED (2024)",
+    "brand": "ASUS",
+    "category": "laptop",
+    "price": 42990000,
+    "price_range": "40 triệu+",
+    "specs": {
+      "cpu": "AMD Ryzen 9 8945HS (8 nhân 16 luồng)",
+      "gpu": "NVIDIA GeForce RTX 4060 8GB GDDR6 (100W)",
+      "ram": "32GB LPDDR5X 6400MHz",
+      "storage": "1TB SSD M.2 NVMe PCIe 4.0",
+      "display": "14\" 3K ROG Nebula OLED, 120Hz, 100% DCI-P3, G-Sync",
+      "battery": "73 Wh (Sử dụng văn phòng 6-8h)"
+    },
+    "needs": ["gaming", "programming", "video_editing", "graphic_design", "aiml", "livestream", "travel"],
+    "image_url": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=rog+zephyrus+g14+2024",
+    "pros": ["Màn hình OLED 3K siêu đẹp, chuẩn màu tối đa", "Thiết kế mỏng nhẹ (1.5kg) nhưng tản nhiệt kim loại lỏng rất tốt", "RAM 32GB mặc định lập trình và làm đồ họa mượt", "Bàn phím gõ êm, trackpad siêu to khổng lồ"],
+    "cons": ["Giá thành đắt đỏ", "RAM hàn chết trên bo mạch không thể nâng cấp", "Vỏ nhôm dễ bám dấu vân tay"]
+  },
+  {
+    "id": "dell-xps-13-9340",
+    "name": "Dell XPS 13 9340 Intel Ultra 7",
+    "brand": "Dell",
+    "category": "laptop",
+    "price": 38990000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "Intel Core Ultra 7 155H (16 nhân 22 luồng, NPU AI)",
+      "gpu": "Intel Arc Graphics",
+      "ram": "16GB LPDDR5X",
+      "storage": "512GB SSD NVMe PCIe 4.0",
+      "display": "13.4\" FHD+ IPS, 120Hz, 500 nits, 100% sRGB",
+      "battery": "55 Wh (Sử dụng hỗn hợp 9h+)"
+    },
+    "needs": ["programming", "office_work", "study", "travel", "battery_life"],
+    "image_url": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=dell+xps+13+9340",
+    "pros": ["Thiết kế tương lai cực sang trọng với bàn phím tràn viền", "Hàng phím chức năng cảm ứng độc đáo", "Màn hình 120Hz mượt mà, độ sáng cao", "Tích hợp sẵn nhân xử lý AI NPU Intel Boost"],
+    "cons": ["Hạn chế cổng kết nối (Chỉ có 2 cổng Thunderbolt 4 USB-C)", "Không có giắc cắm tai nghe 3.5mm", "Hệ thống phím bấm phẳng cần thời gian làm quen"]
+  },
+  {
+    "id": "msi-cyborg-15",
+    "name": "MSI Cyborg 15 A12VF",
+    "brand": "MSI",
+    "category": "laptop",
+    "price": 19490000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Intel Core i7-12650H (10 nhân 16 luồng)",
+      "gpu": "NVIDIA GeForce RTX 4060 8GB GDDR6 (45W)",
+      "ram": "16GB DDR5 4800MHz",
+      "storage": "512GB SSD NVMe PCIe 4.0",
+      "display": "15.6\" FHD IPS, 144Hz, 45% NTSC",
+      "battery": "53.5 Wh (Sử dụng văn phòng 3-4h)"
+    },
+    "needs": ["gaming", "programming", "video_editing", "graphic_design"],
+    "image_url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=msi+cyborg+15+rtx+4060",
+    "pros": ["Laptop RTX 4060 rẻ nhất thị trường", "Cấu hình mạnh mẽ chiến game esport và AAA mượt", "Thiết kế cyberpunk độc đáo với một phần vỏ nhựa trong suốt", "Khả năng nâng cấp RAM và SSD dễ dàng"],
+    "cons": ["Màn hình có độ bao phủ màu thấp (45% NTSC), lệch màu nặng", "Tản nhiệt chỉ có 1 quạt lớn, máy chạy hơi ồn và nóng", "GPU bị bóp nguồn điện TDP ở mức 45W"]
+  },
+  {
+    "id": "acer-aspire-lite-15",
+    "name": "Acer Aspire Lite 15 AL15",
+    "brand": "Acer",
+    "category": "laptop",
+    "price": 8990000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Intel Core i3-1215U",
+      "gpu": "Intel UHD Graphics",
+      "ram": "8GB DDR4 3200MHz",
+      "storage": "512GB SSD PCIe NVMe",
+      "display": "15.6\" FHD (1920x1080) IPS LCD Anti-glare",
+      "battery": "36 Wh (Sử dụng văn phòng 4-5h)"
+    },
+    "needs": ["office_work", "study", "entertainment"],
+    "image_url": "https://images.unsplash.com/photo-1496181130204-7552cc1454e4?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=acer+aspire+lite+15",
+    "pros": ["Giá thành rẻ vô địch, phù hợp học sinh sinh viên", "Màn hình IPS độ phân giải Full HD góc nhìn rộng", "Được trang bị sẵn SSD 512GB tốc độ cao khởi động máy cực nhanh", "Trọng lượng 1.6kg khá nhẹ so với kích thước 15.6 inch"],
+    "cons": ["Vỏ nhựa dễ bám bẩn và trầy xước", "Loa ngoài nhỏ và chất âm kém", "Không phù hợp chơi game hay làm đồ họa nặng"]
+  },
+  {
+    "id": "pc-ultimate-gaming-ai",
+    "name": "PC Dual Intel Xeon & RTX 4090 Monster",
+    "brand": "NVIDIA GPU",
+    "category": "pc",
+    "price": 85000000,
+    "price_range": "40 triệu+",
+    "specs": {
+      "cpu": "Intel Core i9-14900KS (24 nhân 32 luồng, lên tới 6.2GHz)",
+      "gpu": "NVIDIA GeForce RTX 4090 24GB GDDR6X",
+      "ram": "64GB DDR5 6000MHz Dual Channel (2x32GB)",
+      "storage": "2TB SSD M.2 Samsung 990 Pro PCIe 4.0",
+      "display": "Cần mua rời (Khuyên dùng Màn hình 4K OLED 144Hz+)",
+      "battery": "Bộ nguồn Thermaltake 1200W Platinum (Không có pin)"
+    },
+    "needs": ["gaming", "programming", "video_editing", "graphic_design", "aiml", "livestream"],
+    "image_url": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=pc+rtx+4090",
+    "pros": ["Cấu hình tối thượng, xử lý AI (Deep Learning, LLM) local mượt nhất", "Render video 8K, làm kỹ xảo 3D thời gian thực cực nhanh", "Chơi game AAA max setting 4K mượt mà", "Khả năng nâng cấp vô hạn"],
+    "cons": ["Tiêu thụ điện năng cực lớn (lên tới 700-800W khi tải nặng)", "Tỏa lượng nhiệt lớn, bắt buộc phải dùng tản nhiệt nước Custom hoặc AIO lớn", "Mức giá quá đắt đỏ chỉ dành cho dân chuyên nghiệp"]
+  },
+  {
+    "id": "pc-gaming-streamer-amd",
+    "name": "PC AMD Ryzen 7 & RTX 4070 Ti Super Streamer",
+    "brand": "NVIDIA GPU",
+    "category": "pc",
+    "price": 38500000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "AMD Ryzen 7 7800X3D (8 nhân 16 luồng, CPU game số 1 thế giới)",
+      "gpu": "NVIDIA GeForce RTX 4070 Ti Super 16GB GDDR6X",
+      "ram": "32GB DDR5 Corsair Vengeance 5600MHz",
+      "storage": "1TB SSD M.2 NVMe PCIe 4.0 Crucial",
+      "display": "Cần mua rời (Khuyên dùng màn hình 2K 180Hz IPS)",
+      "battery": "Bộ nguồn Corsair RM750e 750W Gold"
+    },
+    "needs": ["gaming", "programming", "video_editing", "graphic_design", "aiml", "livestream"],
+    "image_url": "https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=pc+ryzen+7800x3d+rtx+4070",
+    "pros": ["Hiệu năng chơi game mượt mà nhất nhờ bộ nhớ đệm 3D V-Cache của AMD", "RTX 4070 Ti Super 16GB VRAM thoải mái làm AI nhẹ và render", "Hỗ trợ codec AV1 mã hóa video livestream siêu nét", "Nền tảng socket AM5 của AMD hỗ trợ nâng cấp CPU nhiều năm nữa"],
+    "cons": ["Hiệu suất làm việc đa nhiệm thuần (như render nén file) kém hơn dòng Intel Core i9 nhiều nhân", "Mức giá ở cận cao cấp, cần chi thêm tiền cho màn hình và gaming gear"]
+  },
+  {
+    "id": "pc-gaming-midrange-amd",
+    "name": "PC AMD Ryzen 5 & RX 7700 XT Pure Gaming",
+    "brand": "Radeon GPU",
+    "category": "pc",
+    "price": 19990000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "AMD Ryzen 5 7600 (6 nhân 12 luồng)",
+      "gpu": "AMD Radeon RX 7700 XT 12GB GDDR6",
+      "ram": "16GB DDR5 5200MHz (2x8GB)",
+      "storage": "512GB SSD M.2 NVMe PCIe 4.0",
+      "display": "Cần mua rời (Khuyên dùng màn 1080p hoặc 2K IPS 144Hz)",
+      "battery": "Bộ nguồn Deepcool 650W Bronze"
+    },
+    "needs": ["gaming", "programming", "study", "entertainment"],
+    "image_url": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=pc+rx+7700+xt",
+    "pros": ["Tối ưu hiệu năng trên giá thành (P/P) chơi game cực cao", "12GB VRAM thoải mái chiến các game thế hệ mới ở độ phân giải 2K", "Máy chạy khá mát mẻ và tiết kiệm điện", "Hỗ trợ chuẩn PCIe 5.0 mới nhất"],
+    "cons": ["Hiệu năng ray tracing (dò tia) kém xa card NVIDIA cùng tầm", "Không tối ưu cho các phần mềm dựng hình 3D hay làm AI chuyên dụng", "Công nghệ upscale FSR chưa được sắc nét như DLSS của NVIDIA"]
+  },
+  {
+    "id": "pc-office-intel-build",
+    "name": "PC Intel Core i5 Office Master",
+    "brand": "Intel Build",
+    "category": "pc",
+    "price": 9500000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Intel Core i5-12400 (6 nhân 12 luồng, tích hợp Intel UHD 730)",
+      "gpu": "Intel UHD Graphics 730 (Tích hợp)",
+      "ram": "16GB DDR4 3200MHz (2x8GB)",
+      "storage": "512GB SSD M.2 NVMe PCIe 3.0",
+      "display": "Cần mua rời (Khuyên dùng màn 24 inch FHD IPS giá rẻ)",
+      "battery": "Bộ nguồn Xigmatek X-Power III 450W"
+    },
+    "needs": ["office_work", "study", "entertainment"],
+    "image_url": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=pc+i5+12400+van+phong",
+    "pros": ["Hoạt động siêu mượt với mọi tác vụ văn phòng, mở hàng chục tab Chrome", "Giá thành rẻ dễ tiếp cận", "Linh kiện phổ biến dễ sửa chữa và nâng cấp về sau", "Kích thước case gọn gàng tiết kiệm diện tích"],
+    "cons": ["Không thể chơi game đồ họa 3D nặng (chỉ chơi được LoL, FO4 nhẹ)", "Không thể làm đồ họa chuyên nghiệp hay render 4K nhanh", "Không có card đồ họa rời"]
+  }
+]

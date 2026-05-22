@@ -1,0 +1,86 @@
+[
+  {
+    "id": "gaming",
+    "name": "Chơi Game (Gaming)",
+    "icon": "Gamepad2",
+    "description": "Yêu cầu hiệu năng cao, màn hình tần số quét lớn và tản nhiệt tốt để chơi mượt các tựa game esport hoặc AAA.",
+    "categories": ["mobile", "tablet", "laptop", "pc"]
+  },
+  {
+    "id": "programming",
+    "name": "Lập Trình (Programming)",
+    "icon": "Code",
+    "description": "Yêu cầu CPU mạnh mẽ, dung lượng RAM lớn (tối thiểu 16GB) để chạy Docker, máy ảo, IDE và biên dịch code nhanh.",
+    "categories": ["laptop", "pc"]
+  },
+  {
+    "id": "video_editing",
+    "name": "Dựng Video (Video Editing)",
+    "icon": "Video",
+    "description": "Yêu cầu GPU chuyên dụng mạnh mẽ, màn hình chuẩn màu sắc và ổ cứng SSD tốc độ cao để render video 4K mượt mà.",
+    "categories": ["laptop", "pc"]
+  },
+  {
+    "id": "graphic_design",
+    "name": "Thiết Kế Đồ Họa (Graphic Design)",
+    "icon": "Palette",
+    "description": "Màn hình chuẩn màu (sRGB/DCI-P3 cao), hỗ trợ bút vẽ (đối với mobile/tablet) và CPU/GPU tốt để làm Photoshop, Illustrator, Figma.",
+    "categories": ["tablet", "laptop", "pc"]
+  },
+  {
+    "id": "office_work",
+    "name": "Văn Phòng (Office Work)",
+    "icon": "Briefcase",
+    "description": "Yêu cầu bàn phím tốt, độ bền cao, hoạt động ổn định, phục vụ Word, Excel, PowerPoint và các ứng dụng SaaS.",
+    "categories": ["laptop", "pc"]
+  },
+  {
+    "id": "study",
+    "name": "Học Tập (Study)",
+    "icon": "BookOpen",
+    "description": "Thiết bị nhỏ gọn, giá cả hợp lý, đáp ứng tốt nhu cầu tìm kiếm tài liệu, học online qua Zoom/Teams và làm bài tập nhẹ nhàng.",
+    "categories": ["mobile", "tablet", "laptop"]
+  },
+  {
+    "id": "aiml",
+    "name": "Trí Tuệ Nhân Tạo (AI / ML)",
+    "icon": "Cpu",
+    "description": "Yêu cầu GPU NVIDIA có nhân Tensor (VRAM tối thiểu 8GB) hoặc chip NPU mạnh mẽ để train/run model local.",
+    "categories": ["laptop", "pc"]
+  },
+  {
+    "id": "livestream",
+    "name": "Livestream & Podcasting",
+    "icon": "Mic",
+    "description": "Yêu cầu CPU nhiều nhân để xử lý mã hóa video song song, webcam/camera chất lượng cao và các cổng kết nối âm thanh.",
+    "categories": ["laptop", "pc"]
+  },
+  {
+    "id": "photography",
+    "name": "Chụp Ảnh & Quay Phim",
+    "icon": "Camera",
+    "description": "Dành cho điện thoại/tablet có hệ thống camera flagship, hỗ trợ chống rung quang học, zoom xa và thuật toán xử lý ảnh xuất sắc.",
+    "categories": ["mobile", "tablet"]
+  },
+  {
+    "id": "travel",
+    "name": "Di Chuyển Nhiều (Travel)",
+    "icon": "Plane",
+    "description": "Thiết kế siêu mỏng nhẹ (laptop dưới 1.3kg), thiết bị di động nhỏ gọn, dễ mang đi và chịu va đập tốt.",
+    "categories": ["mobile", "tablet", "laptop"]
+  },
+  {
+    "id": "battery_life",
+    "name": "Pin Trâu (Long Battery)",
+    "icon": "BatteryCharging",
+    "description": "Thiết bị có thời lượng sử dụng liên tục trên 10-15 tiếng không cần cắm sạc, tối ưu hóa điện năng tiêu thụ tốt.",
+    "categories": ["mobile", "tablet", "laptop"]
+  },
+  {
+    "id": "entertainment",
+    "name": "Giải Trí (Media Consumption)",
+    "icon": "Tv",
+    "description": "Màn hình đẹp (OLED/AMOLED, HDR), hệ thống loa kép âm thanh vòm chất lượng cao để xem phim Netflix, Youtube.",
+    "categories": ["mobile", "tablet", "laptop"]
+  }
+]
