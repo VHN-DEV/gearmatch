@@ -2807,6 +2807,214 @@
     ]
   },
   {
+    "id": "galaxy-tab-s9-standard",
+    "name": "Samsung Galaxy Tab S9",
+    "brand": "Samsung",
+    "category": "tablet",
+    "price": 15990000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Snapdragon 8 Gen 2 for Galaxy (4nm)",
+      "gpu": "Adreno 740",
+      "ram": "8GB LPDDR5X",
+      "storage": "128GB UFS 4.0",
+      "display": "11\" Dynamic AMOLED 2X, 120Hz, HDR10+, IP68",
+      "battery": "8400mAh, Sạc nhanh 45W"
+    },
+    "needs": [
+      "gaming",
+      "graphic_design",
+      "video_editing",
+      "study",
+      "travel",
+      "entertainment",
+      "note_taking",
+      "online_seller",
+      "zoom_meeting",
+      "consultant_sales"
+    ],
+    "image_url": "/images/devices/galaxy-tab-s9-fe.jpg",
+    "affiliate_link": "https://shopee.vn/search?keyword=galaxy+tab+s9",
+    "pros": [
+      "Màn hình Dynamic AMOLED 2X 11 inch hiển thị xuất sắc",
+      "Có sẵn bút S-Pen đi kèm hỗ trợ vẽ và ghi chú cực tốt",
+      "Kháng bụi nước IP68 bền bỉ"
+    ],
+    "cons": [
+      "Không tặng kèm củ sạc nhanh trong hộp",
+      "Phụ kiện bàn phím đi kèm có giá khá đắt"
+    ],
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=Samsung%20Galaxy%20Tab%20S9"
+      },
+      {
+        "platform": "Lazada",
+        "url": "https://www.lazada.vn/catalog/?q=Samsung%20Galaxy%20Tab%20S9"
+      },
+      {
+        "platform": "Thế Giới Di Động",
+        "url": "https://www.thegioididong.com/tim-kiem?key=Samsung%20Galaxy%20Tab%20S9"
+      },
+      {
+        "platform": "CellphoneS",
+        "url": "https://cellphones.com.vn/catalogsearch/result?q=Samsung%20Galaxy%20Tab%20S9"
+      }
+    ]
+  },
+  {
+    "id": "oneplus-pad-go",
+    "name": "OnePlus Pad Go",
+    "brand": "OnePlus",
+    "category": "tablet",
+    "price": 5490000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "MediaTek Helio G99 (6nm)",
+      "gpu": "Mali-G57 MC2",
+      "ram": "8GB LPDDR4X",
+      "storage": "128GB UFS 2.2",
+      "display": "11.35\" IPS LCD, 90Hz, 2.4K (2408x1720)",
+      "battery": "8000mAh, Sạc nhanh 33W SUPERVOOC"
+    },
+    "needs": [
+      "study",
+      "travel",
+      "entertainment",
+      "reading_news",
+      "zoom_meeting",
+      "online_seller"
+    ],
+    "image_url": "/images/devices/oneplus-pad-2.jpg",
+    "affiliate_link": "https://shopee.vn/search?keyword=oneplus+pad+go",
+    "pros": [
+      "Màn hình 2.4K sắc nét và tỷ lệ 7:5 tối ưu đọc báo, lướt web",
+      "Hệ thống 4 loa Dolby Atmos âm lượng lớn",
+      "Hỗ trợ lắp SIM 4G LTE nghe gọi tiện lợi"
+    ],
+    "cons": [
+      "Chip Helio G99 chỉ chơi được các game trung bình nhẹ",
+      "Không hỗ trợ bút cảm ứng active có lực nhấn cảm ứng tốt"
+    ],
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=OnePlus%20Pad%20Go"
+      },
+      {
+        "platform": "Lazada",
+        "url": "https://www.lazada.vn/catalog/?q=OnePlus%20Pad%20Go"
+      },
+      {
+        "platform": "CellphoneS",
+        "url": "https://cellphones.com.vn/catalogsearch/result?q=OnePlus%20Pad%20Go"
+      }
+    ]
+  },
+  {
+    "id": "honor-pad-x9",
+    "name": "Honor Pad X9",
+    "brand": "Honor",
+    "category": "tablet",
+    "price": 3990000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Snapdragon 685 (6nm)",
+      "gpu": "Adreno 610",
+      "ram": "4GB LPDDR4X",
+      "storage": "128GB",
+      "display": "11.5\" IPS LCD, 120Hz, 2K (2000x1200)",
+      "battery": "7250mAh, Sạc 22.5W"
+    },
+    "needs": [
+      "study",
+      "parental_control",
+      "entertainment",
+      "reading_news"
+    ],
+    "image_url": "/images/devices/honor-pad-9.jpg",
+    "affiliate_link": "https://shopee.vn/search?keyword=honor+pad+x9",
+    "pros": [
+      "Màn hình 11.5 inch tần số quét 120Hz mượt mà hàng đầu tầm giá rẻ",
+      "Hệ thống 6 loa âm thanh vòm cực chất",
+      "Thiết kế vỏ kim loại mỏng nhẹ chỉ 499g"
+    ],
+    "cons": [
+      "Dung lượng RAM 4GB chạy đa nhiệm nặng hơi hạn chế",
+      "Không hỗ trợ kết nối LTE di động"
+    ],
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=Honor%20Pad%20X9"
+      },
+      {
+        "platform": "Lazada",
+        "url": "https://www.lazada.vn/catalog/?q=Honor%20Pad%20X9"
+      },
+      {
+        "platform": "CellphoneS",
+        "url": "https://cellphones.com.vn/catalogsearch/result?q=Honor%20Pad%20X9"
+      }
+    ]
+  },
+  {
+    "id": "galaxy-tab-s9-fe-plus",
+    "name": "Samsung Galaxy Tab S9 FE+",
+    "brand": "Samsung",
+    "category": "tablet",
+    "price": 12490000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Exynos 1380 (5nm)",
+      "gpu": "Mali-G68 MP5",
+      "ram": "8GB",
+      "storage": "128GB",
+      "display": "12.4\" IPS LCD, 90Hz, WQXGA (2560x1600), IP68",
+      "battery": "10090mAh, Sạc nhanh 45W"
+    },
+    "needs": [
+      "graphic_design",
+      "study",
+      "travel",
+      "entertainment",
+      "note_taking",
+      "online_seller",
+      "zoom_meeting",
+      "consultant_sales"
+    ],
+    "image_url": "/images/devices/galaxy-tab-s9-fe.jpg",
+    "affiliate_link": "https://shopee.vn/search?keyword=galaxy+tab+s9+fe+plus",
+    "pros": [
+      "Màn hình lớn 12.4 inch tha hồ vẽ vời và chia đôi cửa sổ đa nhiệm",
+      "Kèm sẵn bút S-Pen, có kháng nước bụi IP68 yên tâm sử dụng",
+      "Thời lượng pin cực kỳ ấn tượng 10.090mAh"
+    ],
+    "cons": [
+      "Hiệu năng chip Exynos 1380 chỉ ở mức khá, không mạnh bằng bản thường",
+      "Màn hình IPS LCD chứ không phải AMOLED"
+    ],
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=Samsung%20Galaxy%20Tab%20S9%20FE%2B"
+      },
+      {
+        "platform": "Lazada",
+        "url": "https://www.lazada.vn/catalog/?q=Samsung%20Galaxy%20Tab%20S9%20FE%2B"
+      },
+      {
+        "platform": "Thế Giới Di Động",
+        "url": "https://www.thegioididong.com/tim-kiem?key=Samsung%20Galaxy%20Tab%20S9%20FE%2B"
+      },
+      {
+        "platform": "CellphoneS",
+        "url": "https://cellphones.com.vn/catalogsearch/result?q=Samsung%20Galaxy%20Tab%20S9%20FE%2B"
+      }
+    ]
+  },
+  {
     "id": "macbook-air-m3",
     "name": "MacBook Air M3 13\" (2024)",
     "brand": "Apple",
