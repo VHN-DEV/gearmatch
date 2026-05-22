@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import { Send, Bot, User, Sparkles, Scale, Heart, ExternalLink, RefreshCw } from "lucide-react";
-import { getRecommendations, Device, RecommendationResult } from "@/utils/recommendation";
+import { getRecommendations, Device, RecommendationResult, resolveImagePath } from "@/utils/recommendation";
 import devicesData from "@/data/devices.json";
 import Link from "next/link";
 
@@ -400,7 +400,7 @@ export default function AiAssistantPage() {
                                   <span className="text-[9px] font-extrabold text-brand-primary">{matchScore}% Match</span>
                                 </div>
                                 <div className="h-16 w-full relative rounded-lg overflow-hidden bg-brand-bg flex items-center justify-center border border-white/5 mb-3">
-                                  <img src={device.image_url} alt={device.name} className="object-cover h-full w-full" />
+                                  <img src={resolveImagePath(device.image_url)} alt={device.name} className="object-cover h-full w-full" />
                                 </div>
                                 <div className="text-[9px] text-brand-muted space-y-0.5 mb-3">
                                   <div className="truncate"><strong>CPU:</strong> {device.specs.cpu}</div>

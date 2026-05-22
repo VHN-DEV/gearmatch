@@ -6,7 +6,8 @@ import {
   getRecommendations,
   Device,
   getPriceRangeBounds,
-  RecommendationResult
+  RecommendationResult,
+  resolveImagePath
 } from "@/utils/recommendation";
 import {
   ArrowLeft,
@@ -78,6 +79,13 @@ function ResultsContent() {
   const [favorites, setFavorites] = useState<string[]>([]);
   const [compareList, setCompareList] = useState<string[]>([]);
   const [expandedDevice, setExpandedDevice] = useState<string | null>(null);
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
+
+  useEffect(() => {
+    const handleOutsideClick = () => setActiveDropdown(null);
+    window.addEventListener("click", handleOutsideClick);
+    return () => window.removeEventListener("click", handleOutsideClick);
+  }, []);
 
   // Advanced Spec Filters State
   const [selectedRamRange, setSelectedRamRange] = useState<string[]>([]);
@@ -628,7 +636,7 @@ function ResultsContent() {
                       {/* Device Image */}
                       <div className="w-full md:w-36 h-28 relative rounded-xl overflow-hidden bg-brand-bg flex items-center justify-center border border-white/5 flex-shrink-0">
                         <img
-                          src={device.image_url}
+                          src={resolveImagePath(device.image_url)}
                           alt={device.name}
                           className="object-cover w-full h-full hover:scale-105 transition-transform duration-500"
                         />
@@ -709,7 +717,7 @@ function ResultsContent() {
                             </button>
                           </div>
 
-                          <div className="flex items-center space-x-2">
+                          <div className="flex items-center space-x-2 relative">
                             <button
                               onClick={() => setExpandedDevice(isExpanded ? null : device.id)}
                               className="text-[10px] text-brand-muted hover:text-white font-semibold transition-colors flex items-center space-x-1 px-3 py-1.5"
@@ -717,15 +725,48 @@ function ResultsContent() {
                               <span>Chi tiết</span>
                               {isExpanded ? <ChevronUp className="h-3.5 w-3.5" /> : <ChevronDown className="h-3.5 w-3.5" />}
                             </button>
-                            <a
-                              href={device.affiliate_link}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-flex items-center space-x-1 bg-gradient-to-r from-brand-primary to-brand-secondary text-white px-4 py-1.5 rounded-lg text-[10px] font-bold hover:scale-105 transition-all shadow-md"
-                            >
-                              <span>Mua Ngay</span>
-                              <ExternalLink className="h-3 w-3" />
-                            </a>
+                            <div className="relative">
+                              <button
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  setActiveDropdown(activeDropdown === device.id ? null : device.id);
+                                }}
+                                className="inline-flex items-center space-x-1 bg-gradient-to-r from-brand-primary to-brand-secondary text-white px-4 py-1.5 rounded-lg text-[10px] font-bold hover:scale-105 transition-all shadow-md"
+                              >
+                                <span>Mua Ngay</span>
+                                <ChevronDown className="h-3 w-3" />
+                              </button>
+                              {activeDropdown === device.id && device.purchase_links && (
+                                <div className="absolute right-0 bottom-full mb-2 w-44 bg-brand-bg/95 backdrop-blur-md border border-white/10 rounded-xl overflow-hidden shadow-2xl z-50">
+                                  <div className="px-3 py-1.5 text-[8px] font-bold text-brand-muted border-b border-white/5 bg-white/5 uppercase tracking-wider">
+                                    Đại lý phân phối
+                                  </div>
+                                  <div className="py-1">
+                                    {device.purchase_links.map((link, idx) => {
+                                      let hoverStyle = "hover:bg-white/5 hover:text-white";
+                                      if (link.platform === "Shopee") hoverStyle = "hover:bg-[#EE4D2D]/10 hover:text-[#EE4D2D]";
+                                      if (link.platform === "Lazada") hoverStyle = "hover:bg-blue-500/10 hover:text-blue-400";
+                                      if (link.platform === "CellphoneS") hoverStyle = "hover:bg-[#D70018]/10 hover:text-[#D70018]";
+                                      if (link.platform === "Thế Giới Di Động") hoverStyle = "hover:bg-[#FFD400]/10 hover:text-[#FFD400]";
+                                      if (link.platform === "FPT Shop") hoverStyle = "hover:bg-[#CB1C22]/10 hover:text-[#CB1C22]";
+                                      return (
+                                        <a
+                                          key={idx}
+                                          href={link.url}
+                                          target="_blank"
+                                          rel="noopener noreferrer"
+                                          onClick={() => setActiveDropdown(null)}
+                                          className={`flex items-center justify-between px-3 py-1.5 text-[10px] font-bold transition-all ${hoverStyle}`}
+                                        >
+                                          <span>{link.platform}</span>
+                                          <ExternalLink className="h-2.5 w-2.5 opacity-60" />
+                                        </a>
+                                      );
+                                    })}
+                                  </div>
+                                </div>
+                              )}
+                            </div>
                           </div>
                         </div>
 

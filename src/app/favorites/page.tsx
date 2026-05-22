@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import devicesData from "@/data/devices.json";
-import { Device } from "@/utils/recommendation";
+import { Device, resolveImagePath } from "@/utils/recommendation";
 import { ArrowLeft, Trash2, Heart, Scale, ExternalLink } from "lucide-react";
 import Link from "next/link";
 
@@ -134,7 +134,7 @@ export default function FavoritesPage() {
                   {/* Image */}
                   <div className="w-full h-36 relative rounded-xl overflow-hidden bg-brand-bg flex items-center justify-center border border-white/5 mb-4">
                     <img
-                      src={device.image_url}
+                      src={resolveImagePath(device.image_url)}
                       alt={device.name}
                       className="object-cover w-full h-full"
                     />

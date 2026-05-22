@@ -1,6 +1,15 @@
 import devicesData from "../data/devices.json";
 import needsData from "../data/needs.json";
 
+export function resolveImagePath(url: string): string {
+  if (!url) return "";
+  if (url.startsWith("http")) return url;
+  const isProd = process.env.NODE_ENV === "production";
+  const basePath = isProd ? "/gearmatch" : "";
+  const cleanUrl = url.startsWith("/") ? url : `/${url}`;
+  return `${basePath}${cleanUrl}`;
+}
+
 export interface Device {
   id: string;
   name: string;
@@ -19,6 +28,7 @@ export interface Device {
   needs: string[];
   image_url: string;
   affiliate_link: string;
+  purchase_links?: { platform: string; url: string }[];
   pros: string[];
   cons: string[];
 }
