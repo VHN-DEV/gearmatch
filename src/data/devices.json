@@ -69,7 +69,6 @@
     "category": "mobile",
     "price": 15990000,
     "price_range": "10-20 triệu",
-    "needs": ["gaming", "photography", "study", "entertainment", "vlogging", "budget_gaming"],
     "specs": {
       "cpu": "MediaTek Dimensity 9300+ (4nm)",
       "gpu": "Immortalis-G720 MC12",
@@ -78,6 +77,7 @@
       "display": "6.67\" AMOLED, 144Hz, HDR10+, Dolby Vision",
       "battery": "5000mAh, Sạc siêu nhanh 120W"
     },
+    "needs": ["gaming", "photography", "study", "entertainment", "vlogging", "budget_gaming"],
     "image_url": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=xiaomi+14t+pro",
     "pros": ["Camera Leica chất màu nghệ thuật", "Sạc siêu nhanh 120W đầy pin dưới 25 phút", "Kháng nước chống bụi chuẩn IP68"],
@@ -389,7 +389,8 @@
       "gpu": "Apple 9-core GPU",
       "ram": "8GB Unified Memory",
       "storage": "128GB SSD",
-      "display": "13\" Liquid Retina IPS LCD, 60Hz, 600 nits, True Tone"
+      "display": "13\" Liquid Retina IPS LCD, 60Hz, 600 nits, True Tone",
+      "battery": "36.59 Wh (Sử dụng thực tế 10h)"
     },
     "needs": ["graphic_design", "study", "travel", "entertainment", "note_taking"],
     "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=400&q=80",
@@ -501,6 +502,237 @@
     "affiliate_link": "https://shopee.vn/search?keyword=lenovo+legion+tab+y700",
     "pros": ["Tablet chơi game cỡ nhỏ tốt nhất hiện nay", "Màn hình 144Hz siêu mượt cùng 2 cổng kết nối USB-C", "Có tính năng bỏ qua pin cấp điện trực tiếp (Bypass Charge) giúp máy cực mát"],
     "cons": ["Không có phiên bản sử dụng SIM 4G/5G", "Sử dụng bản nội địa cần cài đặt lại kho ứng dụng CH Play"]
+  },
+  {
+    "id": "huawei-matepad-pro-12-2",
+    "name": "Huawei MatePad Pro 12.2 (Tandem OLED)",
+    "brand": "Huawei",
+    "category": "tablet",
+    "price": 21990000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "Kirin 9010W (7nm)",
+      "gpu": "Maleoon 910 GPU",
+      "ram": "12GB LPDDR5X",
+      "storage": "512GB UFS 3.1",
+      "display": "12.2\" Dual Tandem OLED PaperMatte, 144Hz, 2000 nits, Nhám chống chói",
+      "battery": "10100mAh, Sạc siêu nhanh 100W"
+    },
+    "needs": ["graphic_design", "study", "travel", "battery_life", "entertainment", "note_taking"],
+    "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=huawei+matepad+pro+12.2",
+    "pros": ["Màn hình Tandem OLED PaperMatte nhám chống chói hiển thị như giấy vẽ chân thực", "Hỗ trợ bút vẽ NearLink thế hệ mới độ trễ cực thấp", "Sạc siêu nhanh 100W đầy pin trong 45 phút"],
+    "cons": ["Không có sẵn các dịch vụ Google chính chủ (phải dùng qua Gbox/MicroG)", "Kho ứng dụng AppGallery chưa đa dạng bằng CH Play"]
+  },
+  {
+    "id": "huawei-matepad-11-5s",
+    "name": "Huawei MatePad 11.5S PaperMatte Edition",
+    "brand": "Huawei",
+    "category": "tablet",
+    "price": 10990000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Kirin 9000WL",
+      "gpu": "Maleoon 910 GPU",
+      "ram": "8GB LPDDR5",
+      "storage": "256GB UFS 3.1",
+      "display": "11.5\" PaperMatte IPS LCD nhám chống chói, 144Hz, 2.8K",
+      "battery": "8800mAh, Sạc nhanh 22.5W"
+    },
+    "needs": ["study", "travel", "entertainment", "note_taking"],
+    "image_url": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=huawei+matepad+11.5s",
+    "pros": ["Màn hình nhám chống chói bảo vệ mắt rất tốt khi đọc sách viết ghi chú", "Tần số quét 144Hz cực kỳ mượt mà", "Đi kèm sẵn bàn phím rời và bút vẽ trong nhiều chương trình khuyến mãi"],
+    "cons": ["Thiếu dịch vụ Google gốc", "Tốc độ sạc 22.5W khá chậm đối với viên pin lớn"]
+  },
+  {
+    "id": "ipad-pro-m4-13",
+    "name": "iPad Pro M4 13\" (2024) Tandem OLED",
+    "brand": "Apple",
+    "category": "tablet",
+    "price": 37990000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "Apple M4 (9-core CPU)",
+      "gpu": "Apple 10-core GPU, Phần cứng tăng tốc Ray Tracing",
+      "ram": "8GB Unified Memory",
+      "storage": "256GB SSD tốc độ cao",
+      "display": "13\" Tandem OLED (Ultra Retina XDR), 120Hz ProMotion, 1600 nits",
+      "battery": "38.99 Wh (Khoảng 10h sử dụng liên tục)"
+    },
+    "needs": ["graphic_design", "video_editing", "study", "travel", "entertainment", "note_taking"],
+    "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=ipad+pro+m4+13",
+    "pros": ["Màn hình Tandem OLED 13 inch siêu rộng, siêu nét", "Hiệu năng CPU/GPU cực đỉnh cho làm việc chuyên nghiệp", "Thân máy mỏng kỷ lục thế giới chỉ 5.1mm"],
+    "cons": ["Giá bán quá đắt đỏ", "Hệ điều hành iPadOS hạn chế nhiều phần mềm lập trình chuyên dụng"]
+  },
+  {
+    "id": "galaxy-tab-s9-fe",
+    "name": "Samsung Galaxy Tab S9 FE",
+    "brand": "Samsung",
+    "category": "tablet",
+    "price": 9290000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Exynos 1380 (5nm)",
+      "gpu": "Mali-G68 MP5",
+      "ram": "6GB LPDDR4X",
+      "storage": "128GB UFS 2.2",
+      "display": "10.9\" IPS LCD, 90Hz, WUXGA+ (2304x1440)",
+      "battery": "8000mAh, Sạc nhanh 45W"
+    },
+    "needs": ["study", "travel", "entertainment", "note_taking", "parental_control"],
+    "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=galaxy+tab+s9+fe",
+    "pros": ["Kháng nước kháng bụi chuẩn IP68 hiếm hoi trên máy tính bảng", "Tặng kèm bút S-Pen không cần sạc pin rất nhạy", "Hỗ trợ đa nhiệm giao diện DeX Mode mượt mà"],
+    "cons": ["Hiệu năng chip Exynos 1380 ở mức trung bình khá, chơi game nặng bị giật", "Màn hình IPS LCD hiển thị màu đen chưa sâu bằng OLED"]
+  },
+  {
+    "id": "redmi-pad-pro",
+    "name": "Xiaomi Redmi Pad Pro",
+    "brand": "Xiaomi",
+    "category": "tablet",
+    "price": 6490000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Snapdragon 7s Gen 2 (4nm)",
+      "gpu": "Adreno 710",
+      "ram": "8GB LPDDR4X",
+      "storage": "128GB UFS 2.2",
+      "display": "12.1\" IPS LCD, 120Hz, 2.5K (2560x1600), 600 nits",
+      "battery": "10000mAh, Sạc nhanh 33W"
+    },
+    "needs": ["study", "entertainment", "parental_control", "budget_gaming"],
+    "image_url": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=redmi+pad+pro",
+    "pros": ["Màn hình 12.1 inch cực lớn sắc nét 2.5K trong tầm giá rẻ", "Dung lượng pin khổng lồ 10000mAh dùng 2 ngày thoải mái", "Hệ thống 4 loa Dolby Atmos rất to và ấm"],
+    "cons": ["Hiệu năng đồ họa trung bình, chỉ chơi game nhẹ", "Kích thước máy khá nặng tay đối với trẻ em"]
+  },
+  {
+    "id": "xiaoxin-pad-pro-12-7",
+    "name": "Lenovo Xiaoxin Pad Pro 12.7",
+    "brand": "Lenovo",
+    "category": "tablet",
+    "price": 5790000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Snapdragon 870 (7nm)",
+      "gpu": "Adreno 650",
+      "ram": "8GB LPDDR5",
+      "storage": "128GB UFS 3.1",
+      "display": "12.7\" LTPS LCD, 144Hz, 2.9K (2944x1840)",
+      "battery": "10200mAh, Sạc nhanh 20W"
+    },
+    "needs": ["study", "entertainment", "budget_gaming", "note_taking"],
+    "image_url": "https://images.unsplash.com/photo-1527690787265-17a41eb93a8d?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=xiaoxin+pad+pro+12.7",
+    "pros": ["Màn hình lớn 12.7 inch tần số quét 144Hz siêu mượt và nét", "Cấu hình chip Snapdragon 870 cực kỳ ổn định và mát mẻ", "Khung nhôm nguyên khối chắc chắn tinh tế"],
+    "cons": ["Sách tay từ thị trường Trung Quốc, cần tự cài CH Play và Việt hóa", "Sạc đi kèm 20W mất gần 3 tiếng để đầy pin 10200mAh"]
+  },
+  {
+    "id": "oneplus-pad-2",
+    "name": "OnePlus Pad 2 Flagship Killer",
+    "brand": "OnePlus",
+    "category": "tablet",
+    "price": 13490000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Snapdragon 8 Gen 3 (4nm)",
+      "gpu": "Adreno 750",
+      "ram": "12GB LPDDR5X",
+      "storage": "256GB UFS 4.0",
+      "display": "12.1\" IPS LCD, 144Hz, 3K (3000x2120), 900 nits",
+      "battery": "9510mAh, Sạc siêu nhanh 67W SuperVOOC"
+    },
+    "needs": ["gaming", "graphic_design", "study", "travel", "entertainment", "note_taking"],
+    "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=oneplus+pad+2",
+    "pros": ["Trang bị chip Snapdragon 8 Gen 3 mạnh nhất thế giới Android hiện tại", "Tỷ lệ màn hình độc đáo 7:5 tối ưu đọc tài liệu và lướt web", "Sạc nhanh 67W sạc đầy pin 9510mAh chỉ trong hơn 1 tiếng"],
+    "cons": ["Màn hình IPS LCD chưa thể so sánh với độ đen sâu của AMOLED", "Chưa tối ưu hóa hệ thống cử chỉ bút vẽ so với iPad/Samsung"]
+  },
+  {
+    "id": "wacom-one-13-touch",
+    "name": "Wacom One 13 Touch (Dành cho Họa sĩ)",
+    "brand": "Wacom",
+    "category": "tablet",
+    "price": 8890000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Cần kết nối máy tính (Windows/macOS/Android)",
+      "gpu": "Không (Phụ thuộc vào máy tính nguồn)",
+      "ram": "Không (Thiết bị hiển thị cảm ứng vẽ chuyên nghiệp)",
+      "storage": "Không",
+      "display": "13.3\" IPS LCD Cảm ứng đa điểm, 60Hz, 99% sRGB",
+      "battery": "Không dùng pin (Cần kết nối nguồn trực tiếp qua USB-C)"
+    },
+    "needs": ["graphic_design", "note_taking"],
+    "image_url": "https://images.unsplash.com/photo-1527690787265-17a41eb93a8d?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=wacom+one+13+touch",
+    "pros": ["Độ nhạy lực nhấn bút Wacom One Pen cực kỳ chính xác chuyên nghiệp", "Hỗ trợ cảm ứng đa điểm bằng ngón tay xoay phóng to hình vẽ", "Màn hình được phủ lớp chống phản chiếu giả lập mặt giấy vẽ chân thực"],
+    "cons": ["Bắt buộc phải cắm dây kết nối với máy tính/điện thoại để hoạt động (không thể chạy độc lập)", "Tần số quét chỉ 60Hz"]
+  },
+  {
+    "id": "kindle-scribe",
+    "name": "Amazon Kindle Scribe E-Ink Tablet",
+    "brand": "Amazon",
+    "category": "tablet",
+    "price": 9590000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "MediaTek MT8183",
+      "gpu": "Tích hợp",
+      "ram": "1GB",
+      "storage": "32GB",
+      "display": "10.2\" Paperwhite E-Ink Screen, 300 ppi, Đèn nền điều chỉnh nhiệt độ màu",
+      "battery": "Dùng lượng pin kéo dài nhiều tuần (Sử dụng trung bình 3-4 tuần)"
+    },
+    "needs": ["study", "travel", "battery_life", "note_taking"],
+    "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=kindle+scribe",
+    "pros": ["Màn hình E-Ink hoàn toàn không gây mỏi mắt, hiển thị hoàn hảo dưới trời nắng", "Cảm giác viết vẽ bằng bút đi kèm nhám nhẹ như viết lên giấy thật", "Thời lượng pin cực khủng đo bằng tuần"],
+    "cons": ["Tốc độ phản hồi màn hình E-Ink chậm, chỉ phù hợp đọc sách và ghi chép", "Chỉ hiển thị màu đen trắng, không xem được video giải trí"]
+  },
+  {
+    "id": "honor-pad-9",
+    "name": "Honor Pad 9 12.1\"",
+    "brand": "Honor",
+    "category": "tablet",
+    "price": 5990000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Snapdragon 6 Gen 1 (4nm)",
+      "gpu": "Adreno 710",
+      "ram": "8GB LPDDR4X",
+      "storage": "256GB UFS 2.2",
+      "display": "12.1\" IPS LCD, 120Hz, 2.5K (2560x1600)",
+      "battery": "8300mAh, Sạc nhanh 35W"
+    },
+    "needs": ["study", "entertainment", "parental_control"],
+    "image_url": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=honor+pad+9",
+    "pros": ["Hệ thống âm thanh đỉnh cao với 8 loa ngoài cực lớn sinh động", "Bộ nhớ lớn 256GB lưu trữ nhiều tài liệu và phim ảnh", "Màn hình 120Hz độ phân giải 2.5K hiển thị mịn màng"],
+    "cons": ["Hiệu năng chơi game nặng ở mức trung bình yếu", "Vỏ máy dễ bám dấu vân tay"]
+  },
+  {
+    "id": "galaxy-tab-active-5",
+    "name": "Samsung Galaxy Tab Active5 Rugged",
+    "brand": "Samsung",
+    "category": "tablet",
+    "price": 12500000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Exynos 1380",
+      "gpu": "Mali-G68 MP5",
+      "ram": "6GB LPDDR5",
+      "storage": "128GB UFS 3.1",
+      "display": "8.0\" PLS LCD, 120Hz, Gorilla Glass 5",
+      "battery": "5050mAh (Pin tháo rời dễ dàng, có chế độ không dùng pin)"
+    },
+    "needs": ["travel", "study", "parental_control"],
+    "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=galaxy+tab+active+5",
+    "pros": ["Đạt chuẩn quân đội MIL-STD-810H chống rơi từ độ cao 1.8m", "Kháng nước bụi IP68 cho cả máy và bút S-Pen", "Pin có thể tháo rời thay thế lập tức hoặc chạy nguồn cắm trực tiếp (No Battery Mode)"],
+    "cons": ["Viền màn hình cực kỳ dày để bảo vệ chống rơi", "Kích thước màn hình nhỏ 8.0 inch"]
   },
   {
     "id": "macbook-air-m3",
@@ -1057,6 +1289,7 @@
     },
     "needs": ["office_work", "study", "entertainment", "htpc_livingroom", "nas_server"],
     "image_url": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=pc+ryzen+van+phong",
     "pros": ["Hoạt động hoàn toàn im lặng, cực tiết kiệm điện", "Đồ họa tích hợp Vega 7 chơi mượt các game Esport nhẹ", "Form máy nhỏ gọn SFF xinh xắn đặt trên bàn làm việc"],
     "cons": ["Khả năng nâng cấp card rời bị hạn chế do không gian case SFF", "Không phù hợp đồ họa 3D hay dựng video 4K nhanh"]
   }
