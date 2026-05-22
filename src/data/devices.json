@@ -4691,5 +4691,473 @@
         "url": "https://cellphones.com.vn/catalogsearch/result?q=PC%20AMD%20Ryzen%205%20Silent%20Home%20Office%20SFF"
       }
     ]
+  },
+  {
+    "id": "samsung-galaxy-tab-s10-plus",
+    "name": "Samsung Galaxy Tab S10+",
+    "brand": "Samsung",
+    "category": "tablet",
+    "price": 24990000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "MediaTek Dimensity 9300+",
+      "gpu": "Immortalis-G720 MC12",
+      "ram": "12GB LPDDR5X",
+      "storage": "256GB UFS 4.0",
+      "display": "12.4\" Dynamic AMOLED 2X, 120Hz, HDR10+",
+      "battery": "10090mAh, Sạc nhanh 45W",
+      "size_weight": "Kích thước lớn (~12.4\"), nặng 571g, siêu mỏng 5.6mm",
+      "stylus": "Tặng kèm bút S-Pen chính hãng trong hộp",
+      "cooling": "Tản nhiệt buồng hơi VC cải tiến diện tích lớn + Khung nhôm"
+    },
+    "needs": [
+      "gaming",
+      "graphic_design",
+      "video_editing",
+      "study",
+      "travel",
+      "entertainment",
+      "note_taking",
+      "online_seller",
+      "zoom_meeting",
+      "stock_trading",
+      "reading_news",
+      "consultant_sales",
+      "digital_art"
+    ],
+    "image_url": "/images/devices/galaxy-tab-s10-plus.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=galaxy%20tab%20s10%20plus",
+    "purchase_links": [
+      {
+        "platform": "Shopee Mall",
+        "url": "https://shopee.vn/search?keyword=galaxy%20tab%20s10%20plus"
+      },
+      {
+        "platform": "Thế Giới Di Động",
+        "url": "https://www.thegioididong.com/may-tinh-bang/samsung-galaxy-tab-s10-plus-wifi"
+      },
+      {
+        "platform": "CellphoneS",
+        "url": "https://cellphones.com.vn/samsung-galaxy-tab-s10-plus.html"
+      }
+    ],
+    "pros": [
+      "Màn hình Dynamic AMOLED 2X tuyệt đẹp, chống phản chiếu tốt",
+      "Hiệu năng cực mạnh từ chip Dimensity 9300+",
+      "Kèm bút S-Pen độ nhạy cực cao và kháng nước IP68"
+    ],
+    "cons": [
+      "Không đi kèm củ sạc nhanh trong hộp",
+      "Giá thành cao cận phân khúc Ultra"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-a9",
+    "name": "Samsung Galaxy Tab A9 (WiFi/LTE)",
+    "brand": "Samsung",
+    "category": "tablet",
+    "price": 3490000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "MediaTek Helio G99",
+      "gpu": "Mali-G57 MC2",
+      "ram": "4GB LPDDR4X",
+      "storage": "64GB",
+      "display": "8.7\" TFT LCD, 60Hz, 800 x 1340 pixels",
+      "battery": "5100mAh, Sạc 15W",
+      "size_weight": "Siêu nhỏ gọn (~8.7\"), nặng khoảng 332g",
+      "stylus": "Không hỗ trợ (Không tương thích S-Pen)",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
+    },
+    "needs": [
+      "study",
+      "parental_control",
+      "entertainment",
+      "reading_news",
+      "zoom_meeting",
+      "smart_home_hub"
+    ],
+    "image_url": "/images/devices/galaxy-tab-a9.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=galaxy%20tab%20a9",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=galaxy%20tab%20a9"
+      },
+      {
+        "platform": "Thế Giới Di Động",
+        "url": "https://www.thegioididong.com/may-tinh-bang/samsung-galaxy-tab-a9-wifi"
+      },
+      {
+        "platform": "CellphoneS",
+        "url": "https://cellphones.com.vn/samsung-galaxy-tab-a9.html"
+      }
+    ],
+    "pros": [
+      "Kích thước nhỏ gọn, rất dễ cầm nắm bằng một tay",
+      "Chip Helio G99 hiệu năng ổn định nhất trong tầm giá rẻ",
+      "Hỗ trợ kết nối sim 4G nghe gọi tiện lợi"
+    ],
+    "cons": [
+      "Màn hình độ phân giải thấp, góc nhìn trung bình",
+      "Không hỗ trợ bút cảm ứng"
+    ]
+  },
+  {
+    "id": "apple-ipad-mini-6",
+    "name": "Apple iPad Mini 6 (2021)",
+    "brand": "Apple",
+    "category": "tablet",
+    "price": 11490000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Apple A15 Bionic",
+      "gpu": "Apple GPU 5-core",
+      "ram": "4GB",
+      "storage": "64GB",
+      "display": "8.3\" Liquid Retina IPS LCD, 60Hz, True Tone",
+      "battery": "5124mAh (Khoảng 10h sử dụng)",
+      "size_weight": "Siêu nhỏ gọn (~8.3\"), nặng khoảng 293g",
+      "stylus": "Hỗ trợ Apple Pencil 2 & Apple Pencil USB-C",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
+    },
+    "needs": [
+      "study",
+      "travel",
+      "gaming",
+      "entertainment",
+      "note_taking",
+      "zoom_meeting",
+      "online_seller",
+      "consultant_sales",
+      "digital_art"
+    ],
+    "image_url": "/images/devices/ipad-mini-6.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=ipad%20mini%206",
+    "purchase_links": [
+      {
+        "platform": "Shopee Mall",
+        "url": "https://shopee.vn/search?keyword=ipad%20mini%206"
+      },
+      {
+        "platform": "Thế Giới Di Động",
+        "url": "https://www.thegioididong.com/may-tinh-bang/ipad-mini-6-wifi"
+      },
+      {
+        "platform": "CellphoneS",
+        "url": "https://cellphones.com.vn/ipad-mini-6.html"
+      }
+    ],
+    "pros": [
+      "Kích thước cực kỳ nhỏ gọn, siêu tiện lợi khi di chuyển ngoài đường",
+      "Hiệu năng chip A15 Bionic mạnh mẽ, mượt mà",
+      "Thiết kế viền mỏng hiện đại, cổng USB-C đa năng"
+    ],
+    "cons": [
+      "Tần số quét màn hình chỉ 60Hz",
+      "Dung lượng bộ nhớ khởi điểm 64GB hơi hạn chế"
+    ]
+  },
+  {
+    "id": "xiaomi-redmi-pad-se-8-7",
+    "name": "Xiaomi Redmi Pad SE 8.7\"",
+    "brand": "Xiaomi",
+    "category": "tablet",
+    "price": 3190000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "MediaTek Helio G85",
+      "gpu": "Mali-G52 MC2",
+      "ram": "4GB LPDDR4X",
+      "storage": "64GB",
+      "display": "8.7\" IPS LCD, 90Hz, 600 nits, 800 x 1340 pixels",
+      "battery": "6650mAh, Sạc 10W",
+      "size_weight": "Siêu nhỏ gọn (~8.7\"), nặng khoảng 373g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động"
+    },
+    "needs": [
+      "study",
+      "parental_control",
+      "entertainment",
+      "reading_news",
+      "zoom_meeting",
+      "smart_home_hub"
+    ],
+    "image_url": "/images/devices/redmi-pad-se-8-7.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=redmi%20pad%20se%208.7",
+    "purchase_links": [
+      {
+        "platform": "Shopee Mall",
+        "url": "https://shopee.vn/search?keyword=redmi%20pad%20se%208.7"
+      },
+      {
+        "platform": "Thế Giới Di Động",
+        "url": "https://www.thegioididong.com/may-tinh-bang/xiaomi-redmi-pad-se-87-wifi"
+      },
+      {
+        "platform": "CellphoneS",
+        "url": "https://cellphones.com.vn/may-tinh-bang-xiaomi-redmi-pad-se-8-7-inch.html"
+      }
+    ],
+    "pros": [
+      "Kích thước nhỏ gọn, tần số quét 90Hz mượt mà hơn đối thủ cùng tầm",
+      "Dung lượng pin lớn 6650mAh cho thời gian sử dụng rất dài",
+      "Loa kép hỗ trợ Dolby Atmos to rõ"
+    ],
+    "cons": [
+      "Sạc đi kèm chỉ 10W khá chậm",
+      "Chip Helio G85 chỉ đáp ứng các nhu cầu cơ bản"
+    ]
+  },
+  {
+    "id": "huawei-matepad-12-x",
+    "name": "Huawei MatePad 12 X (PaperMatte)",
+    "brand": "Huawei",
+    "category": "tablet",
+    "price": 13990000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Kirin 9000WL",
+      "gpu": "Maleoon 910 GPU",
+      "ram": "8GB",
+      "storage": "256GB",
+      "display": "12.0\" PaperMatte LCD, 144Hz, chống chói, 2800 x 1840 pixels",
+      "battery": "10100mAh, Sạc nhanh 66W",
+      "size_weight": "Kích thước tiêu chuẩn (~12.0\"), nặng 555g, mỏng 5.9mm",
+      "stylus": "Hỗ trợ bút cảm ứng NearLink M-Pencil Gen 3 (Độ trễ cực thấp)",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm tản nhiệt nhanh"
+    },
+    "needs": [
+      "study",
+      "travel",
+      "entertainment",
+      "note_taking",
+      "reading_news",
+      "zoom_meeting",
+      "consultant_sales",
+      "digital_art"
+    ],
+    "image_url": "/images/devices/matepad-12-x.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=matepad%2012%20x",
+    "purchase_links": [
+      {
+        "platform": "Shopee Mall",
+        "url": "https://shopee.vn/search?keyword=matepad%2012%20x"
+      },
+      {
+        "platform": "CellphoneS",
+        "url": "https://cellphones.com.vn/may-tinh-bang-huawei-matepad-12-x-papermatte.html"
+      }
+    ],
+    "pros": [
+      "Màn hình nhám PaperMatte bảo vệ mắt cực tốt, viết vẽ cực kỳ bám bút",
+      "Tần số quét màn hình 144Hz siêu mượt mà",
+      "Dung lượng pin khủng 10100mAh kèm sạc nhanh 66W"
+    ],
+    "cons": [
+      "Không hỗ trợ sẵn các dịch vụ Google (GMS) mặc định",
+      "Khó khăn khi cài đặt một số app quốc tế"
+    ]
+  },
+  {
+    "id": "oppo-pad-neo",
+    "name": "Oppo Pad Neo (WiFi/LTE)",
+    "brand": "Oppo",
+    "category": "tablet",
+    "price": 6990000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "MediaTek Helio G99",
+      "gpu": "Mali-G57 MC2",
+      "ram": "6GB LPDDR4X",
+      "storage": "128GB",
+      "display": "11.4\" IPS LCD, 90Hz, 2.4K (1720 x 2408 pixels)",
+      "battery": "8000mAh, Sạc nhanh 33W SuperVOOC",
+      "size_weight": "Kích thước tiêu chuẩn (~11.4\"), nặng khoảng 538g",
+      "stylus": "Không hỗ trợ",
+      "cooling": "Tản nhiệt thụ động"
+    },
+    "needs": [
+      "study",
+      "entertainment",
+      "reading_news",
+      "zoom_meeting",
+      "online_seller",
+      "smart_home_hub"
+    ],
+    "image_url": "/images/devices/oppo-pad-neo.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=oppo%20pad%20neo",
+    "purchase_links": [
+      {
+        "platform": "Shopee Mall",
+        "url": "https://shopee.vn/search?keyword=oppo%20pad%20neo"
+      },
+      {
+        "platform": "Thế Giới Di Động",
+        "url": "https://www.thegioididong.com/may-tinh-bang/oppo-pad-neo-lte"
+      },
+      {
+        "platform": "CellphoneS",
+        "url": "https://cellphones.com.vn/oppo-pad-neo.html"
+      }
+    ],
+    "pros": [
+      "Màn hình lớn 11.4 inch độ phân giải 2.4K sắc nét, tỷ lệ 7:5 đọc báo cực tốt",
+      "Hệ thống 4 loa âm thanh vòm Dolby Atmos chất lượng cực hay",
+      "Có hỗ trợ khay lắp sim 4G LTE tiện dụng"
+    ],
+    "cons": [
+      "Chip Helio G99 chỉ đủ dùng hàng ngày, không phù hợp game nặng",
+      "Không hỗ trợ bút viết chuyên nghiệp"
+    ]
+  },
+  {
+    "id": "oppo-pad-2",
+    "name": "Oppo Pad 2 Flagship",
+    "brand": "Oppo",
+    "category": "tablet",
+    "price": 12990000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "MediaTek Dimensity 9000",
+      "gpu": "Mali-G710 MC10",
+      "ram": "8GB LPDDR5",
+      "storage": "256GB UFS 3.1",
+      "display": "11.61\" IPS LCD, 144Hz, HDR10+, 2800 x 2000 pixels",
+      "battery": "9510mAh, Sạc nhanh 67W SuperVOOC",
+      "size_weight": "Kích thước tiêu chuẩn (~11.6\"), nặng 552g, mỏng 6.5mm",
+      "stylus": "Hỗ trợ bút cảm ứng OPPO Pencil (Mua rời)",
+      "cooling": "Tản nhiệt Graphite nhiều lớp + Khung nhôm tản nhiệt nhanh"
+    },
+    "needs": [
+      "gaming",
+      "graphic_design",
+      "study",
+      "travel",
+      "entertainment",
+      "note_taking",
+      "online_seller",
+      "zoom_meeting",
+      "stock_trading",
+      "reading_news",
+      "digital_art"
+    ],
+    "image_url": "/images/devices/oppo-pad-2.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=oppo%20pad%202",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=oppo%20pad%202"
+      },
+      {
+        "platform": "Thế Giới Di Động",
+        "url": "https://www.thegioididong.com/may-tinh-bang/oppo-pad-2"
+      }
+    ],
+    "pros": [
+      "Màn hình 144Hz cực mượt mà, tỷ lệ 7:5 tối ưu đọc tài liệu và làm việc",
+      "Hiệu năng mạnh mẽ từ chip Dimensity 9000 flagship một thời",
+      "Sạc siêu nhanh 67W giúp nạp lại pin cực kỳ nhanh chóng"
+    ],
+    "cons": [
+      "Tấm nền LCD góc nhìn và độ tương phản không sâu bằng OLED",
+      "Phụ kiện chính hãng đi kèm khó mua tại thị trường VN"
+    ]
+  },
+  {
+    "id": "lenovo-tab-m11",
+    "name": "Lenovo Tab M11 (Kèm Bút)",
+    "brand": "Lenovo",
+    "category": "tablet",
+    "price": 4790000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "MediaTek Helio G88",
+      "gpu": "Mali-G52 MC2",
+      "ram": "4GB LPDDR4X",
+      "storage": "128GB",
+      "display": "11.0\" IPS LCD, 90Hz, 1920 x 1200 pixels",
+      "battery": "7040mAh, Sạc 15W",
+      "size_weight": "Kích thước tiêu chuẩn (~11.0\"), nặng khoảng 465g",
+      "stylus": "Hỗ trợ bút Lenovo Precision Pen 3 (Mua rời)",
+      "cooling": "Tản nhiệt thụ động qua vỏ máy"
+    },
+    "needs": [
+      "study",
+      "entertainment",
+      "note_taking",
+      "reading_news",
+      "zoom_meeting",
+      "smart_home_hub"
+    ],
+    "image_url": "/images/devices/lenovo-tab-m11.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=lenovo%20tab%20m11",
+    "purchase_links": [
+      {
+        "platform": "Shopee Mall",
+        "url": "https://shopee.vn/search?keyword=lenovo%20tab%20m11"
+      },
+      {
+        "platform": "Thế Giới Di Động",
+        "url": "https://www.thegioididong.com/may-tinh-bang/lenovo-tab-m11"
+      },
+      {
+        "platform": "CellphoneS",
+        "url": "https://cellphones.com.vn/may-tinh-bang-lenovo-tab-m11.html"
+      }
+    ],
+    "pros": [
+      "Hộp sản phẩm bán ra thường tặng kèm bút cảm ứng tiện lợi ghi chép",
+      "Màn hình 90Hz mượt mà, thân vỏ kim loại chắc chắn sang trọng",
+      "Loa ngoài Quad-speakers tối ưu Dolby Atmos nghe to rõ tốt"
+    ],
+    "cons": [
+      "Chip Helio G88 khá yếu, chỉ phù hợp học tập cơ bản và văn phòng nhẹ",
+      "Tốc độ sạc pin 15W khá chậm"
+    ]
+  },
+  {
+    "id": "kobo-libra-colour",
+    "name": "Kobo Libra Colour (Máy Đọc Sách Màu)",
+    "brand": "Kobo",
+    "category": "tablet",
+    "price": 6490000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Dual Core 1.0 GHz",
+      "gpu": "Integrated E-Ink Controller",
+      "ram": "1GB",
+      "storage": "32GB",
+      "display": "7.0\" E-Ink Kaleido 3, Color Screen, Chống chói, Bảo vệ mắt tối đa",
+      "battery": "2050mAh (Sử dụng liên tục lên đến vài tuần)",
+      "size_weight": "Siêu nhỏ gọn (~7.0\"), nặng khoảng 199g",
+      "stylus": "Hỗ trợ bút Kobo Stylus 2 (Mua rời, viết vẽ trực tiếp lên trang sách)",
+      "cooling": "Tản nhiệt thụ động (Hoàn toàn không sinh nhiệt)"
+    },
+    "needs": [
+      "heavy_reading",
+      "travel",
+      "battery_life",
+      "note_taking",
+      "reading_news"
+    ],
+    "image_url": "/images/devices/kobo-libra-colour.webp",
+    "affiliate_link": "https://shopee.vn/search?keyword=kobo%20libra%20colour",
+    "purchase_links": [
+      {
+        "platform": "Shopee",
+        "url": "https://shopee.vn/search?keyword=kobo%20libra%20colour"
+      }
+    ],
+    "pros": [
+      "Màn hình mực màu E-Ink Kaleido 3 đọc truyện tranh màu tuyệt đỉnh không mỏi mắt",
+      "Kháng nước chuẩn IPX8 thoải mái đọc sách ở hồ bơi, bồn tắm",
+      "Pin siêu trâu, một lần sạc dùng được hàng tuần liền"
+    ],
+    "cons": [
+      "Tốc độ phản hồi màn hình e-ink chậm, không xem được video",
+      "Độ sáng màn hình màu hơi tối hơn máy đọc sách đen trắng thông thường"
+    ]
   }
 ]
