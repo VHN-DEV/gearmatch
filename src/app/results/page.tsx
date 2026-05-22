@@ -24,6 +24,42 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 
+// Helper functions for advanced specs classification
+const getDeviceRamGb = (ramStr: string): number => {
+  const match = ramStr.match(/^(\d+)\s*GB/i);
+  return match ? parseInt(match[1]) : 0;
+};
+
+const getDeviceStorageGb = (storageStr: string): number => {
+  if (!storageStr) return 0;
+  const matchTb = storageStr.match(/^(\d+)\s*TB/i);
+  if (matchTb) return parseInt(matchTb[1]) * 1024;
+  const matchGb = storageStr.match(/^(\d+)\s*GB/i);
+  return matchGb ? parseInt(matchGb[1]) : 0;
+};
+
+const getDeviceCpuBrand = (cpuStr: string): string => {
+  const s = cpuStr.toLowerCase();
+  if (s.includes("apple") || s.includes("m4") || s.includes("m3") || s.includes("m2")) return "apple";
+  if (s.includes("intel") || s.includes("xeon")) return "intel";
+  if (s.includes("amd") || s.includes("ryzen") || s.includes("threadripper")) return "amd";
+  if (s.includes("snapdragon")) return "snapdragon";
+  if (s.includes("mediatek") || s.includes("dimensity") || s.includes("exynos")) return "mediatek";
+  return "other";
+};
+
+const getDeviceGpuType = (gpuStr: string): string => {
+  const s = (gpuStr || "").toLowerCase();
+  if (s.includes("rtx") || s.includes("geforce") || s.includes("nvidia")) return "nvidia";
+  if (s.includes("radeon") || s.includes("rx ")) return "amd";
+  return "integrated";
+};
+
+const getDeviceHz = (displayStr: string): number => {
+  const match = displayStr.match(/(\d+)\s*Hz/i);
+  return match ? parseInt(match[1]) : 60;
+};
+
 function ResultsContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
@@ -42,6 +78,13 @@ function ResultsContent() {
   const [favorites, setFavorites] = useState<string[]>([]);
   const [compareList, setCompareList] = useState<string[]>([]);
   const [expandedDevice, setExpandedDevice] = useState<string | null>(null);
+
+  // Advanced Spec Filters State
+  const [selectedRamRange, setSelectedRamRange] = useState<string[]>([]);
+  const [selectedStorageRange, setSelectedStorageRange] = useState<string[]>([]);
+  const [selectedCpuBrands, setSelectedCpuBrands] = useState<string[]>([]);
+  const [selectedGpuTypes, setSelectedGpuTypes] = useState<string[]>([]);
+  const [selectedHzRange, setSelectedHzRange] = useState<string[]>([]);
 
   // Load results, specs, and initial dynamic brand list
   useEffect(() => {
@@ -63,8 +106,63 @@ function ResultsContent() {
     setBrands(allBrands);
     setSpecs(specRequirements);
 
+    // Apply specification filters
+    let filtered = recommendations;
+
+    if (selectedRamRange.length > 0) {
+      filtered = filtered.filter(r => {
+        const ram = getDeviceRamGb(r.device.specs.ram);
+        return selectedRamRange.some(range => {
+          if (range === "4-8") return ram >= 4 && ram <= 8;
+          if (range === "12-16") return ram >= 12 && ram <= 16;
+          if (range === "24-32") return ram >= 24 && ram <= 32;
+          if (range === "64+") return ram >= 64;
+          return false;
+        });
+      });
+    }
+
+    if (selectedStorageRange.length > 0) {
+      filtered = filtered.filter(r => {
+        const storage = getDeviceStorageGb(r.device.specs.storage);
+        return selectedStorageRange.some(range => {
+          if (range === "<256") return storage < 256;
+          if (range === "256-512") return storage >= 256 && storage <= 512;
+          if (range === "1000+") return storage >= 1000;
+          return false;
+        });
+      });
+    }
+
+    if (selectedCpuBrands.length > 0) {
+      filtered = filtered.filter(r => {
+        const brand = getDeviceCpuBrand(r.device.specs.cpu);
+        return selectedCpuBrands.includes(brand);
+      });
+    }
+
+    if (selectedGpuTypes.length > 0) {
+      filtered = filtered.filter(r => {
+        const gpu = getDeviceGpuType(r.device.specs.gpu);
+        return selectedGpuTypes.includes(gpu);
+      });
+    }
+
+    if (selectedHzRange.length > 0) {
+      filtered = filtered.filter(r => {
+        const hz = getDeviceHz(r.device.specs.display);
+        return selectedHzRange.some(range => {
+          if (range === "60") return hz === 60;
+          if (range === "90-120") return hz >= 90 && hz <= 120;
+          if (range === "144-165") return hz >= 144 && hz <= 165;
+          if (range === "240+") return hz >= 240;
+          return false;
+        });
+      });
+    }
+
     // Apply sorting
-    const sorted = [...recommendations];
+    const sorted = [...filtered];
     if (sortBy === "score-desc") {
       sorted.sort((a, b) => b.matchScore - a.matchScore);
     } else if (sortBy === "price-asc") {
@@ -73,7 +171,18 @@ function ResultsContent() {
       sorted.sort((a, b) => b.device.price - a.device.price);
     }
     setResults(sorted);
-  }, [category, needsParam, budget, selectedBrands, sortBy]);
+  }, [
+    category,
+    needsParam,
+    budget,
+    selectedBrands,
+    sortBy,
+    selectedRamRange,
+    selectedStorageRange,
+    selectedCpuBrands,
+    selectedGpuTypes,
+    selectedHzRange
+  ]);
 
   // Load favorites & compare list from LocalStorage
   useEffect(() => {
@@ -124,6 +233,36 @@ function ResultsContent() {
     }
   };
 
+  const handleRamToggle = (range: string) => {
+    setSelectedRamRange(prev =>
+      prev.includes(range) ? prev.filter(r => r !== range) : [...prev, range]
+    );
+  };
+
+  const handleStorageToggle = (range: string) => {
+    setSelectedStorageRange(prev =>
+      prev.includes(range) ? prev.filter(s => s !== range) : [...prev, range]
+    );
+  };
+
+  const handleCpuBrandToggle = (brand: string) => {
+    setSelectedCpuBrands(prev =>
+      prev.includes(brand) ? prev.filter(b => b !== brand) : [...prev, brand]
+    );
+  };
+
+  const handleGpuTypeToggle = (type: string) => {
+    setSelectedGpuTypes(prev =>
+      prev.includes(type) ? prev.filter(t => t !== type) : [...prev, type]
+    );
+  };
+
+  const handleHzToggle = (range: string) => {
+    setSelectedHzRange(prev =>
+      prev.includes(range) ? prev.filter(h => h !== range) : [...prev, range]
+    );
+  };
+
   const formatPrice = (p: number) => {
     return new Intl.NumberFormat("vi-VN", { style: "currency", currency: "VND" }).format(p);
   };
@@ -169,11 +308,22 @@ function ResultsContent() {
                 <Filter className="h-4 w-4 text-brand-primary" />
                 <span>Bộ Lọc Chi Tiết</span>
               </h3>
-              {(selectedBrands.length > 0 || sortBy !== "score-desc") && (
+              {(selectedBrands.length > 0 ||
+                sortBy !== "score-desc" ||
+                selectedRamRange.length > 0 ||
+                selectedStorageRange.length > 0 ||
+                selectedCpuBrands.length > 0 ||
+                selectedGpuTypes.length > 0 ||
+                selectedHzRange.length > 0) && (
                 <button
                   onClick={() => {
                     setSelectedBrands([]);
                     setSortBy("score-desc");
+                    setSelectedRamRange([]);
+                    setSelectedStorageRange([]);
+                    setSelectedCpuBrands([]);
+                    setSelectedGpuTypes([]);
+                    setSelectedHzRange([]);
                   }}
                   className="text-[10px] text-brand-primary hover:underline font-semibold"
                 >
@@ -228,7 +378,7 @@ function ResultsContent() {
             </div>
 
             {/* Sorting Dropdown */}
-            <div>
+            <div className="mb-6">
               <label className="text-xs font-bold text-white block mb-3">Sắp xếp theo</label>
               <select
                 value={sortBy}
@@ -239,6 +389,162 @@ function ResultsContent() {
                 <option value="price-asc" className="bg-[#0f1428] text-white">Giá tăng dần</option>
                 <option value="price-desc" className="bg-[#0f1428] text-white">Giá giảm dần</option>
               </select>
+            </div>
+
+            {/* Advanced Spec Filters (Pro) */}
+            <div className="border-t border-white/5 pt-5 mt-5">
+              <span className="text-xs font-bold text-white block mb-4 flex items-center space-x-2">
+                <Cpu className="h-3.5 w-3.5 text-brand-primary animate-pulse" />
+                <span>Bộ Lọc Thông Số (Pro)</span>
+              </span>
+
+              <div className="space-y-4">
+                {/* RAM Filter */}
+                <div>
+                  <span className="text-[10px] font-bold text-brand-muted uppercase tracking-wider block mb-2">Bộ nhớ RAM</span>
+                  <div className="space-y-1.5">
+                    {[
+                      { label: "4GB - 8GB", value: "4-8" },
+                      { label: "12GB - 16GB", value: "12-16" },
+                      { label: "24GB - 32GB", value: "24-32" },
+                      { label: "64GB+", value: "64+" }
+                    ].map((item) => {
+                      const isChecked = selectedRamRange.includes(item.value);
+                      return (
+                        <button
+                          key={item.value}
+                          onClick={() => handleRamToggle(item.value)}
+                          className="flex items-center space-x-2 w-full text-left py-0.5 text-xs text-brand-muted hover:text-white transition-colors"
+                        >
+                          <div className={`h-3.5 w-3.5 rounded border flex items-center justify-center transition-all ${
+                            isChecked ? "bg-brand-primary border-brand-primary text-white" : "border-white/20 bg-transparent"
+                          }`}>
+                            {isChecked && <Check className="h-2.5 w-2.5" />}
+                          </div>
+                          <span>{item.label}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                {/* Storage Filter */}
+                <div>
+                  <span className="text-[10px] font-bold text-brand-muted uppercase tracking-wider block mb-2">Ổ cứng lưu trữ</span>
+                  <div className="space-y-1.5">
+                    {[
+                      { label: "Dưới 256GB", value: "<256" },
+                      { label: "256GB - 512GB", value: "256-512" },
+                      { label: "1TB+", value: "1000+" }
+                    ].map((item) => {
+                      const isChecked = selectedStorageRange.includes(item.value);
+                      return (
+                        <button
+                          key={item.value}
+                          onClick={() => handleStorageToggle(item.value)}
+                          className="flex items-center space-x-2 w-full text-left py-0.5 text-xs text-brand-muted hover:text-white transition-colors"
+                        >
+                          <div className={`h-3.5 w-3.5 rounded border flex items-center justify-center transition-all ${
+                            isChecked ? "bg-brand-primary border-brand-primary text-white" : "border-white/20 bg-transparent"
+                          }`}>
+                            {isChecked && <Check className="h-2.5 w-2.5" />}
+                          </div>
+                          <span>{item.label}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                {/* CPU Brand Filter */}
+                <div>
+                  <span className="text-[10px] font-bold text-brand-muted uppercase tracking-wider block mb-2">Hãng vi xử lý (CPU)</span>
+                  <div className="space-y-1.5">
+                    {[
+                      { label: "Apple Silicon", value: "apple" },
+                      { label: "Intel Core / Xeon", value: "intel" },
+                      { label: "AMD Ryzen / Epyc", value: "amd" },
+                      { label: "Snapdragon ARM", value: "snapdragon" },
+                      { label: "MediaTek / Khác", value: "mediatek" }
+                    ].map((item) => {
+                      const isChecked = selectedCpuBrands.includes(item.value);
+                      return (
+                        <button
+                          key={item.value}
+                          onClick={() => handleCpuBrandToggle(item.value)}
+                          className="flex items-center space-x-2 w-full text-left py-0.5 text-xs text-brand-muted hover:text-white transition-colors"
+                        >
+                          <div className={`h-3.5 w-3.5 rounded border flex items-center justify-center transition-all ${
+                            isChecked ? "bg-brand-primary border-brand-primary text-white" : "border-white/20 bg-transparent"
+                          }`}>
+                            {isChecked && <Check className="h-2.5 w-2.5" />}
+                          </div>
+                          <span>{item.label}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                {/* GPU Filter - only display for laptop and pc categories */}
+                {(category === "laptop" || category === "pc") && (
+                  <div>
+                    <span className="text-[10px] font-bold text-brand-muted uppercase tracking-wider block mb-2">Card đồ họa (GPU)</span>
+                    <div className="space-y-1.5">
+                      {[
+                        { label: "NVIDIA GeForce / RTX", value: "nvidia" },
+                        { label: "AMD Radeon / Apple", value: "amd" },
+                        { label: "Tích hợp / Khác", value: "integrated" }
+                      ].map((item) => {
+                        const isChecked = selectedGpuTypes.includes(item.value);
+                        return (
+                          <button
+                            key={item.value}
+                            onClick={() => handleGpuTypeToggle(item.value)}
+                            className="flex items-center space-x-2 w-full text-left py-0.5 text-xs text-brand-muted hover:text-white transition-colors"
+                          >
+                            <div className={`h-3.5 w-3.5 rounded border flex items-center justify-center transition-all ${
+                              isChecked ? "bg-brand-primary border-brand-primary text-white" : "border-white/20 bg-transparent"
+                            }`}>
+                              {isChecked && <Check className="h-2.5 w-2.5" />}
+                            </div>
+                            <span>{item.label}</span>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
+
+                {/* Display Hz Filter */}
+                <div>
+                  <span className="text-[10px] font-bold text-brand-muted uppercase tracking-wider block mb-2">Tần số quét màn hình</span>
+                  <div className="space-y-1.5">
+                    {[
+                      { label: "60Hz tiêu chuẩn", value: "60" },
+                      { label: "90Hz - 120Hz mượt", value: "90-120" },
+                      { label: "144Hz - 165Hz gaming", value: "144-165" },
+                      { label: "240Hz+ tối thượng", value: "240+" }
+                    ].map((item) => {
+                      const isChecked = selectedHzRange.includes(item.value);
+                      return (
+                        <button
+                          key={item.value}
+                          onClick={() => handleHzToggle(item.value)}
+                          className="flex items-center space-x-2 w-full text-left py-0.5 text-xs text-brand-muted hover:text-white transition-colors"
+                        >
+                          <div className={`h-3.5 w-3.5 rounded border flex items-center justify-center transition-all ${
+                            isChecked ? "bg-brand-primary border-brand-primary text-white" : "border-white/20 bg-transparent"
+                          }`}>
+                            {isChecked && <Check className="h-2.5 w-2.5" />}
+                          </div>
+                          <span>{item.label}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -86,7 +86,7 @@ export default function Footer() {
 
         {/* Bottom Area */}
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-brand-muted">
-          <p>© {new Date().getFullYear()} GearMatch. Bản quyền thuộc về bạn.</p>
+          <p>© {new Date().getFullYear()} GearMatch. Bản quyền thuộc về Vũ Hoài Nam.</p>
           <p className="flex items-center space-x-1 mt-4 md:mt-0">
             <span>Made with</span>
             <Heart className="h-3 w-3 text-red-500 fill-red-500" />

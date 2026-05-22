@@ -231,6 +231,69 @@
     "cons": ["Màn hình tai thỏ thế hệ cũ chỉ có 60Hz", "Không có camera góc siêu rộng hoặc zoom quang học xa"]
   },
   {
+    "id": "samsung-galaxy-s24-plus",
+    "name": "Samsung Galaxy S24+",
+    "brand": "Samsung",
+    "category": "mobile",
+    "price": 21990000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "Exynos 2400 (4nm)",
+      "gpu": "Xclipse 940 (AMD)",
+      "ram": "12GB LPDDR5X",
+      "storage": "256GB UFS 4.0",
+      "display": "6.7\" Dynamic AMOLED 2X, QHD+, 120Hz, 2600 nits",
+      "battery": "4900mAh, Sạc nhanh 45W"
+    },
+    "needs": ["gaming", "photography", "travel", "battery_life", "entertainment", "vlogging"],
+    "image_url": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=galaxy+s24+plus",
+    "pros": ["Màn hình QHD+ siêu sắc nét và vô cùng sáng", "RAM 12GB đa nhiệm cực tốt hơn bản cơ bản", "Hệ thống tính năng Galaxy AI đầy đủ"],
+    "cons": ["Bộ xử lý Exynos chơi game lâu vẫn hơi ấm nhẹ", "Thời lượng pin chưa trâu bò bằng bản Ultra"]
+  },
+  {
+    "id": "oppo-find-x7-ultra",
+    "name": "Oppo Find X7 Ultra",
+    "brand": "Oppo",
+    "category": "mobile",
+    "price": 20490000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "Snapdragon 8 Gen 3",
+      "gpu": "Adreno 750",
+      "ram": "16GB LPDDR5X",
+      "storage": "256GB UFS 4.0",
+      "display": "6.82\" LTPO AMOLED, 120Hz, HDR10+, 4500 nits",
+      "battery": "5000mAh, Sạc siêu nhanh 100W"
+    },
+    "needs": ["photography", "travel", "vlogging", "gaming", "entertainment"],
+    "image_url": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=oppo+find+x7+ultra",
+    "pros": ["Hệ thống Dual-Periscope Zoom quang học 2 mức 3x & 6x chụp chân dung đỉnh cao", "Màn hình cong độ sáng kỷ lục 4500 nits", "Sạc siêu nhanh 100W đi kèm sạc không dây 50W"],
+    "cons": ["Trọng lượng máy khá nặng và camera lồi lớn", "Chưa phân phối chính hãng rộng rãi tại Việt Nam"]
+  },
+  {
+    "id": "poco-f6-pro",
+    "name": "Poco F6 Pro",
+    "brand": "Xiaomi",
+    "category": "mobile",
+    "price": 12990000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Snapdragon 8 Gen 2",
+      "gpu": "Adreno 740",
+      "ram": "12GB LPDDR5X",
+      "storage": "512GB UFS 4.0",
+      "display": "6.67\" WQHD+ AMOLED, 120Hz, Flow AMOLED",
+      "battery": "5000mAh, Sạc siêu nhanh 120W"
+    },
+    "needs": ["gaming", "battery_life", "budget_gaming", "entertainment"],
+    "image_url": "https://images.unsplash.com/photo-1565630916779-e303be97b6f5?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=poco+f6+pro",
+    "pros": ["Cấu hình Snapdragon 8 Gen 2 mạnh mẽ vượt tầm giá", "Màn hình 2K WQHD+ siêu nét", "Sạc nhanh 120W cực đỉnh đầy pin trong 20 phút"],
+    "cons": ["Camera chất lượng chỉ ở mức trung bình", "Mặt lưng bám nhiều mồ hôi và dấu vân tay"]
+  },
+  {
     "id": "ipad-pro-m4",
     "name": "iPad Pro M4 11\" (2024)",
     "brand": "Apple",
@@ -398,6 +461,48 @@
     "cons": ["Chưa tương thích hoàn hảo với một số phần mềm cũ (giả lập x86)", "Bàn phím Type Cover và bút Slim Pen phải mua riêng với giá đắt"]
   },
   {
+    "id": "ipad-mini-7",
+    "name": "iPad Mini 7 (A17 Pro, 2024)",
+    "brand": "Apple",
+    "category": "tablet",
+    "price": 13990000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "Apple A17 Pro",
+      "gpu": "Apple 5-core GPU",
+      "ram": "8GB LPDDR5",
+      "storage": "128GB NVMe",
+      "display": "8.3\" Liquid Retina IPS LCD, 60Hz, True Tone",
+      "battery": "5124mAh (Sử dụng liên tục 9h)"
+    },
+    "needs": ["study", "travel", "entertainment", "note_taking"],
+    "image_url": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=ipad+mini+7",
+    "pros": ["Kích thước nhỏ gọn nhẹ như cuốn sổ tay, cực dễ bỏ túi", "Cấu hình chip A17 Pro cực mạnh mẽ, hỗ trợ Apple Intelligence", "Bộ nhớ khởi điểm 128GB gấp đôi thế hệ trước"],
+    "cons": ["Màn hình vẫn chỉ có tần số quét 60Hz", "Phụ kiện bút vẽ đắt đỏ"]
+  },
+  {
+    "id": "lenovo-legion-tab",
+    "name": "Lenovo Legion Tab Y700 (2024)",
+    "brand": "Lenovo",
+    "category": "tablet",
+    "price": 9790000,
+    "price_range": "<10 triệu",
+    "specs": {
+      "cpu": "Snapdragon 8+ Gen 1",
+      "gpu": "Adreno 730",
+      "ram": "12GB LPDDR5X",
+      "storage": "256GB UFS 3.1",
+      "display": "8.8\" PureSight Gaming LCD, 144Hz, 2.5K (2560x1600)",
+      "battery": "6550mAh, Sạc nhanh 45W"
+    },
+    "needs": ["gaming", "budget_gaming", "entertainment"],
+    "image_url": "https://images.unsplash.com/photo-1589739900243-4b52cd9b104e?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=lenovo+legion+tab+y700",
+    "pros": ["Tablet chơi game cỡ nhỏ tốt nhất hiện nay", "Màn hình 144Hz siêu mượt cùng 2 cổng kết nối USB-C", "Có tính năng bỏ qua pin cấp điện trực tiếp (Bypass Charge) giúp máy cực mát"],
+    "cons": ["Không có phiên bản sử dụng SIM 4G/5G", "Sử dụng bản nội địa cần cài đặt lại kho ứng dụng CH Play"]
+  },
+  {
     "id": "macbook-air-m3",
     "name": "MacBook Air M3 13\" (2024)",
     "brand": "Apple",
@@ -542,7 +647,7 @@
     "image_url": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=400&q=80",
     "affiliate_link": "https://shopee.vn/search?keyword=thinkpad+x1+carbon+gen+12",
     "pros": ["Bàn phím gõ êm huyền thoại, độ bền chuẩn quân đội Mỹ", "Trọng lượng siêu nhẹ chỉ 1.09kg nhờ khung sợi carbon cao cấp", "Thời lượng pin dài ổn định, đầy đủ cổng kết nối"],
-    "cons": ["Hiệu năng đồ họa 3D và gaming ở mức trung bình", "Thiết kế đen tối giản truyền thống không đổi mới nhiều"]
+    "cons": ["Hiệu năng đồ họa 3D và gaming ở mức trung bình", "Thiết kế dung dị tối giản truyền thống không đổi mới nhiều"]
   },
   {
     "id": "asus-tuf-gaming-a15",
@@ -648,6 +753,69 @@
     "affiliate_link": "https://shopee.vn/search?keyword=lg+gram+17+2024",
     "pros": ["Màn hình 17 inch khổng lồ nhưng máy chỉ nhẹ 1.35kg", "Thời lượng pin xuất sắc thoải mái làm việc cả ngày", "Khung máy hợp kim Magnesium siêu bền bỉ chuẩn quân đội"],
     "cons": ["Tần số quét màn hình chỉ dừng lại ở 60Hz", "Giá bán khá kén người dùng phổ thông"]
+  },
+  {
+    "id": "hp-elitebook-840-g10",
+    "name": "HP EliteBook 840 G10 Business",
+    "brand": "HP",
+    "category": "laptop",
+    "price": 29890000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "Intel Core i7-1360P (12 nhân 16 luồng)",
+      "gpu": "Intel Iris Xe Graphics",
+      "ram": "16GB DDR5 5200MHz",
+      "storage": "512GB SSD PCIe NVMe M.2",
+      "display": "14\" WUXGA (1920x1200) IPS Anti-glare, 400 nits, 100% sRGB",
+      "battery": "51 Wh (Sử dụng văn phòng 8h)"
+    },
+    "needs": ["office_work", "study", "travel", "thin_light_executive", "battery_life"],
+    "image_url": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=hp+elitebook+840+g10",
+    "pros": ["Vỏ hợp kim nhôm siêu chịu lực và bàn phím chống tràn nước tốt", "Hệ thống bảo mật doanh nghiệp cao cấp HP Wolf Security", "Có khả năng nâng cấp RAM tối đa lên 64GB"],
+    "cons": ["Thiết kế lịch lãm tối giản không đổi mới nhiều", "Màn hình 60Hz cơ bản"]
+  },
+  {
+    "id": "asus-zenbook-14-oled",
+    "name": "ASUS Zenbook 14 OLED UX3405",
+    "brand": "ASUS",
+    "category": "laptop",
+    "price": 26900000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "Intel Core Ultra 7 155H (16 nhân 22 luồng, NPU AI)",
+      "gpu": "Intel Arc Graphics",
+      "ram": "16GB LPDDR5X",
+      "storage": "1TB SSD PCIe 4.0 NVMe",
+      "display": "14\" 3K (2880x1800) OLED Lumina, 120Hz, 600 nits",
+      "battery": "75 Wh (Sử dụng thực tế 10-12h)"
+    },
+    "needs": ["office_work", "study", "travel", "thin_light_executive", "battery_life", "programming", "entertainment"],
+    "image_url": "https://images.unsplash.com/photo-1496181130204-7552cc1454e4?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=zenbook+14+oled+ux3405",
+    "pros": ["Màn hình OLED 3K 120Hz hiển thị tuyệt vời sắc nét", "Pin 75Wh rất lớn so với kích cỡ siêu mỏng nhẹ 1.2kg", "Bàn phím số NumberPad 2.0 tích hợp trên Touchpad rất tiện"],
+    "cons": ["RAM hàn chết không nâng cấp được", "Khe thoát nhiệt nằm bên hông máy phả khí hơi ấm nhẹ vào tay"]
+  },
+  {
+    "id": "acer-predator-helios-16",
+    "name": "Acer Predator Helios 16 (2024)",
+    "brand": "Acer",
+    "category": "laptop",
+    "price": 48990000,
+    "price_range": "40 triệu+",
+    "specs": {
+      "cpu": "Intel Core i9-14900HX (24 nhân 32 luồng)",
+      "gpu": "NVIDIA GeForce RTX 4070 8GB GDDR6 (140W)",
+      "ram": "32GB DDR5 5600MHz",
+      "storage": "1TB SSD PCIe 4.0 NVMe",
+      "display": "16\" WQXGA (2560x1600) IPS, 240Hz, 500 nits, 100% DCI-P3",
+      "battery": "90 Wh (Sử dụng văn phòng 3h)"
+    },
+    "needs": ["gaming", "programming", "video_editing", "engineering_cad", "extreme_overclocking"],
+    "image_url": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=predator+helios+16+2024",
+    "pros": ["Bộ vi xử lý Core i9 siêu mạnh mẽ, quạt tản nhiệt AeroBlade 3D kim loại lỏng cực mát", "Màn hình 240Hz siêu mượt và chuẩn màu DCI-P3 100%", "Bàn phím LED RGB mỗi phím rực rỡ"],
+    "cons": ["Cực kỳ nặng (2.6kg) và cục nguồn kèm theo cồng kềnh", "Dung lượng pin tụt rất nhanh khi rút sạc"]
   },
   {
     "id": "pc-ultimate-gaming-ai",
@@ -852,5 +1020,44 @@
     "affiliate_link": "https://shopee.vn/search?keyword=pc+lam+nhac+thu+am",
     "pros": ["Hoạt động hoàn toàn yên tĩnh nhờ sử dụng vỏ case chống ồn và tản nhiệt khí Noctua cao cấp", "RAM 32GB cùng vi xử lý i7 tải mượt hàng chục track nhạc trong FL Studio", "Đầy đủ các cổng kết nối USB/Thunderbolt cho Soundcard"],
     "cons": ["Không được trang bị card đồ họa rời (cần lắp thêm nếu muốn chơi game nặng)", "Giá linh kiện chống ồn đặc thù cao hơn linh kiện thường"]
+  },
+  {
+    "id": "pc-virtualization-node",
+    "name": "PC Server Dual Xeon 26-Core Pro Virtualization",
+    "brand": "Server Custom",
+    "category": "pc",
+    "price": 21500000,
+    "price_range": "20-40 triệu",
+    "specs": {
+      "cpu": "Dual Intel Xeon E5-2697v3 (Tổng 28 nhân 56 luồng)",
+      "gpu": "NVIDIA Quadro K620 (Mục đích xuất hình cơ bản)",
+      "ram": "128GB DDR4 ECC Registered (4x32GB)",
+      "storage": "2TB SSD Enterprise SAS RAID 5",
+      "display": "Truy cập từ xa bằng Proxmox VE Web UI / IPMI"
+    },
+    "needs": ["programming", "nas_server"],
+    "image_url": "https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=400&q=80",
+    "affiliate_link": "https://shopee.vn/search?keyword=server+dual+xeon+proxmox",
+    "pros": ["Lý tưởng làm Lab Proxmox chạy hàng chục máy ảo VM cùng lúc", "RAM ECC 128GB cực kỳ khổng lồ, an toàn tuyệt đối", "Hệ thống ổ cứng RAID dự phòng lỗi vật lý tốt"],
+    "cons": ["Cực kỳ tiêu tốn điện năng và tiếng ồn quạt server to", "Hiệu năng đơn nhân CPU đời cũ khá thấp"]
+  },
+  {
+    "id": "pc-silent-office",
+    "name": "PC AMD Ryzen 5 Silent Home Office SFF",
+    "brand": "DIY Quiet",
+    "category": "pc",
+    "price": 11500000,
+    "price_range": "10-20 triệu",
+    "specs": {
+      "cpu": "AMD Ryzen 5 Pro 5650G (6 nhân 12 luồng, Vega 7 tích hợp)",
+      "gpu": "AMD Radeon Vega 7 Graphics (Tích hợp)",
+      "ram": "16GB DDR4 3200MHz",
+      "storage": "1TB SSD NVMe M.2 Kingston",
+      "display": "Cần mua rời"
+    },
+    "needs": ["office_work", "study", "entertainment", "htpc_livingroom", "nas_server"],
+    "image_url": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=400&q=80",
+    "pros": ["Hoạt động hoàn toàn im lặng, cực tiết kiệm điện", "Đồ họa tích hợp Vega 7 chơi mượt các game Esport nhẹ", "Form máy nhỏ gọn SFF xinh xắn đặt trên bàn làm việc"],
+    "cons": ["Khả năng nâng cấp card rời bị hạn chế do không gian case SFF", "Không phù hợp đồ họa 3D hay dựng video 4K nhanh"]
   }
 ]
