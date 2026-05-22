@@ -1,0 +1,79 @@
+{
+  "cpu_tiers": {
+    "tier_1": [
+      "M4",
+      "M3",
+      "M2",
+      "M1",
+      "8 GEN 3",
+      "X ELITE",
+      "X PLUS",
+      "I9-",
+      "RYZEN 9"
+    ],
+    "tier_2": [
+      "A17 PRO",
+      "A18",
+      "8 GEN 2",
+      "8+ GEN 1",
+      "870",
+      "I7-",
+      "RYZEN 7",
+      "KIRIN 9010",
+      "CORE ULTRA 7"
+    ],
+    "tier_3": [
+      "I5-",
+      "RYZEN 5",
+      "KIRIN 9000",
+      "EXYNOS 1380",
+      "7 GEN",
+      "7S GEN",
+      "DIMENSITY 7",
+      "CORE ULTRA 5"
+    ]
+  },
+  "budget_ranges": [
+    {
+      "id": "<10 triệu",
+      "min": 0,
+      "max": 10500000
+    },
+    {
+      "id": "10-20 triệu",
+      "min": 8000000,
+      "max": 20500000
+    },
+    {
+      "id": "20-40 triệu",
+      "min": 18000000,
+      "max": 41000000
+    },
+    {
+      "id": "40 triệu+",
+      "min": 38000000,
+      "max": 999999999
+    }
+  ],
+  "demanding_needs": [
+    "gaming",
+    "video_editing",
+    "graphic_design",
+    "programming",
+    "aiml",
+    "data_science",
+    "engineering_cad"
+  ],
+  "penalties_rewards": {
+    "ram_heavy_low": -30,
+    "ram_heavy_mid": -10,
+    "ram_heavy_high": 10,
+    "storage_low": -15,
+    "storage_high": 5,
+    "cpu_tier_4": -40,
+    "cpu_tier_3": -15,
+    "cpu_tier_1": 10,
+    "gaming_hz_low": -15,
+    "gaming_hz_high": 5
+  }
+}
